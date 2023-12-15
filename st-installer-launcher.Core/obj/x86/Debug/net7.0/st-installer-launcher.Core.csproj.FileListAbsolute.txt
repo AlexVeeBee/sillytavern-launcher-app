@@ -1,0 +1,13 @@
+K:\Scripts\CS-WINUI3\st-installer-launcher\st-installer-launcher.Core\bin\x86\Debug\net7.0\st-installer-launcher.Core.deps.json
+K:\Scripts\CS-WINUI3\st-installer-launcher\st-installer-launcher.Core\bin\x86\Debug\net7.0\st-installer-launcher.Core.dll
+K:\Scripts\CS-WINUI3\st-installer-launcher\st-installer-launcher.Core\bin\x86\Debug\net7.0\st-installer-launcher.Core.pdb
+K:\Scripts\CS-WINUI3\st-installer-launcher\st-installer-launcher.Core\obj\x86\Debug\net7.0\st-installer-launcher.Core.csproj.AssemblyReference.cache
+K:\Scripts\CS-WINUI3\st-installer-launcher\st-installer-launcher.Core\obj\x86\Debug\net7.0\st-installer-launcher.Core.GeneratedMSBuildEditorConfig.editorconfig
+K:\Scripts\CS-WINUI3\st-installer-launcher\st-installer-launcher.Core\obj\x86\Debug\net7.0\st-installer-launcher.Core.AssemblyInfoInputs.cache
+K:\Scripts\CS-WINUI3\st-installer-launcher\st-installer-launcher.Core\obj\x86\Debug\net7.0\st-installer-launcher.Core.AssemblyInfo.cs
+K:\Scripts\CS-WINUI3\st-installer-launcher\st-installer-launcher.Core\obj\x86\Debug\net7.0\st-installer-launcher.Core.csproj.CoreCompileInputs.cache
+K:\Scripts\CS-WINUI3\st-installer-launcher\st-installer-launcher.Core\obj\x86\Debug\net7.0\st-installer-launcher.Core.sourcelink.json
+K:\Scripts\CS-WINUI3\st-installer-launcher\st-installer-launcher.Core\obj\x86\Debug\net7.0\st-installer-launcher.Core.dll
+K:\Scripts\CS-WINUI3\st-installer-launcher\st-installer-launcher.Core\obj\x86\Debug\net7.0\refint\st-installer-launcher.Core.dll
+K:\Scripts\CS-WINUI3\st-installer-launcher\st-installer-launcher.Core\obj\x86\Debug\net7.0\st-installer-launcher.Core.pdb
+K:\Scripts\CS-WINUI3\st-installer-launcher\st-installer-launcher.Core\obj\x86\Debug\net7.0\ref\st-installer-launcher.Core.dll
