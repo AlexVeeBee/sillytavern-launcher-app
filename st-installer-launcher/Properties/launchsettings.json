@@ -1,0 +1,10 @@
+﻿{
+    "profiles": {
+      "st-installer-launcher (Package)": {
+        "commandName": "MsixPackage"
+      },
+      "st-installer-launcher (Unpackaged)": {
+        "commandName": "Project"
+      }
+    }
+}
