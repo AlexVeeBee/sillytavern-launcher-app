@@ -1,1 +1,5 @@
 .vs
+st-installer-launcher/bin/
+st-installer-launcher/obj/
+
+st-installer-launcher.Core/obj/

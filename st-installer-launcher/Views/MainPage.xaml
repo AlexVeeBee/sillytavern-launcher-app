@@ -7,6 +7,82 @@
     mc:Ignorable="d">
 
     <Grid x:Name="ContentArea">
-        
+        <StackPanel Spacing="1">
+            <InfoBar
+                x:Name="APP_VERSION_INFOBAR"
+                IsOpen="True" IsClosable="False" Severity="Warning"
+                Title="Version"
+                Message="ALPHA-V 0.0.0"
+            />
+            <InfoBar 
+                x:Name="APP_FOLDER_PATHMISSING"
+                IsOpen="True" IsClosable="False" Severity="Error"
+                Title="No Path"
+                Message="Path to a sillytavern folder is missing"
+            />
+            <TextBlock Style="{StaticResource SubtitleTextBlockStyle}" Text="Launcher" Margin="0, 12, 0 ,8"/>
+            <StackPanel x:Name="AppLuncher"
+                        Spacing="8" CornerRadius="4" Background="{ThemeResource LayerFillColorDefaultBrush}" Padding="12,8,12,8"
+                        Orientation="Horizontal" 
+                        SizeChanged="AppLuncherSizechange"
+                        >
+                <Button Grid.Column="0" HorizontalAlignment="Stretch" Style="{StaticResource AccentButtonStyle}" >Start Sillytavern</Button>
+                <Button Grid.Column="1" HorizontalAlignment="Stretch" >Start Extras</Button>
+                <Button Grid.Column="2" HorizontalAlignment="Stretch" >Start All</Button>
+            </StackPanel>
+            <TextBlock Style="{StaticResource SubtitleTextBlockStyle}" Text="App Status" Margin="0, 12, 0 ,8"/>
+            <StackPanel Spacing="1" CornerRadius="4">
+                <Grid>
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="*" />
+                        <ColumnDefinition Width="*" />
+                        <ColumnDefinition Width="*" />
+                    </Grid.ColumnDefinitions>
+                    <Grid Grid.Column="0" Padding="12,8,12,8" Background="{ThemeResource LayerFillColorDefaultBrush}" ColumnSpacing="8">
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition Width="auto" />
+                            <ColumnDefinition Width="*" />
+                        </Grid.ColumnDefinitions>
+                        <TextBlock Grid.Column="0" x:Uid="app_git"/>
+                        <TextBlock Grid.Column="1" x:Name="gitstat">Waiting</TextBlock>
+                    </Grid>
+                    <Grid Grid.Column="1" Padding="12,8,12,8" Background="{ThemeResource LayerFillColorDefaultBrush}" ColumnSpacing="8">
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition Width="auto" />
+                            <ColumnDefinition Width="auto" />
+                            <ColumnDefinition Width="*" />
+                        </Grid.ColumnDefinitions>
+                        <TextBlock Grid.Column="0" x:Uid="app_nodejs" />
+                        <TextBlock Grid.Column="1" x:Name="nodestat">Waiting</TextBlock>
+                    </Grid>
+                    <Grid Grid.Column="2" Padding="12,8,12,8" Background="{ThemeResource LayerFillColorDefaultBrush}" ColumnSpacing="8">
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition Width="auto" />
+                            <ColumnDefinition Width="*" />
+                        </Grid.ColumnDefinitions>
+                        <TextBlock Grid.Column="0" x:Uid="app_7zip"/>
+                        <TextBlock Grid.Column="1" x:Name="sevenzipstat">Waiting</TextBlock>
+                    </Grid>
+                </Grid>
+                <Grid Padding="12,8,12,8" Grid.Row="1" Grid.Column="2" Background="{ThemeResource LayerFillColorDefaultBrush}" ColumnSpacing="8" RowSpacing="8">
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="auto" />
+                        <ColumnDefinition Width="*" />
+                        <ColumnDefinition Width="auto" />
+                    </Grid.ColumnDefinitions>
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="auto" />
+                    </Grid.RowDefinitions>
+                    <Button Grid.Column="0" Click="ButtonCheckApps">Check</Button>
+                    <TextBlock x:Name="appslastcheck" Grid.Column="1" Text="Last checked: --:--" VerticalAlignment="Center"/>
+                    <ProgressRing x:Name="apps_progress" Grid.Row="0" Grid.Column="2" Visibility="Visible"/>
+                </Grid>
+                <StackPanel Spacing="8" x:Name="Home_AppSettings" SizeChanged="Home_AppSettings_SizeChanged" Padding="12,8,12,8" Grid.Row="1" Grid.Column="2" Background="{ThemeResource LayerFillColorDefaultBrush}">
+                    <Button Grid.Column="0" HorizontalAlignment="Stretch">Launcher Options</Button>
+                    <Button Grid.Column="1" HorizontalAlignment="Stretch">Installer Options</Button>
+                    <Button Grid.Column="2" HorizontalAlignment="Stretch">Toolbox</Button>
+                </StackPanel>
+            </StackPanel>
+        </StackPanel>
     </Grid>
 </Page>

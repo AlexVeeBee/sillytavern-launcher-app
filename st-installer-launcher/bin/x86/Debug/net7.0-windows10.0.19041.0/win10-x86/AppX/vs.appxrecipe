@@ -29,13 +29,13 @@
     <AppXManifest Include="K:\Scripts\CS-WINUI3\st-installer-launcher\st-installer-launcher\bin\x86\Debug\net7.0-windows10.0.19041.0\win10-x86\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2023-12-15T16:22:26.272</Modified>
+      <Modified>2023-12-15T17:29:38.548</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
     <AppxPackagedFile Include="K:\Scripts\CS-WINUI3\st-installer-launcher\st-installer-launcher\bin\x86\Debug\net7.0-windows10.0.19041.0\win10-x86\resources.pri">
       <PackagePath>resources.pri</PackagePath>
-      <Modified>2023-12-15T16:22:26.053</Modified>
+      <Modified>2023-12-15T17:29:38.397</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="K:\Scripts\CS-WINUI3\st-installer-launcher\st-installer-launcher\bin\x86\Debug\net7.0-windows10.0.19041.0\win10-x86\st-installer-launcher.runtimeconfig.json">
       <PackagePath>st-installer-launcher.runtimeconfig.json</PackagePath>
@@ -43,7 +43,7 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="K:\Scripts\CS-WINUI3\st-installer-launcher\st-installer-launcher\bin\x86\Debug\net7.0-windows10.0.19041.0\win10-x86\st-installer-launcher.dll">
       <PackagePath>st-installer-launcher.dll</PackagePath>
-      <Modified>2023-12-15T16:22:25.490</Modified>
+      <Modified>2023-12-15T17:29:38.313</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="K:\Scripts\CS-WINUI3\st-installer-launcher\st-installer-launcher\appsettings.json">
       <PackagePath>appsettings.json</PackagePath>
@@ -51,7 +51,7 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="K:\Scripts\CS-WINUI3\st-installer-launcher\st-installer-launcher\obj\x86\Debug\net7.0-windows10.0.19041.0\win10-x86\apphost.exe">
       <PackagePath>st-installer-launcher.exe</PackagePath>
-      <Modified>2023-12-15T16:22:25.500</Modified>
+      <Modified>2023-12-15T17:29:38.315</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="K:\Scripts\CS-WINUI3\st-installer-launcher\st-installer-launcher\bin\x86\Debug\net7.0-windows10.0.19041.0\win10-x86\st-installer-launcher.deps.json">
       <PackagePath>st-installer-launcher.deps.json</PackagePath>
