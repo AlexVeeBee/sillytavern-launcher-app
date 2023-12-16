@@ -16,6 +16,8 @@ public class PageService : IPageService
     {
         Configure<MainViewModel, MainPage>();
         Configure<SettingsViewModel, SettingsPage>();
+        Configure<LauncherOptionsViewModel, LauncherOptionsPage>();
+        Configure<InstallOptionsViewModel, InstallOptionsPage>();
     }
 
     public Type GetPageType(string key)

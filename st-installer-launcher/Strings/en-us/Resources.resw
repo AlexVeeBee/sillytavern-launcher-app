@@ -162,4 +162,10 @@
   <data name="app_nodejs.Text" xml:space="preserve">
     <value>node.js</value>
   </data>
+  <data name="Shell_LauncherOptions.Content" xml:space="preserve">
+    <value>Launcher Options</value>
+  </data>
+  <data name="Shell_InstallOptions.Content" xml:space="preserve">
+    <value>Install Options</value>
+  </data>
 </root>

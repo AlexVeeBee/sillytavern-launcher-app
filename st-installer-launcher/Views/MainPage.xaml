@@ -15,21 +15,11 @@
                 Message="ALPHA-V 0.0.0"
             />
             <InfoBar 
-                x:Name="APP_FOLDER_PATHMISSING"
+                x:Name="APP_FOLDER_PATHMISSING_INFOBAR"
                 IsOpen="True" IsClosable="False" Severity="Error"
                 Title="No Path"
                 Message="Path to a sillytavern folder is missing"
             />
-            <TextBlock Style="{StaticResource SubtitleTextBlockStyle}" Text="Launcher" Margin="0, 12, 0 ,8"/>
-            <StackPanel x:Name="AppLuncher"
-                        Spacing="8" CornerRadius="4" Background="{ThemeResource LayerFillColorDefaultBrush}" Padding="12,8,12,8"
-                        Orientation="Horizontal" 
-                        SizeChanged="AppLuncherSizechange"
-                        >
-                <Button Grid.Column="0" HorizontalAlignment="Stretch" Style="{StaticResource AccentButtonStyle}" >Start Sillytavern</Button>
-                <Button Grid.Column="1" HorizontalAlignment="Stretch" >Start Extras</Button>
-                <Button Grid.Column="2" HorizontalAlignment="Stretch" >Start All</Button>
-            </StackPanel>
             <TextBlock Style="{StaticResource SubtitleTextBlockStyle}" Text="App Status" Margin="0, 12, 0 ,8"/>
             <StackPanel Spacing="1" CornerRadius="4">
                 <Grid>
@@ -77,11 +67,22 @@
                     <TextBlock x:Name="appslastcheck" Grid.Column="1" Text="Last checked: --:--" VerticalAlignment="Center"/>
                     <ProgressRing x:Name="apps_progress" Grid.Row="0" Grid.Column="2" Visibility="Visible"/>
                 </Grid>
-                <StackPanel Spacing="8" x:Name="Home_AppSettings" SizeChanged="Home_AppSettings_SizeChanged" Padding="12,8,12,8" Grid.Row="1" Grid.Column="2" Background="{ThemeResource LayerFillColorDefaultBrush}">
-                    <Button Grid.Column="0" HorizontalAlignment="Stretch">Launcher Options</Button>
-                    <Button Grid.Column="1" HorizontalAlignment="Stretch">Installer Options</Button>
-                    <Button Grid.Column="2" HorizontalAlignment="Stretch">Toolbox</Button>
-                </StackPanel>
+            </StackPanel>
+            <TextBlock Style="{StaticResource SubtitleTextBlockStyle}" Text="Launcher" Margin="0, 12, 0 ,8"/>
+            <StackPanel x:Name="AppLuncher"
+                        Spacing="8" CornerRadius="4" Background="{ThemeResource LayerFillColorDefaultBrush}" Padding="12,8,12,8"
+                        Orientation="Horizontal" 
+                        SizeChanged="AppLuncherSizechange"
+                        >
+                <Button Grid.Column="0" HorizontalAlignment="Stretch" Style="{StaticResource AccentButtonStyle}" >Start Sillytavern</Button>
+                <Button Grid.Column="1" HorizontalAlignment="Stretch" >Start Extras</Button>
+                <Button Grid.Column="2" HorizontalAlignment="Stretch" >Start All</Button>
+            </StackPanel>
+            <TextBlock Style="{StaticResource SubtitleTextBlockStyle}" Text="Workbench" Margin="0, 12, 0 ,8"/>
+            <StackPanel Spacing="8" x:Name="Home_AppSettings" SizeChanged="Home_AppSettings_SizeChanged" Padding="12,8,12,8" Grid.Row="1" Grid.Column="2" Background="{ThemeResource LayerFillColorDefaultBrush}">
+                <Button Grid.Column="0" HorizontalAlignment="Stretch" >Launcher Options</Button>
+                <Button Grid.Column="1" HorizontalAlignment="Stretch">Installer Options</Button>
+                <Button Grid.Column="2" HorizontalAlignment="Stretch">Toolbox</Button>
             </StackPanel>
         </StackPanel>
     </Grid>

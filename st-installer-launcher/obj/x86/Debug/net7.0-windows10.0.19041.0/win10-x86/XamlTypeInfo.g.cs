@@ -224,7 +224,7 @@ namespace st_installer_launcher.st_installer_launcher_XamlTypeInfo
 
         private void InitTypeTables()
         {
-            _typeNameTable = new string[74];
+            _typeNameTable = new string[96];
             _typeNameTable[0] = "Microsoft.UI.Xaml.Controls.XamlControlsResources";
             _typeNameTable[1] = "Microsoft.UI.Xaml.ResourceDictionary";
             _typeNameTable[2] = "Object";
@@ -247,60 +247,82 @@ namespace st_installer_launcher.st_installer_launcher_XamlTypeInfo
             _typeNameTable[19] = "st_installer_launcher.MainWindow";
             _typeNameTable[20] = "Microsoft.UI.Xaml.Thickness";
             _typeNameTable[21] = "Microsoft.UI.Xaml.CornerRadius";
-            _typeNameTable[22] = "Microsoft.UI.Xaml.Controls.InfoBar";
+            _typeNameTable[22] = "Microsoft.UI.Xaml.Controls.ScrollView";
             _typeNameTable[23] = "Microsoft.UI.Xaml.Controls.Control";
-            _typeNameTable[24] = "Microsoft.UI.Xaml.Controls.InfoBarSeverity";
-            _typeNameTable[25] = "Microsoft.UI.Xaml.Controls.Primitives.ButtonBase";
-            _typeNameTable[26] = "System.Windows.Input.ICommand";
-            _typeNameTable[27] = "Microsoft.UI.Xaml.Style";
-            _typeNameTable[28] = "Microsoft.UI.Xaml.DataTemplate";
-            _typeNameTable[29] = "Microsoft.UI.Xaml.Controls.IconSource";
-            _typeNameTable[30] = "Microsoft.UI.Xaml.Controls.InfoBarTemplateSettings";
-            _typeNameTable[31] = "Microsoft.UI.Xaml.DependencyObject";
-            _typeNameTable[32] = "Microsoft.UI.Xaml.Controls.ProgressRing";
-            _typeNameTable[33] = "Microsoft.UI.Xaml.Controls.ProgressRingTemplateSettings";
-            _typeNameTable[34] = "st_installer_launcher.Views.MainPage";
-            _typeNameTable[35] = "Microsoft.UI.Xaml.Controls.Page";
-            _typeNameTable[36] = "Microsoft.UI.Xaml.Controls.UserControl";
-            _typeNameTable[37] = "st_installer_launcher.ViewModels.MainViewModel";
-            _typeNameTable[38] = "CommunityToolkit.Mvvm.ComponentModel.ObservableRecipient";
-            _typeNameTable[39] = "CommunityToolkit.Mvvm.ComponentModel.ObservableObject";
-            _typeNameTable[40] = "st_installer_launcher.Helpers.EnumToBooleanConverter";
-            _typeNameTable[41] = "st_installer_launcher.Views.SettingsPage";
-            _typeNameTable[42] = "st_installer_launcher.ViewModels.SettingsViewModel";
-            _typeNameTable[43] = "Microsoft.UI.Xaml.Controls.NavigationView";
-            _typeNameTable[44] = "Microsoft.UI.Xaml.Controls.ContentControl";
-            _typeNameTable[45] = "Microsoft.UI.Xaml.Controls.NavigationViewBackButtonVisible";
-            _typeNameTable[46] = "System.Collections.Generic.IList`1<Object>";
-            _typeNameTable[47] = "Microsoft.UI.Xaml.Controls.AutoSuggestBox";
-            _typeNameTable[48] = "Microsoft.UI.Xaml.UIElement";
-            _typeNameTable[49] = "Microsoft.UI.Xaml.Controls.NavigationViewDisplayMode";
-            _typeNameTable[50] = "Microsoft.UI.Xaml.Controls.StyleSelector";
-            _typeNameTable[51] = "Microsoft.UI.Xaml.Controls.DataTemplateSelector";
-            _typeNameTable[52] = "Microsoft.UI.Xaml.Controls.NavigationViewOverflowLabelMode";
-            _typeNameTable[53] = "Microsoft.UI.Xaml.Controls.NavigationViewPaneDisplayMode";
-            _typeNameTable[54] = "Microsoft.UI.Xaml.Controls.NavigationViewSelectionFollowsFocus";
-            _typeNameTable[55] = "Microsoft.UI.Xaml.Controls.NavigationViewShoulderNavigationEnabled";
-            _typeNameTable[56] = "Microsoft.UI.Xaml.Controls.NavigationViewTemplateSettings";
-            _typeNameTable[57] = "Microsoft.Xaml.Interactivity.Interaction";
-            _typeNameTable[58] = "Microsoft.Xaml.Interactivity.BehaviorCollection";
-            _typeNameTable[59] = "Microsoft.UI.Xaml.DependencyObjectCollection";
-            _typeNameTable[60] = "Microsoft.UI.Xaml.Controls.NavigationViewItem";
-            _typeNameTable[61] = "Microsoft.UI.Xaml.Controls.NavigationViewItemBase";
-            _typeNameTable[62] = "Microsoft.UI.Xaml.Controls.IconElement";
-            _typeNameTable[63] = "Microsoft.UI.Xaml.Controls.InfoBadge";
-            _typeNameTable[64] = "st_installer_launcher.Helpers.NavigationHelper";
-            _typeNameTable[65] = "st_installer_launcher.Behaviors.NavigationViewHeaderBehavior";
-            _typeNameTable[66] = "Microsoft.Xaml.Interactivity.Behavior`1<Microsoft.UI.Xaml.Controls.NavigationView>";
-            _typeNameTable[67] = "Microsoft.Xaml.Interactivity.Behavior";
-            _typeNameTable[68] = "st_installer_launcher.Behaviors.NavigationViewHeaderMode";
-            _typeNameTable[69] = "st_installer_launcher.Views.ShellPage";
-            _typeNameTable[70] = "st_installer_launcher.ViewModels.ShellViewModel";
-            _typeNameTable[71] = "Microsoft.UI.Xaml.Controls.TreeViewNode";
-            _typeNameTable[72] = "System.Collections.Generic.IList`1<Microsoft.UI.Xaml.Controls.TreeViewNode>";
-            _typeNameTable[73] = "Int32";
+            _typeNameTable[24] = "Microsoft.UI.Xaml.UIElement";
+            _typeNameTable[25] = "Microsoft.UI.Xaml.Visibility";
+            _typeNameTable[26] = "Microsoft.UI.Xaml.Controls.ScrollingScrollMode";
+            _typeNameTable[27] = "Microsoft.UI.Xaml.Controls.ScrollingContentOrientation";
+            _typeNameTable[28] = "Microsoft.UI.Composition.CompositionPropertySet";
+            _typeNameTable[29] = "Microsoft.UI.Composition.CompositionObject";
+            _typeNameTable[30] = "Microsoft.UI.Xaml.Controls.ScrollingScrollBarVisibility";
+            _typeNameTable[31] = "Microsoft.UI.Xaml.Controls.ScrollingChainMode";
+            _typeNameTable[32] = "Microsoft.UI.Xaml.Controls.ScrollingRailMode";
+            _typeNameTable[33] = "Microsoft.UI.Xaml.Controls.ScrollingInputKinds";
+            _typeNameTable[34] = "Microsoft.UI.Xaml.Controls.Primitives.ScrollPresenter";
+            _typeNameTable[35] = "Microsoft.UI.Xaml.FrameworkElement";
+            _typeNameTable[36] = "Microsoft.UI.Xaml.Controls.ScrollingInteractionState";
+            _typeNameTable[37] = "Single";
+            _typeNameTable[38] = "Microsoft.UI.Xaml.Controls.ScrollingZoomMode";
+            _typeNameTable[39] = "Microsoft.UI.Xaml.Controls.Expander";
+            _typeNameTable[40] = "Microsoft.UI.Xaml.Controls.ContentControl";
+            _typeNameTable[41] = "Microsoft.UI.Xaml.Controls.ExpandDirection";
+            _typeNameTable[42] = "Microsoft.UI.Xaml.DataTemplate";
+            _typeNameTable[43] = "Microsoft.UI.Xaml.Controls.DataTemplateSelector";
+            _typeNameTable[44] = "Microsoft.UI.Xaml.Controls.ExpanderTemplateSettings";
+            _typeNameTable[45] = "Microsoft.UI.Xaml.DependencyObject";
+            _typeNameTable[46] = "st_installer_launcher.Views.InstallOptionsPage";
+            _typeNameTable[47] = "Microsoft.UI.Xaml.Controls.Page";
+            _typeNameTable[48] = "Microsoft.UI.Xaml.Controls.UserControl";
+            _typeNameTable[49] = "st_installer_launcher.ViewModels.InstallOptionsViewModel";
+            _typeNameTable[50] = "CommunityToolkit.Mvvm.ComponentModel.ObservableRecipient";
+            _typeNameTable[51] = "CommunityToolkit.Mvvm.ComponentModel.ObservableObject";
+            _typeNameTable[52] = "st_installer_launcher.Views.LauncherOptionsPage";
+            _typeNameTable[53] = "st_installer_launcher.ViewModels.LauncherOptionsViewModel";
+            _typeNameTable[54] = "Microsoft.UI.Xaml.Controls.InfoBar";
+            _typeNameTable[55] = "Microsoft.UI.Xaml.Controls.InfoBarSeverity";
+            _typeNameTable[56] = "Microsoft.UI.Xaml.Controls.Primitives.ButtonBase";
+            _typeNameTable[57] = "System.Windows.Input.ICommand";
+            _typeNameTable[58] = "Microsoft.UI.Xaml.Style";
+            _typeNameTable[59] = "Microsoft.UI.Xaml.Controls.IconSource";
+            _typeNameTable[60] = "Microsoft.UI.Xaml.Controls.InfoBarTemplateSettings";
+            _typeNameTable[61] = "Microsoft.UI.Xaml.Controls.ProgressRing";
+            _typeNameTable[62] = "Microsoft.UI.Xaml.Controls.ProgressRingTemplateSettings";
+            _typeNameTable[63] = "st_installer_launcher.Views.MainPage";
+            _typeNameTable[64] = "st_installer_launcher.ViewModels.MainViewModel";
+            _typeNameTable[65] = "st_installer_launcher.Helpers.EnumToBooleanConverter";
+            _typeNameTable[66] = "st_installer_launcher.Views.SettingsPage";
+            _typeNameTable[67] = "st_installer_launcher.ViewModels.SettingsViewModel";
+            _typeNameTable[68] = "Microsoft.UI.Xaml.Controls.NavigationView";
+            _typeNameTable[69] = "Microsoft.UI.Xaml.Controls.NavigationViewBackButtonVisible";
+            _typeNameTable[70] = "System.Collections.Generic.IList`1<Object>";
+            _typeNameTable[71] = "Microsoft.UI.Xaml.Controls.AutoSuggestBox";
+            _typeNameTable[72] = "Microsoft.UI.Xaml.Controls.NavigationViewDisplayMode";
+            _typeNameTable[73] = "Microsoft.UI.Xaml.Controls.StyleSelector";
+            _typeNameTable[74] = "Microsoft.UI.Xaml.Controls.NavigationViewOverflowLabelMode";
+            _typeNameTable[75] = "Microsoft.UI.Xaml.Controls.NavigationViewPaneDisplayMode";
+            _typeNameTable[76] = "Microsoft.UI.Xaml.Controls.NavigationViewSelectionFollowsFocus";
+            _typeNameTable[77] = "Microsoft.UI.Xaml.Controls.NavigationViewShoulderNavigationEnabled";
+            _typeNameTable[78] = "Microsoft.UI.Xaml.Controls.NavigationViewTemplateSettings";
+            _typeNameTable[79] = "Microsoft.Xaml.Interactivity.Interaction";
+            _typeNameTable[80] = "Microsoft.Xaml.Interactivity.BehaviorCollection";
+            _typeNameTable[81] = "Microsoft.UI.Xaml.DependencyObjectCollection";
+            _typeNameTable[82] = "Microsoft.UI.Xaml.Controls.NavigationViewItem";
+            _typeNameTable[83] = "Microsoft.UI.Xaml.Controls.NavigationViewItemBase";
+            _typeNameTable[84] = "Microsoft.UI.Xaml.Controls.IconElement";
+            _typeNameTable[85] = "Microsoft.UI.Xaml.Controls.InfoBadge";
+            _typeNameTable[86] = "st_installer_launcher.Helpers.NavigationHelper";
+            _typeNameTable[87] = "st_installer_launcher.Behaviors.NavigationViewHeaderBehavior";
+            _typeNameTable[88] = "Microsoft.Xaml.Interactivity.Behavior`1<Microsoft.UI.Xaml.Controls.NavigationView>";
+            _typeNameTable[89] = "Microsoft.Xaml.Interactivity.Behavior";
+            _typeNameTable[90] = "st_installer_launcher.Behaviors.NavigationViewHeaderMode";
+            _typeNameTable[91] = "st_installer_launcher.Views.ShellPage";
+            _typeNameTable[92] = "st_installer_launcher.ViewModels.ShellViewModel";
+            _typeNameTable[93] = "Microsoft.UI.Xaml.Controls.TreeViewNode";
+            _typeNameTable[94] = "System.Collections.Generic.IList`1<Microsoft.UI.Xaml.Controls.TreeViewNode>";
+            _typeNameTable[95] = "Int32";
 
-            _typeTable = new global::System.Type[74];
+            _typeTable = new global::System.Type[96];
             _typeTable[0] = typeof(global::Microsoft.UI.Xaml.Controls.XamlControlsResources);
             _typeTable[1] = typeof(global::Microsoft.UI.Xaml.ResourceDictionary);
             _typeTable[2] = typeof(global::System.Object);
@@ -325,58 +347,80 @@ namespace st_installer_launcher.st_installer_launcher_XamlTypeInfo
             _typeTable[19] = typeof(global::st_installer_launcher.MainWindow);
             _typeTable[20] = typeof(global::Microsoft.UI.Xaml.Thickness);
             _typeTable[21] = typeof(global::Microsoft.UI.Xaml.CornerRadius);
-            _typeTable[22] = typeof(global::Microsoft.UI.Xaml.Controls.InfoBar);
+            _typeTable[22] = typeof(global::Microsoft.UI.Xaml.Controls.ScrollView);
             _typeTable[23] = typeof(global::Microsoft.UI.Xaml.Controls.Control);
-            _typeTable[24] = typeof(global::Microsoft.UI.Xaml.Controls.InfoBarSeverity);
-            _typeTable[25] = typeof(global::Microsoft.UI.Xaml.Controls.Primitives.ButtonBase);
-            _typeTable[26] = typeof(global::System.Windows.Input.ICommand);
-            _typeTable[27] = typeof(global::Microsoft.UI.Xaml.Style);
-            _typeTable[28] = typeof(global::Microsoft.UI.Xaml.DataTemplate);
-            _typeTable[29] = typeof(global::Microsoft.UI.Xaml.Controls.IconSource);
-            _typeTable[30] = typeof(global::Microsoft.UI.Xaml.Controls.InfoBarTemplateSettings);
-            _typeTable[31] = typeof(global::Microsoft.UI.Xaml.DependencyObject);
-            _typeTable[32] = typeof(global::Microsoft.UI.Xaml.Controls.ProgressRing);
-            _typeTable[33] = typeof(global::Microsoft.UI.Xaml.Controls.ProgressRingTemplateSettings);
-            _typeTable[34] = typeof(global::st_installer_launcher.Views.MainPage);
-            _typeTable[35] = typeof(global::Microsoft.UI.Xaml.Controls.Page);
-            _typeTable[36] = typeof(global::Microsoft.UI.Xaml.Controls.UserControl);
-            _typeTable[37] = typeof(global::st_installer_launcher.ViewModels.MainViewModel);
-            _typeTable[38] = typeof(global::CommunityToolkit.Mvvm.ComponentModel.ObservableRecipient);
-            _typeTable[39] = typeof(global::CommunityToolkit.Mvvm.ComponentModel.ObservableObject);
-            _typeTable[40] = typeof(global::st_installer_launcher.Helpers.EnumToBooleanConverter);
-            _typeTable[41] = typeof(global::st_installer_launcher.Views.SettingsPage);
-            _typeTable[42] = typeof(global::st_installer_launcher.ViewModels.SettingsViewModel);
-            _typeTable[43] = typeof(global::Microsoft.UI.Xaml.Controls.NavigationView);
-            _typeTable[44] = typeof(global::Microsoft.UI.Xaml.Controls.ContentControl);
-            _typeTable[45] = typeof(global::Microsoft.UI.Xaml.Controls.NavigationViewBackButtonVisible);
-            _typeTable[46] = typeof(global::System.Collections.Generic.IList<global::System.Object>);
-            _typeTable[47] = typeof(global::Microsoft.UI.Xaml.Controls.AutoSuggestBox);
-            _typeTable[48] = typeof(global::Microsoft.UI.Xaml.UIElement);
-            _typeTable[49] = typeof(global::Microsoft.UI.Xaml.Controls.NavigationViewDisplayMode);
-            _typeTable[50] = typeof(global::Microsoft.UI.Xaml.Controls.StyleSelector);
-            _typeTable[51] = typeof(global::Microsoft.UI.Xaml.Controls.DataTemplateSelector);
-            _typeTable[52] = typeof(global::Microsoft.UI.Xaml.Controls.NavigationViewOverflowLabelMode);
-            _typeTable[53] = typeof(global::Microsoft.UI.Xaml.Controls.NavigationViewPaneDisplayMode);
-            _typeTable[54] = typeof(global::Microsoft.UI.Xaml.Controls.NavigationViewSelectionFollowsFocus);
-            _typeTable[55] = typeof(global::Microsoft.UI.Xaml.Controls.NavigationViewShoulderNavigationEnabled);
-            _typeTable[56] = typeof(global::Microsoft.UI.Xaml.Controls.NavigationViewTemplateSettings);
-            _typeTable[57] = typeof(global::Microsoft.Xaml.Interactivity.Interaction);
-            _typeTable[58] = typeof(global::Microsoft.Xaml.Interactivity.BehaviorCollection);
-            _typeTable[59] = typeof(global::Microsoft.UI.Xaml.DependencyObjectCollection);
-            _typeTable[60] = typeof(global::Microsoft.UI.Xaml.Controls.NavigationViewItem);
-            _typeTable[61] = typeof(global::Microsoft.UI.Xaml.Controls.NavigationViewItemBase);
-            _typeTable[62] = typeof(global::Microsoft.UI.Xaml.Controls.IconElement);
-            _typeTable[63] = typeof(global::Microsoft.UI.Xaml.Controls.InfoBadge);
-            _typeTable[64] = typeof(global::st_installer_launcher.Helpers.NavigationHelper);
-            _typeTable[65] = typeof(global::st_installer_launcher.Behaviors.NavigationViewHeaderBehavior);
-            _typeTable[66] = typeof(global::Microsoft.Xaml.Interactivity.Behavior<global::Microsoft.UI.Xaml.Controls.NavigationView>);
-            _typeTable[67] = typeof(global::Microsoft.Xaml.Interactivity.Behavior);
-            _typeTable[68] = typeof(global::st_installer_launcher.Behaviors.NavigationViewHeaderMode);
-            _typeTable[69] = typeof(global::st_installer_launcher.Views.ShellPage);
-            _typeTable[70] = typeof(global::st_installer_launcher.ViewModels.ShellViewModel);
-            _typeTable[71] = typeof(global::Microsoft.UI.Xaml.Controls.TreeViewNode);
-            _typeTable[72] = typeof(global::System.Collections.Generic.IList<global::Microsoft.UI.Xaml.Controls.TreeViewNode>);
-            _typeTable[73] = typeof(global::System.Int32);
+            _typeTable[24] = typeof(global::Microsoft.UI.Xaml.UIElement);
+            _typeTable[25] = typeof(global::Microsoft.UI.Xaml.Visibility);
+            _typeTable[26] = typeof(global::Microsoft.UI.Xaml.Controls.ScrollingScrollMode);
+            _typeTable[27] = typeof(global::Microsoft.UI.Xaml.Controls.ScrollingContentOrientation);
+            _typeTable[28] = typeof(global::Microsoft.UI.Composition.CompositionPropertySet);
+            _typeTable[29] = typeof(global::Microsoft.UI.Composition.CompositionObject);
+            _typeTable[30] = typeof(global::Microsoft.UI.Xaml.Controls.ScrollingScrollBarVisibility);
+            _typeTable[31] = typeof(global::Microsoft.UI.Xaml.Controls.ScrollingChainMode);
+            _typeTable[32] = typeof(global::Microsoft.UI.Xaml.Controls.ScrollingRailMode);
+            _typeTable[33] = typeof(global::Microsoft.UI.Xaml.Controls.ScrollingInputKinds);
+            _typeTable[34] = typeof(global::Microsoft.UI.Xaml.Controls.Primitives.ScrollPresenter);
+            _typeTable[35] = typeof(global::Microsoft.UI.Xaml.FrameworkElement);
+            _typeTable[36] = typeof(global::Microsoft.UI.Xaml.Controls.ScrollingInteractionState);
+            _typeTable[37] = typeof(global::System.Single);
+            _typeTable[38] = typeof(global::Microsoft.UI.Xaml.Controls.ScrollingZoomMode);
+            _typeTable[39] = typeof(global::Microsoft.UI.Xaml.Controls.Expander);
+            _typeTable[40] = typeof(global::Microsoft.UI.Xaml.Controls.ContentControl);
+            _typeTable[41] = typeof(global::Microsoft.UI.Xaml.Controls.ExpandDirection);
+            _typeTable[42] = typeof(global::Microsoft.UI.Xaml.DataTemplate);
+            _typeTable[43] = typeof(global::Microsoft.UI.Xaml.Controls.DataTemplateSelector);
+            _typeTable[44] = typeof(global::Microsoft.UI.Xaml.Controls.ExpanderTemplateSettings);
+            _typeTable[45] = typeof(global::Microsoft.UI.Xaml.DependencyObject);
+            _typeTable[46] = typeof(global::st_installer_launcher.Views.InstallOptionsPage);
+            _typeTable[47] = typeof(global::Microsoft.UI.Xaml.Controls.Page);
+            _typeTable[48] = typeof(global::Microsoft.UI.Xaml.Controls.UserControl);
+            _typeTable[49] = typeof(global::st_installer_launcher.ViewModels.InstallOptionsViewModel);
+            _typeTable[50] = typeof(global::CommunityToolkit.Mvvm.ComponentModel.ObservableRecipient);
+            _typeTable[51] = typeof(global::CommunityToolkit.Mvvm.ComponentModel.ObservableObject);
+            _typeTable[52] = typeof(global::st_installer_launcher.Views.LauncherOptionsPage);
+            _typeTable[53] = typeof(global::st_installer_launcher.ViewModels.LauncherOptionsViewModel);
+            _typeTable[54] = typeof(global::Microsoft.UI.Xaml.Controls.InfoBar);
+            _typeTable[55] = typeof(global::Microsoft.UI.Xaml.Controls.InfoBarSeverity);
+            _typeTable[56] = typeof(global::Microsoft.UI.Xaml.Controls.Primitives.ButtonBase);
+            _typeTable[57] = typeof(global::System.Windows.Input.ICommand);
+            _typeTable[58] = typeof(global::Microsoft.UI.Xaml.Style);
+            _typeTable[59] = typeof(global::Microsoft.UI.Xaml.Controls.IconSource);
+            _typeTable[60] = typeof(global::Microsoft.UI.Xaml.Controls.InfoBarTemplateSettings);
+            _typeTable[61] = typeof(global::Microsoft.UI.Xaml.Controls.ProgressRing);
+            _typeTable[62] = typeof(global::Microsoft.UI.Xaml.Controls.ProgressRingTemplateSettings);
+            _typeTable[63] = typeof(global::st_installer_launcher.Views.MainPage);
+            _typeTable[64] = typeof(global::st_installer_launcher.ViewModels.MainViewModel);
+            _typeTable[65] = typeof(global::st_installer_launcher.Helpers.EnumToBooleanConverter);
+            _typeTable[66] = typeof(global::st_installer_launcher.Views.SettingsPage);
+            _typeTable[67] = typeof(global::st_installer_launcher.ViewModels.SettingsViewModel);
+            _typeTable[68] = typeof(global::Microsoft.UI.Xaml.Controls.NavigationView);
+            _typeTable[69] = typeof(global::Microsoft.UI.Xaml.Controls.NavigationViewBackButtonVisible);
+            _typeTable[70] = typeof(global::System.Collections.Generic.IList<global::System.Object>);
+            _typeTable[71] = typeof(global::Microsoft.UI.Xaml.Controls.AutoSuggestBox);
+            _typeTable[72] = typeof(global::Microsoft.UI.Xaml.Controls.NavigationViewDisplayMode);
+            _typeTable[73] = typeof(global::Microsoft.UI.Xaml.Controls.StyleSelector);
+            _typeTable[74] = typeof(global::Microsoft.UI.Xaml.Controls.NavigationViewOverflowLabelMode);
+            _typeTable[75] = typeof(global::Microsoft.UI.Xaml.Controls.NavigationViewPaneDisplayMode);
+            _typeTable[76] = typeof(global::Microsoft.UI.Xaml.Controls.NavigationViewSelectionFollowsFocus);
+            _typeTable[77] = typeof(global::Microsoft.UI.Xaml.Controls.NavigationViewShoulderNavigationEnabled);
+            _typeTable[78] = typeof(global::Microsoft.UI.Xaml.Controls.NavigationViewTemplateSettings);
+            _typeTable[79] = typeof(global::Microsoft.Xaml.Interactivity.Interaction);
+            _typeTable[80] = typeof(global::Microsoft.Xaml.Interactivity.BehaviorCollection);
+            _typeTable[81] = typeof(global::Microsoft.UI.Xaml.DependencyObjectCollection);
+            _typeTable[82] = typeof(global::Microsoft.UI.Xaml.Controls.NavigationViewItem);
+            _typeTable[83] = typeof(global::Microsoft.UI.Xaml.Controls.NavigationViewItemBase);
+            _typeTable[84] = typeof(global::Microsoft.UI.Xaml.Controls.IconElement);
+            _typeTable[85] = typeof(global::Microsoft.UI.Xaml.Controls.InfoBadge);
+            _typeTable[86] = typeof(global::st_installer_launcher.Helpers.NavigationHelper);
+            _typeTable[87] = typeof(global::st_installer_launcher.Behaviors.NavigationViewHeaderBehavior);
+            _typeTable[88] = typeof(global::Microsoft.Xaml.Interactivity.Behavior<global::Microsoft.UI.Xaml.Controls.NavigationView>);
+            _typeTable[89] = typeof(global::Microsoft.Xaml.Interactivity.Behavior);
+            _typeTable[90] = typeof(global::st_installer_launcher.Behaviors.NavigationViewHeaderMode);
+            _typeTable[91] = typeof(global::st_installer_launcher.Views.ShellPage);
+            _typeTable[92] = typeof(global::st_installer_launcher.ViewModels.ShellViewModel);
+            _typeTable[93] = typeof(global::Microsoft.UI.Xaml.Controls.TreeViewNode);
+            _typeTable[94] = typeof(global::System.Collections.Generic.IList<global::Microsoft.UI.Xaml.Controls.TreeViewNode>);
+            _typeTable[95] = typeof(global::System.Int32);
         }
 
         private int LookupTypeIndexByName(string typeName)
@@ -415,21 +459,28 @@ namespace st_installer_launcher.st_installer_launcher_XamlTypeInfo
         private object Activate_4_WindowEx() { return new global::WinUIEx.WindowEx(); }
         private object Activate_16_MicaBackdrop() { return new global::Microsoft.UI.Xaml.Media.MicaBackdrop(); }
         private object Activate_19_MainWindow() { return new global::st_installer_launcher.MainWindow(); }
-        private object Activate_22_InfoBar() { return new global::Microsoft.UI.Xaml.Controls.InfoBar(); }
-        private object Activate_30_InfoBarTemplateSettings() { return new global::Microsoft.UI.Xaml.Controls.InfoBarTemplateSettings(); }
-        private object Activate_32_ProgressRing() { return new global::Microsoft.UI.Xaml.Controls.ProgressRing(); }
-        private object Activate_34_MainPage() { return new global::st_installer_launcher.Views.MainPage(); }
-        private object Activate_37_MainViewModel() { return new global::st_installer_launcher.ViewModels.MainViewModel(); }
-        private object Activate_40_EnumToBooleanConverter() { return new global::st_installer_launcher.Helpers.EnumToBooleanConverter(); }
-        private object Activate_41_SettingsPage() { return new global::st_installer_launcher.Views.SettingsPage(); }
-        private object Activate_43_NavigationView() { return new global::Microsoft.UI.Xaml.Controls.NavigationView(); }
-        private object Activate_56_NavigationViewTemplateSettings() { return new global::Microsoft.UI.Xaml.Controls.NavigationViewTemplateSettings(); }
-        private object Activate_58_BehaviorCollection() { return new global::Microsoft.Xaml.Interactivity.BehaviorCollection(); }
-        private object Activate_60_NavigationViewItem() { return new global::Microsoft.UI.Xaml.Controls.NavigationViewItem(); }
-        private object Activate_63_InfoBadge() { return new global::Microsoft.UI.Xaml.Controls.InfoBadge(); }
-        private object Activate_64_NavigationHelper() { return new global::st_installer_launcher.Helpers.NavigationHelper(); }
-        private object Activate_65_NavigationViewHeaderBehavior() { return new global::st_installer_launcher.Behaviors.NavigationViewHeaderBehavior(); }
-        private object Activate_71_TreeViewNode() { return new global::Microsoft.UI.Xaml.Controls.TreeViewNode(); }
+        private object Activate_22_ScrollView() { return new global::Microsoft.UI.Xaml.Controls.ScrollView(); }
+        private object Activate_34_ScrollPresenter() { return new global::Microsoft.UI.Xaml.Controls.Primitives.ScrollPresenter(); }
+        private object Activate_39_Expander() { return new global::Microsoft.UI.Xaml.Controls.Expander(); }
+        private object Activate_46_InstallOptionsPage() { return new global::st_installer_launcher.Views.InstallOptionsPage(); }
+        private object Activate_49_InstallOptionsViewModel() { return new global::st_installer_launcher.ViewModels.InstallOptionsViewModel(); }
+        private object Activate_52_LauncherOptionsPage() { return new global::st_installer_launcher.Views.LauncherOptionsPage(); }
+        private object Activate_53_LauncherOptionsViewModel() { return new global::st_installer_launcher.ViewModels.LauncherOptionsViewModel(); }
+        private object Activate_54_InfoBar() { return new global::Microsoft.UI.Xaml.Controls.InfoBar(); }
+        private object Activate_60_InfoBarTemplateSettings() { return new global::Microsoft.UI.Xaml.Controls.InfoBarTemplateSettings(); }
+        private object Activate_61_ProgressRing() { return new global::Microsoft.UI.Xaml.Controls.ProgressRing(); }
+        private object Activate_63_MainPage() { return new global::st_installer_launcher.Views.MainPage(); }
+        private object Activate_64_MainViewModel() { return new global::st_installer_launcher.ViewModels.MainViewModel(); }
+        private object Activate_65_EnumToBooleanConverter() { return new global::st_installer_launcher.Helpers.EnumToBooleanConverter(); }
+        private object Activate_66_SettingsPage() { return new global::st_installer_launcher.Views.SettingsPage(); }
+        private object Activate_68_NavigationView() { return new global::Microsoft.UI.Xaml.Controls.NavigationView(); }
+        private object Activate_78_NavigationViewTemplateSettings() { return new global::Microsoft.UI.Xaml.Controls.NavigationViewTemplateSettings(); }
+        private object Activate_80_BehaviorCollection() { return new global::Microsoft.Xaml.Interactivity.BehaviorCollection(); }
+        private object Activate_82_NavigationViewItem() { return new global::Microsoft.UI.Xaml.Controls.NavigationViewItem(); }
+        private object Activate_85_InfoBadge() { return new global::Microsoft.UI.Xaml.Controls.InfoBadge(); }
+        private object Activate_86_NavigationHelper() { return new global::st_installer_launcher.Helpers.NavigationHelper(); }
+        private object Activate_87_NavigationViewHeaderBehavior() { return new global::st_installer_launcher.Behaviors.NavigationViewHeaderBehavior(); }
+        private object Activate_93_TreeViewNode() { return new global::Microsoft.UI.Xaml.Controls.TreeViewNode(); }
         private void MapAdd_0_XamlControlsResources(object instance, object key, object item)
         {
             var collection = (global::System.Collections.Generic.IDictionary<global::System.Object, global::System.Object>)instance;
@@ -437,19 +488,19 @@ namespace st_installer_launcher.st_installer_launcher_XamlTypeInfo
             var newItem = (global::System.Object)item;
             collection.Add(newKey, newItem);
         }
-        private void VectorAdd_46_IList(object instance, object item)
+        private void VectorAdd_70_IList(object instance, object item)
         {
             var collection = (global::System.Collections.Generic.ICollection<global::System.Object>)instance;
             var newItem = (global::System.Object)item;
             collection.Add(newItem);
         }
-        private void VectorAdd_58_BehaviorCollection(object instance, object item)
+        private void VectorAdd_80_BehaviorCollection(object instance, object item)
         {
             var collection = (global::System.Collections.Generic.ICollection<global::Microsoft.UI.Xaml.DependencyObject>)instance;
             var newItem = (global::Microsoft.UI.Xaml.DependencyObject)item;
             collection.Add(newItem);
         }
-        private void VectorAdd_72_IList(object instance, object item)
+        private void VectorAdd_94_IList(object instance, object item)
         {
             var collection = (global::System.Collections.Generic.ICollection<global::Microsoft.UI.Xaml.Controls.TreeViewNode>)instance;
             var newItem = (global::Microsoft.UI.Xaml.Controls.TreeViewNode)item;
@@ -622,9 +673,246 @@ namespace st_installer_launcher.st_installer_launcher_XamlTypeInfo
                 xamlType = userType;
                 break;
 
-            case 22:   //  Microsoft.UI.Xaml.Controls.InfoBar
+            case 22:   //  Microsoft.UI.Xaml.Controls.ScrollView
                 userType = new global::st_installer_launcher.st_installer_launcher_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Microsoft.UI.Xaml.Controls.Control"));
-                userType.Activator = Activate_22_InfoBar;
+                userType.Activator = Activate_22_ScrollView;
+                userType.SetContentPropertyName("Microsoft.UI.Xaml.Controls.ScrollView.Content");
+                userType.AddMemberName("Content");
+                userType.AddMemberName("ComputedHorizontalScrollBarVisibility");
+                userType.AddMemberName("ComputedHorizontalScrollMode");
+                userType.AddMemberName("ComputedVerticalScrollBarVisibility");
+                userType.AddMemberName("ComputedVerticalScrollMode");
+                userType.AddMemberName("ContentOrientation");
+                userType.AddMemberName("CurrentAnchor");
+                userType.AddMemberName("ExpressionAnimationSources");
+                userType.AddMemberName("ExtentHeight");
+                userType.AddMemberName("ExtentWidth");
+                userType.AddMemberName("HorizontalAnchorRatio");
+                userType.AddMemberName("HorizontalOffset");
+                userType.AddMemberName("HorizontalScrollBarVisibility");
+                userType.AddMemberName("HorizontalScrollChainMode");
+                userType.AddMemberName("HorizontalScrollMode");
+                userType.AddMemberName("HorizontalScrollRailMode");
+                userType.AddMemberName("IgnoredInputKinds");
+                userType.AddMemberName("MaxZoomFactor");
+                userType.AddMemberName("MinZoomFactor");
+                userType.AddMemberName("ScrollPresenter");
+                userType.AddMemberName("ScrollableHeight");
+                userType.AddMemberName("ScrollableWidth");
+                userType.AddMemberName("State");
+                userType.AddMemberName("VerticalAnchorRatio");
+                userType.AddMemberName("VerticalOffset");
+                userType.AddMemberName("VerticalScrollBarVisibility");
+                userType.AddMemberName("VerticalScrollChainMode");
+                userType.AddMemberName("VerticalScrollMode");
+                userType.AddMemberName("VerticalScrollRailMode");
+                userType.AddMemberName("ViewportHeight");
+                userType.AddMemberName("ViewportWidth");
+                userType.AddMemberName("ZoomChainMode");
+                userType.AddMemberName("ZoomFactor");
+                userType.AddMemberName("ZoomMode");
+                xamlType = userType;
+                break;
+
+            case 23:   //  Microsoft.UI.Xaml.Controls.Control
+                xamlType = new global::st_installer_launcher.st_installer_launcher_XamlTypeInfo.XamlSystemBaseType(typeName, type);
+                break;
+
+            case 24:   //  Microsoft.UI.Xaml.UIElement
+                xamlType = new global::st_installer_launcher.st_installer_launcher_XamlTypeInfo.XamlSystemBaseType(typeName, type);
+                break;
+
+            case 25:   //  Microsoft.UI.Xaml.Visibility
+                xamlType = new global::st_installer_launcher.st_installer_launcher_XamlTypeInfo.XamlSystemBaseType(typeName, type);
+                break;
+
+            case 26:   //  Microsoft.UI.Xaml.Controls.ScrollingScrollMode
+                userType = new global::st_installer_launcher.st_installer_launcher_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("System.Enum"));
+                userType.AddEnumValue("Enabled", global::Microsoft.UI.Xaml.Controls.ScrollingScrollMode.Enabled);
+                userType.AddEnumValue("Disabled", global::Microsoft.UI.Xaml.Controls.ScrollingScrollMode.Disabled);
+                userType.AddEnumValue("Auto", global::Microsoft.UI.Xaml.Controls.ScrollingScrollMode.Auto);
+                xamlType = userType;
+                break;
+
+            case 27:   //  Microsoft.UI.Xaml.Controls.ScrollingContentOrientation
+                userType = new global::st_installer_launcher.st_installer_launcher_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("System.Enum"));
+                userType.AddEnumValue("Vertical", global::Microsoft.UI.Xaml.Controls.ScrollingContentOrientation.Vertical);
+                userType.AddEnumValue("Horizontal", global::Microsoft.UI.Xaml.Controls.ScrollingContentOrientation.Horizontal);
+                userType.AddEnumValue("None", global::Microsoft.UI.Xaml.Controls.ScrollingContentOrientation.None);
+                userType.AddEnumValue("Both", global::Microsoft.UI.Xaml.Controls.ScrollingContentOrientation.Both);
+                xamlType = userType;
+                break;
+
+            case 28:   //  Microsoft.UI.Composition.CompositionPropertySet
+                userType = new global::st_installer_launcher.st_installer_launcher_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Microsoft.UI.Composition.CompositionObject"));
+                userType.SetIsReturnTypeStub();
+                xamlType = userType;
+                break;
+
+            case 29:   //  Microsoft.UI.Composition.CompositionObject
+                userType = new global::st_installer_launcher.st_installer_launcher_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Object"));
+                xamlType = userType;
+                break;
+
+            case 30:   //  Microsoft.UI.Xaml.Controls.ScrollingScrollBarVisibility
+                userType = new global::st_installer_launcher.st_installer_launcher_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("System.Enum"));
+                userType.AddEnumValue("Auto", global::Microsoft.UI.Xaml.Controls.ScrollingScrollBarVisibility.Auto);
+                userType.AddEnumValue("Visible", global::Microsoft.UI.Xaml.Controls.ScrollingScrollBarVisibility.Visible);
+                userType.AddEnumValue("Hidden", global::Microsoft.UI.Xaml.Controls.ScrollingScrollBarVisibility.Hidden);
+                xamlType = userType;
+                break;
+
+            case 31:   //  Microsoft.UI.Xaml.Controls.ScrollingChainMode
+                userType = new global::st_installer_launcher.st_installer_launcher_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("System.Enum"));
+                userType.AddEnumValue("Auto", global::Microsoft.UI.Xaml.Controls.ScrollingChainMode.Auto);
+                userType.AddEnumValue("Always", global::Microsoft.UI.Xaml.Controls.ScrollingChainMode.Always);
+                userType.AddEnumValue("Never", global::Microsoft.UI.Xaml.Controls.ScrollingChainMode.Never);
+                xamlType = userType;
+                break;
+
+            case 32:   //  Microsoft.UI.Xaml.Controls.ScrollingRailMode
+                userType = new global::st_installer_launcher.st_installer_launcher_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("System.Enum"));
+                userType.AddEnumValue("Enabled", global::Microsoft.UI.Xaml.Controls.ScrollingRailMode.Enabled);
+                userType.AddEnumValue("Disabled", global::Microsoft.UI.Xaml.Controls.ScrollingRailMode.Disabled);
+                xamlType = userType;
+                break;
+
+            case 33:   //  Microsoft.UI.Xaml.Controls.ScrollingInputKinds
+                userType = new global::st_installer_launcher.st_installer_launcher_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("System.Enum"));
+                userType.AddEnumValue("None", global::Microsoft.UI.Xaml.Controls.ScrollingInputKinds.None);
+                userType.AddEnumValue("Touch", global::Microsoft.UI.Xaml.Controls.ScrollingInputKinds.Touch);
+                userType.AddEnumValue("Pen", global::Microsoft.UI.Xaml.Controls.ScrollingInputKinds.Pen);
+                userType.AddEnumValue("MouseWheel", global::Microsoft.UI.Xaml.Controls.ScrollingInputKinds.MouseWheel);
+                userType.AddEnumValue("Keyboard", global::Microsoft.UI.Xaml.Controls.ScrollingInputKinds.Keyboard);
+                userType.AddEnumValue("Gamepad", global::Microsoft.UI.Xaml.Controls.ScrollingInputKinds.Gamepad);
+                userType.AddEnumValue("All", global::Microsoft.UI.Xaml.Controls.ScrollingInputKinds.All);
+                xamlType = userType;
+                break;
+
+            case 34:   //  Microsoft.UI.Xaml.Controls.Primitives.ScrollPresenter
+                userType = new global::st_installer_launcher.st_installer_launcher_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Microsoft.UI.Xaml.FrameworkElement"));
+                userType.SetContentPropertyName("Microsoft.UI.Xaml.Controls.Primitives.ScrollPresenter.Content");
+                userType.AddMemberName("Content");
+                userType.SetIsReturnTypeStub();
+                xamlType = userType;
+                break;
+
+            case 35:   //  Microsoft.UI.Xaml.FrameworkElement
+                xamlType = new global::st_installer_launcher.st_installer_launcher_XamlTypeInfo.XamlSystemBaseType(typeName, type);
+                break;
+
+            case 36:   //  Microsoft.UI.Xaml.Controls.ScrollingInteractionState
+                userType = new global::st_installer_launcher.st_installer_launcher_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("System.Enum"));
+                userType.AddEnumValue("Idle", global::Microsoft.UI.Xaml.Controls.ScrollingInteractionState.Idle);
+                userType.AddEnumValue("Interaction", global::Microsoft.UI.Xaml.Controls.ScrollingInteractionState.Interaction);
+                userType.AddEnumValue("Inertia", global::Microsoft.UI.Xaml.Controls.ScrollingInteractionState.Inertia);
+                userType.AddEnumValue("Animation", global::Microsoft.UI.Xaml.Controls.ScrollingInteractionState.Animation);
+                xamlType = userType;
+                break;
+
+            case 37:   //  Single
+                xamlType = new global::st_installer_launcher.st_installer_launcher_XamlTypeInfo.XamlSystemBaseType(typeName, type);
+                break;
+
+            case 38:   //  Microsoft.UI.Xaml.Controls.ScrollingZoomMode
+                userType = new global::st_installer_launcher.st_installer_launcher_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("System.Enum"));
+                userType.AddEnumValue("Enabled", global::Microsoft.UI.Xaml.Controls.ScrollingZoomMode.Enabled);
+                userType.AddEnumValue("Disabled", global::Microsoft.UI.Xaml.Controls.ScrollingZoomMode.Disabled);
+                xamlType = userType;
+                break;
+
+            case 39:   //  Microsoft.UI.Xaml.Controls.Expander
+                userType = new global::st_installer_launcher.st_installer_launcher_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Microsoft.UI.Xaml.Controls.ContentControl"));
+                userType.Activator = Activate_39_Expander;
+                userType.AddMemberName("Header");
+                userType.AddMemberName("ExpandDirection");
+                userType.AddMemberName("HeaderTemplate");
+                userType.AddMemberName("HeaderTemplateSelector");
+                userType.AddMemberName("IsExpanded");
+                userType.AddMemberName("TemplateSettings");
+                xamlType = userType;
+                break;
+
+            case 40:   //  Microsoft.UI.Xaml.Controls.ContentControl
+                xamlType = new global::st_installer_launcher.st_installer_launcher_XamlTypeInfo.XamlSystemBaseType(typeName, type);
+                break;
+
+            case 41:   //  Microsoft.UI.Xaml.Controls.ExpandDirection
+                userType = new global::st_installer_launcher.st_installer_launcher_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("System.Enum"));
+                userType.AddEnumValue("Down", global::Microsoft.UI.Xaml.Controls.ExpandDirection.Down);
+                userType.AddEnumValue("Up", global::Microsoft.UI.Xaml.Controls.ExpandDirection.Up);
+                xamlType = userType;
+                break;
+
+            case 42:   //  Microsoft.UI.Xaml.DataTemplate
+                xamlType = new global::st_installer_launcher.st_installer_launcher_XamlTypeInfo.XamlSystemBaseType(typeName, type);
+                break;
+
+            case 43:   //  Microsoft.UI.Xaml.Controls.DataTemplateSelector
+                xamlType = new global::st_installer_launcher.st_installer_launcher_XamlTypeInfo.XamlSystemBaseType(typeName, type);
+                break;
+
+            case 44:   //  Microsoft.UI.Xaml.Controls.ExpanderTemplateSettings
+                userType = new global::st_installer_launcher.st_installer_launcher_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Microsoft.UI.Xaml.DependencyObject"));
+                userType.SetIsReturnTypeStub();
+                xamlType = userType;
+                break;
+
+            case 45:   //  Microsoft.UI.Xaml.DependencyObject
+                xamlType = new global::st_installer_launcher.st_installer_launcher_XamlTypeInfo.XamlSystemBaseType(typeName, type);
+                break;
+
+            case 46:   //  st_installer_launcher.Views.InstallOptionsPage
+                userType = new global::st_installer_launcher.st_installer_launcher_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Microsoft.UI.Xaml.Controls.Page"));
+                userType.Activator = Activate_46_InstallOptionsPage;
+                userType.AddMemberName("ViewModel");
+                userType.SetIsLocalType();
+                xamlType = userType;
+                break;
+
+            case 47:   //  Microsoft.UI.Xaml.Controls.Page
+                xamlType = new global::st_installer_launcher.st_installer_launcher_XamlTypeInfo.XamlSystemBaseType(typeName, type);
+                break;
+
+            case 48:   //  Microsoft.UI.Xaml.Controls.UserControl
+                xamlType = new global::st_installer_launcher.st_installer_launcher_XamlTypeInfo.XamlSystemBaseType(typeName, type);
+                break;
+
+            case 49:   //  st_installer_launcher.ViewModels.InstallOptionsViewModel
+                userType = new global::st_installer_launcher.st_installer_launcher_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("CommunityToolkit.Mvvm.ComponentModel.ObservableRecipient"));
+                userType.SetIsReturnTypeStub();
+                userType.SetIsLocalType();
+                xamlType = userType;
+                break;
+
+            case 50:   //  CommunityToolkit.Mvvm.ComponentModel.ObservableRecipient
+                userType = new global::st_installer_launcher.st_installer_launcher_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("CommunityToolkit.Mvvm.ComponentModel.ObservableObject"));
+                xamlType = userType;
+                break;
+
+            case 51:   //  CommunityToolkit.Mvvm.ComponentModel.ObservableObject
+                userType = new global::st_installer_launcher.st_installer_launcher_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Object"));
+                xamlType = userType;
+                break;
+
+            case 52:   //  st_installer_launcher.Views.LauncherOptionsPage
+                userType = new global::st_installer_launcher.st_installer_launcher_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Microsoft.UI.Xaml.Controls.Page"));
+                userType.Activator = Activate_52_LauncherOptionsPage;
+                userType.AddMemberName("ViewModel");
+                userType.SetIsLocalType();
+                xamlType = userType;
+                break;
+
+            case 53:   //  st_installer_launcher.ViewModels.LauncherOptionsViewModel
+                userType = new global::st_installer_launcher.st_installer_launcher_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("CommunityToolkit.Mvvm.ComponentModel.ObservableRecipient"));
+                userType.SetIsReturnTypeStub();
+                userType.SetIsLocalType();
+                xamlType = userType;
+                break;
+
+            case 54:   //  Microsoft.UI.Xaml.Controls.InfoBar
+                userType = new global::st_installer_launcher.st_installer_launcher_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Microsoft.UI.Xaml.Controls.Control"));
+                userType.Activator = Activate_54_InfoBar;
                 userType.SetContentPropertyName("Microsoft.UI.Xaml.Controls.InfoBar.Content");
                 userType.AddMemberName("Content");
                 userType.AddMemberName("IsOpen");
@@ -643,11 +931,7 @@ namespace st_installer_launcher.st_installer_launcher_XamlTypeInfo
                 xamlType = userType;
                 break;
 
-            case 23:   //  Microsoft.UI.Xaml.Controls.Control
-                xamlType = new global::st_installer_launcher.st_installer_launcher_XamlTypeInfo.XamlSystemBaseType(typeName, type);
-                break;
-
-            case 24:   //  Microsoft.UI.Xaml.Controls.InfoBarSeverity
+            case 55:   //  Microsoft.UI.Xaml.Controls.InfoBarSeverity
                 userType = new global::st_installer_launcher.st_installer_launcher_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("System.Enum"));
                 userType.AddEnumValue("Informational", global::Microsoft.UI.Xaml.Controls.InfoBarSeverity.Informational);
                 userType.AddEnumValue("Success", global::Microsoft.UI.Xaml.Controls.InfoBarSeverity.Success);
@@ -656,41 +940,33 @@ namespace st_installer_launcher.st_installer_launcher_XamlTypeInfo
                 xamlType = userType;
                 break;
 
-            case 25:   //  Microsoft.UI.Xaml.Controls.Primitives.ButtonBase
+            case 56:   //  Microsoft.UI.Xaml.Controls.Primitives.ButtonBase
                 xamlType = new global::st_installer_launcher.st_installer_launcher_XamlTypeInfo.XamlSystemBaseType(typeName, type);
                 break;
 
-            case 26:   //  System.Windows.Input.ICommand
+            case 57:   //  System.Windows.Input.ICommand
                 userType = new global::st_installer_launcher.st_installer_launcher_XamlTypeInfo.XamlUserType(this, typeName, type, null);
                 userType.SetIsReturnTypeStub();
                 xamlType = userType;
                 break;
 
-            case 27:   //  Microsoft.UI.Xaml.Style
+            case 58:   //  Microsoft.UI.Xaml.Style
                 xamlType = new global::st_installer_launcher.st_installer_launcher_XamlTypeInfo.XamlSystemBaseType(typeName, type);
                 break;
 
-            case 28:   //  Microsoft.UI.Xaml.DataTemplate
+            case 59:   //  Microsoft.UI.Xaml.Controls.IconSource
                 xamlType = new global::st_installer_launcher.st_installer_launcher_XamlTypeInfo.XamlSystemBaseType(typeName, type);
                 break;
 
-            case 29:   //  Microsoft.UI.Xaml.Controls.IconSource
-                xamlType = new global::st_installer_launcher.st_installer_launcher_XamlTypeInfo.XamlSystemBaseType(typeName, type);
-                break;
-
-            case 30:   //  Microsoft.UI.Xaml.Controls.InfoBarTemplateSettings
+            case 60:   //  Microsoft.UI.Xaml.Controls.InfoBarTemplateSettings
                 userType = new global::st_installer_launcher.st_installer_launcher_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Microsoft.UI.Xaml.DependencyObject"));
                 userType.SetIsReturnTypeStub();
                 xamlType = userType;
                 break;
 
-            case 31:   //  Microsoft.UI.Xaml.DependencyObject
-                xamlType = new global::st_installer_launcher.st_installer_launcher_XamlTypeInfo.XamlSystemBaseType(typeName, type);
-                break;
-
-            case 32:   //  Microsoft.UI.Xaml.Controls.ProgressRing
+            case 61:   //  Microsoft.UI.Xaml.Controls.ProgressRing
                 userType = new global::st_installer_launcher.st_installer_launcher_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Microsoft.UI.Xaml.Controls.Control"));
-                userType.Activator = Activate_32_ProgressRing;
+                userType.Activator = Activate_61_ProgressRing;
                 userType.AddMemberName("IsActive");
                 userType.AddMemberName("IsIndeterminate");
                 userType.AddMemberName("Maximum");
@@ -700,70 +976,52 @@ namespace st_installer_launcher.st_installer_launcher_XamlTypeInfo
                 xamlType = userType;
                 break;
 
-            case 33:   //  Microsoft.UI.Xaml.Controls.ProgressRingTemplateSettings
+            case 62:   //  Microsoft.UI.Xaml.Controls.ProgressRingTemplateSettings
                 userType = new global::st_installer_launcher.st_installer_launcher_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Microsoft.UI.Xaml.DependencyObject"));
                 userType.SetIsReturnTypeStub();
                 xamlType = userType;
                 break;
 
-            case 34:   //  st_installer_launcher.Views.MainPage
+            case 63:   //  st_installer_launcher.Views.MainPage
                 userType = new global::st_installer_launcher.st_installer_launcher_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Microsoft.UI.Xaml.Controls.Page"));
-                userType.Activator = Activate_34_MainPage;
+                userType.Activator = Activate_63_MainPage;
                 userType.AddMemberName("ViewModel");
                 userType.SetIsLocalType();
                 xamlType = userType;
                 break;
 
-            case 35:   //  Microsoft.UI.Xaml.Controls.Page
-                xamlType = new global::st_installer_launcher.st_installer_launcher_XamlTypeInfo.XamlSystemBaseType(typeName, type);
-                break;
-
-            case 36:   //  Microsoft.UI.Xaml.Controls.UserControl
-                xamlType = new global::st_installer_launcher.st_installer_launcher_XamlTypeInfo.XamlSystemBaseType(typeName, type);
-                break;
-
-            case 37:   //  st_installer_launcher.ViewModels.MainViewModel
+            case 64:   //  st_installer_launcher.ViewModels.MainViewModel
                 userType = new global::st_installer_launcher.st_installer_launcher_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("CommunityToolkit.Mvvm.ComponentModel.ObservableRecipient"));
                 userType.SetIsReturnTypeStub();
                 userType.SetIsLocalType();
                 xamlType = userType;
                 break;
 
-            case 38:   //  CommunityToolkit.Mvvm.ComponentModel.ObservableRecipient
-                userType = new global::st_installer_launcher.st_installer_launcher_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("CommunityToolkit.Mvvm.ComponentModel.ObservableObject"));
-                xamlType = userType;
-                break;
-
-            case 39:   //  CommunityToolkit.Mvvm.ComponentModel.ObservableObject
+            case 65:   //  st_installer_launcher.Helpers.EnumToBooleanConverter
                 userType = new global::st_installer_launcher.st_installer_launcher_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Object"));
-                xamlType = userType;
-                break;
-
-            case 40:   //  st_installer_launcher.Helpers.EnumToBooleanConverter
-                userType = new global::st_installer_launcher.st_installer_launcher_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Object"));
-                userType.Activator = Activate_40_EnumToBooleanConverter;
+                userType.Activator = Activate_65_EnumToBooleanConverter;
                 userType.SetIsLocalType();
                 xamlType = userType;
                 break;
 
-            case 41:   //  st_installer_launcher.Views.SettingsPage
+            case 66:   //  st_installer_launcher.Views.SettingsPage
                 userType = new global::st_installer_launcher.st_installer_launcher_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Microsoft.UI.Xaml.Controls.Page"));
-                userType.Activator = Activate_41_SettingsPage;
+                userType.Activator = Activate_66_SettingsPage;
                 userType.AddMemberName("ViewModel");
                 userType.SetIsLocalType();
                 xamlType = userType;
                 break;
 
-            case 42:   //  st_installer_launcher.ViewModels.SettingsViewModel
+            case 67:   //  st_installer_launcher.ViewModels.SettingsViewModel
                 userType = new global::st_installer_launcher.st_installer_launcher_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("CommunityToolkit.Mvvm.ComponentModel.ObservableRecipient"));
                 userType.SetIsReturnTypeStub();
                 userType.SetIsLocalType();
                 xamlType = userType;
                 break;
 
-            case 43:   //  Microsoft.UI.Xaml.Controls.NavigationView
+            case 68:   //  Microsoft.UI.Xaml.Controls.NavigationView
                 userType = new global::st_installer_launcher.st_installer_launcher_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Microsoft.UI.Xaml.Controls.ContentControl"));
-                userType.Activator = Activate_43_NavigationView;
+                userType.Activator = Activate_68_NavigationView;
                 userType.AddMemberName("IsBackButtonVisible");
                 userType.AddMemberName("IsBackEnabled");
                 userType.AddMemberName("SelectedItem");
@@ -804,11 +1062,7 @@ namespace st_installer_launcher.st_installer_launcher_XamlTypeInfo
                 xamlType = userType;
                 break;
 
-            case 44:   //  Microsoft.UI.Xaml.Controls.ContentControl
-                xamlType = new global::st_installer_launcher.st_installer_launcher_XamlTypeInfo.XamlSystemBaseType(typeName, type);
-                break;
-
-            case 45:   //  Microsoft.UI.Xaml.Controls.NavigationViewBackButtonVisible
+            case 69:   //  Microsoft.UI.Xaml.Controls.NavigationViewBackButtonVisible
                 userType = new global::st_installer_launcher.st_installer_launcher_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("System.Enum"));
                 userType.AddEnumValue("Collapsed", global::Microsoft.UI.Xaml.Controls.NavigationViewBackButtonVisible.Collapsed);
                 userType.AddEnumValue("Visible", global::Microsoft.UI.Xaml.Controls.NavigationViewBackButtonVisible.Visible);
@@ -816,22 +1070,18 @@ namespace st_installer_launcher.st_installer_launcher_XamlTypeInfo
                 xamlType = userType;
                 break;
 
-            case 46:   //  System.Collections.Generic.IList`1<Object>
+            case 70:   //  System.Collections.Generic.IList`1<Object>
                 userType = new global::st_installer_launcher.st_installer_launcher_XamlTypeInfo.XamlUserType(this, typeName, type, null);
-                userType.CollectionAdd = VectorAdd_46_IList;
+                userType.CollectionAdd = VectorAdd_70_IList;
                 userType.SetIsReturnTypeStub();
                 xamlType = userType;
                 break;
 
-            case 47:   //  Microsoft.UI.Xaml.Controls.AutoSuggestBox
+            case 71:   //  Microsoft.UI.Xaml.Controls.AutoSuggestBox
                 xamlType = new global::st_installer_launcher.st_installer_launcher_XamlTypeInfo.XamlSystemBaseType(typeName, type);
                 break;
 
-            case 48:   //  Microsoft.UI.Xaml.UIElement
-                xamlType = new global::st_installer_launcher.st_installer_launcher_XamlTypeInfo.XamlSystemBaseType(typeName, type);
-                break;
-
-            case 49:   //  Microsoft.UI.Xaml.Controls.NavigationViewDisplayMode
+            case 72:   //  Microsoft.UI.Xaml.Controls.NavigationViewDisplayMode
                 userType = new global::st_installer_launcher.st_installer_launcher_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("System.Enum"));
                 userType.AddEnumValue("Minimal", global::Microsoft.UI.Xaml.Controls.NavigationViewDisplayMode.Minimal);
                 userType.AddEnumValue("Compact", global::Microsoft.UI.Xaml.Controls.NavigationViewDisplayMode.Compact);
@@ -839,22 +1089,18 @@ namespace st_installer_launcher.st_installer_launcher_XamlTypeInfo
                 xamlType = userType;
                 break;
 
-            case 50:   //  Microsoft.UI.Xaml.Controls.StyleSelector
+            case 73:   //  Microsoft.UI.Xaml.Controls.StyleSelector
                 xamlType = new global::st_installer_launcher.st_installer_launcher_XamlTypeInfo.XamlSystemBaseType(typeName, type);
                 break;
 
-            case 51:   //  Microsoft.UI.Xaml.Controls.DataTemplateSelector
-                xamlType = new global::st_installer_launcher.st_installer_launcher_XamlTypeInfo.XamlSystemBaseType(typeName, type);
-                break;
-
-            case 52:   //  Microsoft.UI.Xaml.Controls.NavigationViewOverflowLabelMode
+            case 74:   //  Microsoft.UI.Xaml.Controls.NavigationViewOverflowLabelMode
                 userType = new global::st_installer_launcher.st_installer_launcher_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("System.Enum"));
                 userType.AddEnumValue("MoreLabel", global::Microsoft.UI.Xaml.Controls.NavigationViewOverflowLabelMode.MoreLabel);
                 userType.AddEnumValue("NoLabel", global::Microsoft.UI.Xaml.Controls.NavigationViewOverflowLabelMode.NoLabel);
                 xamlType = userType;
                 break;
 
-            case 53:   //  Microsoft.UI.Xaml.Controls.NavigationViewPaneDisplayMode
+            case 75:   //  Microsoft.UI.Xaml.Controls.NavigationViewPaneDisplayMode
                 userType = new global::st_installer_launcher.st_installer_launcher_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("System.Enum"));
                 userType.AddEnumValue("Auto", global::Microsoft.UI.Xaml.Controls.NavigationViewPaneDisplayMode.Auto);
                 userType.AddEnumValue("Left", global::Microsoft.UI.Xaml.Controls.NavigationViewPaneDisplayMode.Left);
@@ -864,14 +1110,14 @@ namespace st_installer_launcher.st_installer_launcher_XamlTypeInfo
                 xamlType = userType;
                 break;
 
-            case 54:   //  Microsoft.UI.Xaml.Controls.NavigationViewSelectionFollowsFocus
+            case 76:   //  Microsoft.UI.Xaml.Controls.NavigationViewSelectionFollowsFocus
                 userType = new global::st_installer_launcher.st_installer_launcher_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("System.Enum"));
                 userType.AddEnumValue("Disabled", global::Microsoft.UI.Xaml.Controls.NavigationViewSelectionFollowsFocus.Disabled);
                 userType.AddEnumValue("Enabled", global::Microsoft.UI.Xaml.Controls.NavigationViewSelectionFollowsFocus.Enabled);
                 xamlType = userType;
                 break;
 
-            case 55:   //  Microsoft.UI.Xaml.Controls.NavigationViewShoulderNavigationEnabled
+            case 77:   //  Microsoft.UI.Xaml.Controls.NavigationViewShoulderNavigationEnabled
                 userType = new global::st_installer_launcher.st_installer_launcher_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("System.Enum"));
                 userType.AddEnumValue("WhenSelectionFollowsFocus", global::Microsoft.UI.Xaml.Controls.NavigationViewShoulderNavigationEnabled.WhenSelectionFollowsFocus);
                 userType.AddEnumValue("Always", global::Microsoft.UI.Xaml.Controls.NavigationViewShoulderNavigationEnabled.Always);
@@ -879,32 +1125,32 @@ namespace st_installer_launcher.st_installer_launcher_XamlTypeInfo
                 xamlType = userType;
                 break;
 
-            case 56:   //  Microsoft.UI.Xaml.Controls.NavigationViewTemplateSettings
+            case 78:   //  Microsoft.UI.Xaml.Controls.NavigationViewTemplateSettings
                 userType = new global::st_installer_launcher.st_installer_launcher_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Microsoft.UI.Xaml.DependencyObject"));
                 userType.SetIsReturnTypeStub();
                 xamlType = userType;
                 break;
 
-            case 57:   //  Microsoft.Xaml.Interactivity.Interaction
+            case 79:   //  Microsoft.Xaml.Interactivity.Interaction
                 userType = new global::st_installer_launcher.st_installer_launcher_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Object"));
                 userType.AddMemberName("Behaviors");
                 xamlType = userType;
                 break;
 
-            case 58:   //  Microsoft.Xaml.Interactivity.BehaviorCollection
+            case 80:   //  Microsoft.Xaml.Interactivity.BehaviorCollection
                 userType = new global::st_installer_launcher.st_installer_launcher_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Microsoft.UI.Xaml.DependencyObjectCollection"));
-                userType.CollectionAdd = VectorAdd_58_BehaviorCollection;
+                userType.CollectionAdd = VectorAdd_80_BehaviorCollection;
                 userType.SetIsReturnTypeStub();
                 xamlType = userType;
                 break;
 
-            case 59:   //  Microsoft.UI.Xaml.DependencyObjectCollection
+            case 81:   //  Microsoft.UI.Xaml.DependencyObjectCollection
                 xamlType = new global::st_installer_launcher.st_installer_launcher_XamlTypeInfo.XamlSystemBaseType(typeName, type);
                 break;
 
-            case 60:   //  Microsoft.UI.Xaml.Controls.NavigationViewItem
+            case 82:   //  Microsoft.UI.Xaml.Controls.NavigationViewItem
                 userType = new global::st_installer_launcher.st_installer_launcher_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Microsoft.UI.Xaml.Controls.NavigationViewItemBase"));
-                userType.Activator = Activate_60_NavigationViewItem;
+                userType.Activator = Activate_82_NavigationViewItem;
                 userType.AddMemberName("Icon");
                 userType.AddMemberName("CompactPaneLength");
                 userType.AddMemberName("HasUnrealizedChildren");
@@ -917,33 +1163,33 @@ namespace st_installer_launcher.st_installer_launcher_XamlTypeInfo
                 xamlType = userType;
                 break;
 
-            case 61:   //  Microsoft.UI.Xaml.Controls.NavigationViewItemBase
+            case 83:   //  Microsoft.UI.Xaml.Controls.NavigationViewItemBase
                 userType = new global::st_installer_launcher.st_installer_launcher_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Microsoft.UI.Xaml.Controls.ContentControl"));
                 userType.AddMemberName("IsSelected");
                 xamlType = userType;
                 break;
 
-            case 62:   //  Microsoft.UI.Xaml.Controls.IconElement
+            case 84:   //  Microsoft.UI.Xaml.Controls.IconElement
                 xamlType = new global::st_installer_launcher.st_installer_launcher_XamlTypeInfo.XamlSystemBaseType(typeName, type);
                 break;
 
-            case 63:   //  Microsoft.UI.Xaml.Controls.InfoBadge
+            case 85:   //  Microsoft.UI.Xaml.Controls.InfoBadge
                 userType = new global::st_installer_launcher.st_installer_launcher_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Microsoft.UI.Xaml.Controls.Control"));
                 userType.SetIsReturnTypeStub();
                 xamlType = userType;
                 break;
 
-            case 64:   //  st_installer_launcher.Helpers.NavigationHelper
+            case 86:   //  st_installer_launcher.Helpers.NavigationHelper
                 userType = new global::st_installer_launcher.st_installer_launcher_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Object"));
-                userType.Activator = Activate_64_NavigationHelper;
+                userType.Activator = Activate_86_NavigationHelper;
                 userType.AddMemberName("NavigateTo");
                 userType.SetIsLocalType();
                 xamlType = userType;
                 break;
 
-            case 65:   //  st_installer_launcher.Behaviors.NavigationViewHeaderBehavior
+            case 87:   //  st_installer_launcher.Behaviors.NavigationViewHeaderBehavior
                 userType = new global::st_installer_launcher.st_installer_launcher_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Microsoft.Xaml.Interactivity.Behavior`1<Microsoft.UI.Xaml.Controls.NavigationView>"));
-                userType.Activator = Activate_65_NavigationViewHeaderBehavior;
+                userType.Activator = Activate_87_NavigationViewHeaderBehavior;
                 userType.AddMemberName("DefaultHeader");
                 userType.AddMemberName("DefaultHeaderTemplate");
                 userType.AddMemberName("HeaderMode");
@@ -953,18 +1199,18 @@ namespace st_installer_launcher.st_installer_launcher_XamlTypeInfo
                 xamlType = userType;
                 break;
 
-            case 66:   //  Microsoft.Xaml.Interactivity.Behavior`1<Microsoft.UI.Xaml.Controls.NavigationView>
+            case 88:   //  Microsoft.Xaml.Interactivity.Behavior`1<Microsoft.UI.Xaml.Controls.NavigationView>
                 userType = new global::st_installer_launcher.st_installer_launcher_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Microsoft.Xaml.Interactivity.Behavior"));
                 userType.AddMemberName("AssociatedObject");
                 xamlType = userType;
                 break;
 
-            case 67:   //  Microsoft.Xaml.Interactivity.Behavior
+            case 89:   //  Microsoft.Xaml.Interactivity.Behavior
                 userType = new global::st_installer_launcher.st_installer_launcher_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Microsoft.UI.Xaml.DependencyObject"));
                 xamlType = userType;
                 break;
 
-            case 68:   //  st_installer_launcher.Behaviors.NavigationViewHeaderMode
+            case 90:   //  st_installer_launcher.Behaviors.NavigationViewHeaderMode
                 userType = new global::st_installer_launcher.st_installer_launcher_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("System.Enum"));
                 userType.AddEnumValue("Always", global::st_installer_launcher.Behaviors.NavigationViewHeaderMode.Always);
                 userType.AddEnumValue("Never", global::st_installer_launcher.Behaviors.NavigationViewHeaderMode.Never);
@@ -973,23 +1219,23 @@ namespace st_installer_launcher.st_installer_launcher_XamlTypeInfo
                 xamlType = userType;
                 break;
 
-            case 69:   //  st_installer_launcher.Views.ShellPage
+            case 91:   //  st_installer_launcher.Views.ShellPage
                 userType = new global::st_installer_launcher.st_installer_launcher_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Microsoft.UI.Xaml.Controls.Page"));
                 userType.AddMemberName("ViewModel");
                 userType.SetIsLocalType();
                 xamlType = userType;
                 break;
 
-            case 70:   //  st_installer_launcher.ViewModels.ShellViewModel
+            case 92:   //  st_installer_launcher.ViewModels.ShellViewModel
                 userType = new global::st_installer_launcher.st_installer_launcher_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("CommunityToolkit.Mvvm.ComponentModel.ObservableRecipient"));
                 userType.SetIsReturnTypeStub();
                 userType.SetIsLocalType();
                 xamlType = userType;
                 break;
 
-            case 71:   //  Microsoft.UI.Xaml.Controls.TreeViewNode
+            case 93:   //  Microsoft.UI.Xaml.Controls.TreeViewNode
                 userType = new global::st_installer_launcher.st_installer_launcher_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Microsoft.UI.Xaml.DependencyObject"));
-                userType.Activator = Activate_71_TreeViewNode;
+                userType.Activator = Activate_93_TreeViewNode;
                 userType.AddMemberName("Children");
                 userType.AddMemberName("Content");
                 userType.AddMemberName("Depth");
@@ -1001,14 +1247,14 @@ namespace st_installer_launcher.st_installer_launcher_XamlTypeInfo
                 xamlType = userType;
                 break;
 
-            case 72:   //  System.Collections.Generic.IList`1<Microsoft.UI.Xaml.Controls.TreeViewNode>
+            case 94:   //  System.Collections.Generic.IList`1<Microsoft.UI.Xaml.Controls.TreeViewNode>
                 userType = new global::st_installer_launcher.st_installer_launcher_XamlTypeInfo.XamlUserType(this, typeName, type, null);
-                userType.CollectionAdd = VectorAdd_72_IList;
+                userType.CollectionAdd = VectorAdd_94_IList;
                 userType.SetIsReturnTypeStub();
                 xamlType = userType;
                 break;
 
-            case 73:   //  Int32
+            case 95:   //  Int32
                 xamlType = new global::st_installer_launcher.st_installer_launcher_XamlTypeInfo.XamlSystemBaseType(typeName, type);
                 break;
             }
@@ -1024,6 +1270,18 @@ namespace st_installer_launcher.st_installer_launcher_XamlTypeInfo
                 {
                     var otherProviders = new global::System.Collections.Generic.List<global::Microsoft.UI.Xaml.Markup.IXamlMetadataProvider>();
                     global::Microsoft.UI.Xaml.Markup.IXamlMetadataProvider provider;
+                    provider = new global::CommunityToolkit.WinUI.UI.Controls.CommunityToolkit_WinUI_UI_Controls_Core_XamlTypeInfo.XamlMetaDataProvider() as global::Microsoft.UI.Xaml.Markup.IXamlMetadataProvider;
+                    otherProviders.Add(provider); 
+                    provider = new global::CommunityToolkit.WinUI.UI.Controls.CommunityToolkit_WinUI_UI_Controls_DataGrid_XamlTypeInfo.XamlMetaDataProvider() as global::Microsoft.UI.Xaml.Markup.IXamlMetadataProvider;
+                    otherProviders.Add(provider); 
+                    provider = new global::CommunityToolkit.WinUI.UI.Controls.CommunityToolkit_WinUI_UI_Controls_Input_XamlTypeInfo.XamlMetaDataProvider() as global::Microsoft.UI.Xaml.Markup.IXamlMetadataProvider;
+                    otherProviders.Add(provider); 
+                    provider = new global::CommunityToolkit.WinUI.UI.Controls.CommunityToolkit_WinUI_UI_Controls_Layout_XamlTypeInfo.XamlMetaDataProvider() as global::Microsoft.UI.Xaml.Markup.IXamlMetadataProvider;
+                    otherProviders.Add(provider); 
+                    provider = new global::CommunityToolkit.WinUI.UI.Controls.CommunityToolkit_WinUI_UI_Controls_Markdown_XamlTypeInfo.XamlMetaDataProvider() as global::Microsoft.UI.Xaml.Markup.IXamlMetadataProvider;
+                    otherProviders.Add(provider); 
+                    provider = new global::CommunityToolkit.WinUI.UI.Controls.CommunityToolkit_WinUI_UI_Controls_Media_XamlTypeInfo.XamlMetaDataProvider() as global::Microsoft.UI.Xaml.Markup.IXamlMetadataProvider;
+                    otherProviders.Add(provider); 
                     provider = new global::Microsoft.UI.Xaml.XamlTypeInfo.XamlControlsXamlMetaDataProvider() as global::Microsoft.UI.Xaml.Markup.IXamlMetadataProvider;
                     otherProviders.Add(provider); 
                     _otherProviders = otherProviders;
@@ -1372,757 +1630,1087 @@ namespace st_installer_launcher.st_installer_launcher_XamlTypeInfo
             var that = (global::Microsoft.UI.Xaml.CornerRadius)instance;
             that.BottomLeft = (global::System.Double)Value;
         }
-        private object get_31_InfoBar_Content(object instance)
+        private object get_31_ScrollView_Content(object instance)
+        {
+            var that = (global::Microsoft.UI.Xaml.Controls.ScrollView)instance;
+            return that.Content;
+        }
+        private void set_31_ScrollView_Content(object instance, object Value)
+        {
+            var that = (global::Microsoft.UI.Xaml.Controls.ScrollView)instance;
+            that.Content = (global::Microsoft.UI.Xaml.UIElement)Value;
+        }
+        private object get_32_ScrollView_ComputedHorizontalScrollBarVisibility(object instance)
+        {
+            var that = (global::Microsoft.UI.Xaml.Controls.ScrollView)instance;
+            return that.ComputedHorizontalScrollBarVisibility;
+        }
+        private object get_33_ScrollView_ComputedHorizontalScrollMode(object instance)
+        {
+            var that = (global::Microsoft.UI.Xaml.Controls.ScrollView)instance;
+            return that.ComputedHorizontalScrollMode;
+        }
+        private object get_34_ScrollView_ComputedVerticalScrollBarVisibility(object instance)
+        {
+            var that = (global::Microsoft.UI.Xaml.Controls.ScrollView)instance;
+            return that.ComputedVerticalScrollBarVisibility;
+        }
+        private object get_35_ScrollView_ComputedVerticalScrollMode(object instance)
+        {
+            var that = (global::Microsoft.UI.Xaml.Controls.ScrollView)instance;
+            return that.ComputedVerticalScrollMode;
+        }
+        private object get_36_ScrollView_ContentOrientation(object instance)
+        {
+            var that = (global::Microsoft.UI.Xaml.Controls.ScrollView)instance;
+            return that.ContentOrientation;
+        }
+        private void set_36_ScrollView_ContentOrientation(object instance, object Value)
+        {
+            var that = (global::Microsoft.UI.Xaml.Controls.ScrollView)instance;
+            that.ContentOrientation = (global::Microsoft.UI.Xaml.Controls.ScrollingContentOrientation)Value;
+        }
+        private object get_37_ScrollView_CurrentAnchor(object instance)
+        {
+            var that = (global::Microsoft.UI.Xaml.Controls.ScrollView)instance;
+            return that.CurrentAnchor;
+        }
+        private object get_38_ScrollView_ExpressionAnimationSources(object instance)
+        {
+            var that = (global::Microsoft.UI.Xaml.Controls.ScrollView)instance;
+            return that.ExpressionAnimationSources;
+        }
+        private object get_39_ScrollView_ExtentHeight(object instance)
+        {
+            var that = (global::Microsoft.UI.Xaml.Controls.ScrollView)instance;
+            return that.ExtentHeight;
+        }
+        private object get_40_ScrollView_ExtentWidth(object instance)
+        {
+            var that = (global::Microsoft.UI.Xaml.Controls.ScrollView)instance;
+            return that.ExtentWidth;
+        }
+        private object get_41_ScrollView_HorizontalAnchorRatio(object instance)
+        {
+            var that = (global::Microsoft.UI.Xaml.Controls.ScrollView)instance;
+            return that.HorizontalAnchorRatio;
+        }
+        private void set_41_ScrollView_HorizontalAnchorRatio(object instance, object Value)
+        {
+            var that = (global::Microsoft.UI.Xaml.Controls.ScrollView)instance;
+            that.HorizontalAnchorRatio = (global::System.Double)Value;
+        }
+        private object get_42_ScrollView_HorizontalOffset(object instance)
+        {
+            var that = (global::Microsoft.UI.Xaml.Controls.ScrollView)instance;
+            return that.HorizontalOffset;
+        }
+        private object get_43_ScrollView_HorizontalScrollBarVisibility(object instance)
+        {
+            var that = (global::Microsoft.UI.Xaml.Controls.ScrollView)instance;
+            return that.HorizontalScrollBarVisibility;
+        }
+        private void set_43_ScrollView_HorizontalScrollBarVisibility(object instance, object Value)
+        {
+            var that = (global::Microsoft.UI.Xaml.Controls.ScrollView)instance;
+            that.HorizontalScrollBarVisibility = (global::Microsoft.UI.Xaml.Controls.ScrollingScrollBarVisibility)Value;
+        }
+        private object get_44_ScrollView_HorizontalScrollChainMode(object instance)
+        {
+            var that = (global::Microsoft.UI.Xaml.Controls.ScrollView)instance;
+            return that.HorizontalScrollChainMode;
+        }
+        private void set_44_ScrollView_HorizontalScrollChainMode(object instance, object Value)
+        {
+            var that = (global::Microsoft.UI.Xaml.Controls.ScrollView)instance;
+            that.HorizontalScrollChainMode = (global::Microsoft.UI.Xaml.Controls.ScrollingChainMode)Value;
+        }
+        private object get_45_ScrollView_HorizontalScrollMode(object instance)
+        {
+            var that = (global::Microsoft.UI.Xaml.Controls.ScrollView)instance;
+            return that.HorizontalScrollMode;
+        }
+        private void set_45_ScrollView_HorizontalScrollMode(object instance, object Value)
+        {
+            var that = (global::Microsoft.UI.Xaml.Controls.ScrollView)instance;
+            that.HorizontalScrollMode = (global::Microsoft.UI.Xaml.Controls.ScrollingScrollMode)Value;
+        }
+        private object get_46_ScrollView_HorizontalScrollRailMode(object instance)
+        {
+            var that = (global::Microsoft.UI.Xaml.Controls.ScrollView)instance;
+            return that.HorizontalScrollRailMode;
+        }
+        private void set_46_ScrollView_HorizontalScrollRailMode(object instance, object Value)
+        {
+            var that = (global::Microsoft.UI.Xaml.Controls.ScrollView)instance;
+            that.HorizontalScrollRailMode = (global::Microsoft.UI.Xaml.Controls.ScrollingRailMode)Value;
+        }
+        private object get_47_ScrollView_IgnoredInputKinds(object instance)
+        {
+            var that = (global::Microsoft.UI.Xaml.Controls.ScrollView)instance;
+            return that.IgnoredInputKinds;
+        }
+        private void set_47_ScrollView_IgnoredInputKinds(object instance, object Value)
+        {
+            var that = (global::Microsoft.UI.Xaml.Controls.ScrollView)instance;
+            that.IgnoredInputKinds = (global::Microsoft.UI.Xaml.Controls.ScrollingInputKinds)Value;
+        }
+        private object get_48_ScrollView_MaxZoomFactor(object instance)
+        {
+            var that = (global::Microsoft.UI.Xaml.Controls.ScrollView)instance;
+            return that.MaxZoomFactor;
+        }
+        private void set_48_ScrollView_MaxZoomFactor(object instance, object Value)
+        {
+            var that = (global::Microsoft.UI.Xaml.Controls.ScrollView)instance;
+            that.MaxZoomFactor = (global::System.Double)Value;
+        }
+        private object get_49_ScrollView_MinZoomFactor(object instance)
+        {
+            var that = (global::Microsoft.UI.Xaml.Controls.ScrollView)instance;
+            return that.MinZoomFactor;
+        }
+        private void set_49_ScrollView_MinZoomFactor(object instance, object Value)
+        {
+            var that = (global::Microsoft.UI.Xaml.Controls.ScrollView)instance;
+            that.MinZoomFactor = (global::System.Double)Value;
+        }
+        private object get_50_ScrollView_ScrollPresenter(object instance)
+        {
+            var that = (global::Microsoft.UI.Xaml.Controls.ScrollView)instance;
+            return that.ScrollPresenter;
+        }
+        private object get_51_ScrollPresenter_Content(object instance)
+        {
+            var that = (global::Microsoft.UI.Xaml.Controls.Primitives.ScrollPresenter)instance;
+            return that.Content;
+        }
+        private void set_51_ScrollPresenter_Content(object instance, object Value)
+        {
+            var that = (global::Microsoft.UI.Xaml.Controls.Primitives.ScrollPresenter)instance;
+            that.Content = (global::Microsoft.UI.Xaml.UIElement)Value;
+        }
+        private object get_52_ScrollView_ScrollableHeight(object instance)
+        {
+            var that = (global::Microsoft.UI.Xaml.Controls.ScrollView)instance;
+            return that.ScrollableHeight;
+        }
+        private object get_53_ScrollView_ScrollableWidth(object instance)
+        {
+            var that = (global::Microsoft.UI.Xaml.Controls.ScrollView)instance;
+            return that.ScrollableWidth;
+        }
+        private object get_54_ScrollView_State(object instance)
+        {
+            var that = (global::Microsoft.UI.Xaml.Controls.ScrollView)instance;
+            return that.State;
+        }
+        private object get_55_ScrollView_VerticalAnchorRatio(object instance)
+        {
+            var that = (global::Microsoft.UI.Xaml.Controls.ScrollView)instance;
+            return that.VerticalAnchorRatio;
+        }
+        private void set_55_ScrollView_VerticalAnchorRatio(object instance, object Value)
+        {
+            var that = (global::Microsoft.UI.Xaml.Controls.ScrollView)instance;
+            that.VerticalAnchorRatio = (global::System.Double)Value;
+        }
+        private object get_56_ScrollView_VerticalOffset(object instance)
+        {
+            var that = (global::Microsoft.UI.Xaml.Controls.ScrollView)instance;
+            return that.VerticalOffset;
+        }
+        private object get_57_ScrollView_VerticalScrollBarVisibility(object instance)
+        {
+            var that = (global::Microsoft.UI.Xaml.Controls.ScrollView)instance;
+            return that.VerticalScrollBarVisibility;
+        }
+        private void set_57_ScrollView_VerticalScrollBarVisibility(object instance, object Value)
+        {
+            var that = (global::Microsoft.UI.Xaml.Controls.ScrollView)instance;
+            that.VerticalScrollBarVisibility = (global::Microsoft.UI.Xaml.Controls.ScrollingScrollBarVisibility)Value;
+        }
+        private object get_58_ScrollView_VerticalScrollChainMode(object instance)
+        {
+            var that = (global::Microsoft.UI.Xaml.Controls.ScrollView)instance;
+            return that.VerticalScrollChainMode;
+        }
+        private void set_58_ScrollView_VerticalScrollChainMode(object instance, object Value)
+        {
+            var that = (global::Microsoft.UI.Xaml.Controls.ScrollView)instance;
+            that.VerticalScrollChainMode = (global::Microsoft.UI.Xaml.Controls.ScrollingChainMode)Value;
+        }
+        private object get_59_ScrollView_VerticalScrollMode(object instance)
+        {
+            var that = (global::Microsoft.UI.Xaml.Controls.ScrollView)instance;
+            return that.VerticalScrollMode;
+        }
+        private void set_59_ScrollView_VerticalScrollMode(object instance, object Value)
+        {
+            var that = (global::Microsoft.UI.Xaml.Controls.ScrollView)instance;
+            that.VerticalScrollMode = (global::Microsoft.UI.Xaml.Controls.ScrollingScrollMode)Value;
+        }
+        private object get_60_ScrollView_VerticalScrollRailMode(object instance)
+        {
+            var that = (global::Microsoft.UI.Xaml.Controls.ScrollView)instance;
+            return that.VerticalScrollRailMode;
+        }
+        private void set_60_ScrollView_VerticalScrollRailMode(object instance, object Value)
+        {
+            var that = (global::Microsoft.UI.Xaml.Controls.ScrollView)instance;
+            that.VerticalScrollRailMode = (global::Microsoft.UI.Xaml.Controls.ScrollingRailMode)Value;
+        }
+        private object get_61_ScrollView_ViewportHeight(object instance)
+        {
+            var that = (global::Microsoft.UI.Xaml.Controls.ScrollView)instance;
+            return that.ViewportHeight;
+        }
+        private object get_62_ScrollView_ViewportWidth(object instance)
+        {
+            var that = (global::Microsoft.UI.Xaml.Controls.ScrollView)instance;
+            return that.ViewportWidth;
+        }
+        private object get_63_ScrollView_ZoomChainMode(object instance)
+        {
+            var that = (global::Microsoft.UI.Xaml.Controls.ScrollView)instance;
+            return that.ZoomChainMode;
+        }
+        private void set_63_ScrollView_ZoomChainMode(object instance, object Value)
+        {
+            var that = (global::Microsoft.UI.Xaml.Controls.ScrollView)instance;
+            that.ZoomChainMode = (global::Microsoft.UI.Xaml.Controls.ScrollingChainMode)Value;
+        }
+        private object get_64_ScrollView_ZoomFactor(object instance)
+        {
+            var that = (global::Microsoft.UI.Xaml.Controls.ScrollView)instance;
+            return that.ZoomFactor;
+        }
+        private object get_65_ScrollView_ZoomMode(object instance)
+        {
+            var that = (global::Microsoft.UI.Xaml.Controls.ScrollView)instance;
+            return that.ZoomMode;
+        }
+        private void set_65_ScrollView_ZoomMode(object instance, object Value)
+        {
+            var that = (global::Microsoft.UI.Xaml.Controls.ScrollView)instance;
+            that.ZoomMode = (global::Microsoft.UI.Xaml.Controls.ScrollingZoomMode)Value;
+        }
+        private object get_66_Expander_Header(object instance)
+        {
+            var that = (global::Microsoft.UI.Xaml.Controls.Expander)instance;
+            return that.Header;
+        }
+        private void set_66_Expander_Header(object instance, object Value)
+        {
+            var that = (global::Microsoft.UI.Xaml.Controls.Expander)instance;
+            that.Header = (global::System.Object)Value;
+        }
+        private object get_67_Expander_ExpandDirection(object instance)
+        {
+            var that = (global::Microsoft.UI.Xaml.Controls.Expander)instance;
+            return that.ExpandDirection;
+        }
+        private void set_67_Expander_ExpandDirection(object instance, object Value)
+        {
+            var that = (global::Microsoft.UI.Xaml.Controls.Expander)instance;
+            that.ExpandDirection = (global::Microsoft.UI.Xaml.Controls.ExpandDirection)Value;
+        }
+        private object get_68_Expander_HeaderTemplate(object instance)
+        {
+            var that = (global::Microsoft.UI.Xaml.Controls.Expander)instance;
+            return that.HeaderTemplate;
+        }
+        private void set_68_Expander_HeaderTemplate(object instance, object Value)
+        {
+            var that = (global::Microsoft.UI.Xaml.Controls.Expander)instance;
+            that.HeaderTemplate = (global::Microsoft.UI.Xaml.DataTemplate)Value;
+        }
+        private object get_69_Expander_HeaderTemplateSelector(object instance)
+        {
+            var that = (global::Microsoft.UI.Xaml.Controls.Expander)instance;
+            return that.HeaderTemplateSelector;
+        }
+        private void set_69_Expander_HeaderTemplateSelector(object instance, object Value)
+        {
+            var that = (global::Microsoft.UI.Xaml.Controls.Expander)instance;
+            that.HeaderTemplateSelector = (global::Microsoft.UI.Xaml.Controls.DataTemplateSelector)Value;
+        }
+        private object get_70_Expander_IsExpanded(object instance)
+        {
+            var that = (global::Microsoft.UI.Xaml.Controls.Expander)instance;
+            return that.IsExpanded;
+        }
+        private void set_70_Expander_IsExpanded(object instance, object Value)
+        {
+            var that = (global::Microsoft.UI.Xaml.Controls.Expander)instance;
+            that.IsExpanded = (global::System.Boolean)Value;
+        }
+        private object get_71_Expander_TemplateSettings(object instance)
+        {
+            var that = (global::Microsoft.UI.Xaml.Controls.Expander)instance;
+            return that.TemplateSettings;
+        }
+        private object get_72_InstallOptionsPage_ViewModel(object instance)
+        {
+            var that = (global::st_installer_launcher.Views.InstallOptionsPage)instance;
+            return that.ViewModel;
+        }
+        private object get_73_LauncherOptionsPage_ViewModel(object instance)
+        {
+            var that = (global::st_installer_launcher.Views.LauncherOptionsPage)instance;
+            return that.ViewModel;
+        }
+        private object get_74_InfoBar_Content(object instance)
         {
             var that = (global::Microsoft.UI.Xaml.Controls.InfoBar)instance;
             return that.Content;
         }
-        private void set_31_InfoBar_Content(object instance, object Value)
+        private void set_74_InfoBar_Content(object instance, object Value)
         {
             var that = (global::Microsoft.UI.Xaml.Controls.InfoBar)instance;
             that.Content = (global::System.Object)Value;
         }
-        private object get_32_InfoBar_IsOpen(object instance)
+        private object get_75_InfoBar_IsOpen(object instance)
         {
             var that = (global::Microsoft.UI.Xaml.Controls.InfoBar)instance;
             return that.IsOpen;
         }
-        private void set_32_InfoBar_IsOpen(object instance, object Value)
+        private void set_75_InfoBar_IsOpen(object instance, object Value)
         {
             var that = (global::Microsoft.UI.Xaml.Controls.InfoBar)instance;
             that.IsOpen = (global::System.Boolean)Value;
         }
-        private object get_33_InfoBar_IsClosable(object instance)
+        private object get_76_InfoBar_IsClosable(object instance)
         {
             var that = (global::Microsoft.UI.Xaml.Controls.InfoBar)instance;
             return that.IsClosable;
         }
-        private void set_33_InfoBar_IsClosable(object instance, object Value)
+        private void set_76_InfoBar_IsClosable(object instance, object Value)
         {
             var that = (global::Microsoft.UI.Xaml.Controls.InfoBar)instance;
             that.IsClosable = (global::System.Boolean)Value;
         }
-        private object get_34_InfoBar_Severity(object instance)
+        private object get_77_InfoBar_Severity(object instance)
         {
             var that = (global::Microsoft.UI.Xaml.Controls.InfoBar)instance;
             return that.Severity;
         }
-        private void set_34_InfoBar_Severity(object instance, object Value)
+        private void set_77_InfoBar_Severity(object instance, object Value)
         {
             var that = (global::Microsoft.UI.Xaml.Controls.InfoBar)instance;
             that.Severity = (global::Microsoft.UI.Xaml.Controls.InfoBarSeverity)Value;
         }
-        private object get_35_InfoBar_Title(object instance)
+        private object get_78_InfoBar_Title(object instance)
         {
             var that = (global::Microsoft.UI.Xaml.Controls.InfoBar)instance;
             return that.Title;
         }
-        private void set_35_InfoBar_Title(object instance, object Value)
+        private void set_78_InfoBar_Title(object instance, object Value)
         {
             var that = (global::Microsoft.UI.Xaml.Controls.InfoBar)instance;
             that.Title = (global::System.String)Value;
         }
-        private object get_36_InfoBar_Message(object instance)
+        private object get_79_InfoBar_Message(object instance)
         {
             var that = (global::Microsoft.UI.Xaml.Controls.InfoBar)instance;
             return that.Message;
         }
-        private void set_36_InfoBar_Message(object instance, object Value)
+        private void set_79_InfoBar_Message(object instance, object Value)
         {
             var that = (global::Microsoft.UI.Xaml.Controls.InfoBar)instance;
             that.Message = (global::System.String)Value;
         }
-        private object get_37_InfoBar_ActionButton(object instance)
+        private object get_80_InfoBar_ActionButton(object instance)
         {
             var that = (global::Microsoft.UI.Xaml.Controls.InfoBar)instance;
             return that.ActionButton;
         }
-        private void set_37_InfoBar_ActionButton(object instance, object Value)
+        private void set_80_InfoBar_ActionButton(object instance, object Value)
         {
             var that = (global::Microsoft.UI.Xaml.Controls.InfoBar)instance;
             that.ActionButton = (global::Microsoft.UI.Xaml.Controls.Primitives.ButtonBase)Value;
         }
-        private object get_38_InfoBar_CloseButtonCommand(object instance)
+        private object get_81_InfoBar_CloseButtonCommand(object instance)
         {
             var that = (global::Microsoft.UI.Xaml.Controls.InfoBar)instance;
             return that.CloseButtonCommand;
         }
-        private void set_38_InfoBar_CloseButtonCommand(object instance, object Value)
+        private void set_81_InfoBar_CloseButtonCommand(object instance, object Value)
         {
             var that = (global::Microsoft.UI.Xaml.Controls.InfoBar)instance;
             that.CloseButtonCommand = (global::System.Windows.Input.ICommand)Value;
         }
-        private object get_39_InfoBar_CloseButtonCommandParameter(object instance)
+        private object get_82_InfoBar_CloseButtonCommandParameter(object instance)
         {
             var that = (global::Microsoft.UI.Xaml.Controls.InfoBar)instance;
             return that.CloseButtonCommandParameter;
         }
-        private void set_39_InfoBar_CloseButtonCommandParameter(object instance, object Value)
+        private void set_82_InfoBar_CloseButtonCommandParameter(object instance, object Value)
         {
             var that = (global::Microsoft.UI.Xaml.Controls.InfoBar)instance;
             that.CloseButtonCommandParameter = (global::System.Object)Value;
         }
-        private object get_40_InfoBar_CloseButtonStyle(object instance)
+        private object get_83_InfoBar_CloseButtonStyle(object instance)
         {
             var that = (global::Microsoft.UI.Xaml.Controls.InfoBar)instance;
             return that.CloseButtonStyle;
         }
-        private void set_40_InfoBar_CloseButtonStyle(object instance, object Value)
+        private void set_83_InfoBar_CloseButtonStyle(object instance, object Value)
         {
             var that = (global::Microsoft.UI.Xaml.Controls.InfoBar)instance;
             that.CloseButtonStyle = (global::Microsoft.UI.Xaml.Style)Value;
         }
-        private object get_41_InfoBar_ContentTemplate(object instance)
+        private object get_84_InfoBar_ContentTemplate(object instance)
         {
             var that = (global::Microsoft.UI.Xaml.Controls.InfoBar)instance;
             return that.ContentTemplate;
         }
-        private void set_41_InfoBar_ContentTemplate(object instance, object Value)
+        private void set_84_InfoBar_ContentTemplate(object instance, object Value)
         {
             var that = (global::Microsoft.UI.Xaml.Controls.InfoBar)instance;
             that.ContentTemplate = (global::Microsoft.UI.Xaml.DataTemplate)Value;
         }
-        private object get_42_InfoBar_IconSource(object instance)
+        private object get_85_InfoBar_IconSource(object instance)
         {
             var that = (global::Microsoft.UI.Xaml.Controls.InfoBar)instance;
             return that.IconSource;
         }
-        private void set_42_InfoBar_IconSource(object instance, object Value)
+        private void set_85_InfoBar_IconSource(object instance, object Value)
         {
             var that = (global::Microsoft.UI.Xaml.Controls.InfoBar)instance;
             that.IconSource = (global::Microsoft.UI.Xaml.Controls.IconSource)Value;
         }
-        private object get_43_InfoBar_IsIconVisible(object instance)
+        private object get_86_InfoBar_IsIconVisible(object instance)
         {
             var that = (global::Microsoft.UI.Xaml.Controls.InfoBar)instance;
             return that.IsIconVisible;
         }
-        private void set_43_InfoBar_IsIconVisible(object instance, object Value)
+        private void set_86_InfoBar_IsIconVisible(object instance, object Value)
         {
             var that = (global::Microsoft.UI.Xaml.Controls.InfoBar)instance;
             that.IsIconVisible = (global::System.Boolean)Value;
         }
-        private object get_44_InfoBar_TemplateSettings(object instance)
+        private object get_87_InfoBar_TemplateSettings(object instance)
         {
             var that = (global::Microsoft.UI.Xaml.Controls.InfoBar)instance;
             return that.TemplateSettings;
         }
-        private object get_45_ProgressRing_IsActive(object instance)
+        private object get_88_ProgressRing_IsActive(object instance)
         {
             var that = (global::Microsoft.UI.Xaml.Controls.ProgressRing)instance;
             return that.IsActive;
         }
-        private void set_45_ProgressRing_IsActive(object instance, object Value)
+        private void set_88_ProgressRing_IsActive(object instance, object Value)
         {
             var that = (global::Microsoft.UI.Xaml.Controls.ProgressRing)instance;
             that.IsActive = (global::System.Boolean)Value;
         }
-        private object get_46_ProgressRing_IsIndeterminate(object instance)
+        private object get_89_ProgressRing_IsIndeterminate(object instance)
         {
             var that = (global::Microsoft.UI.Xaml.Controls.ProgressRing)instance;
             return that.IsIndeterminate;
         }
-        private void set_46_ProgressRing_IsIndeterminate(object instance, object Value)
+        private void set_89_ProgressRing_IsIndeterminate(object instance, object Value)
         {
             var that = (global::Microsoft.UI.Xaml.Controls.ProgressRing)instance;
             that.IsIndeterminate = (global::System.Boolean)Value;
         }
-        private object get_47_ProgressRing_Maximum(object instance)
+        private object get_90_ProgressRing_Maximum(object instance)
         {
             var that = (global::Microsoft.UI.Xaml.Controls.ProgressRing)instance;
             return that.Maximum;
         }
-        private void set_47_ProgressRing_Maximum(object instance, object Value)
+        private void set_90_ProgressRing_Maximum(object instance, object Value)
         {
             var that = (global::Microsoft.UI.Xaml.Controls.ProgressRing)instance;
             that.Maximum = (global::System.Double)Value;
         }
-        private object get_48_ProgressRing_Minimum(object instance)
+        private object get_91_ProgressRing_Minimum(object instance)
         {
             var that = (global::Microsoft.UI.Xaml.Controls.ProgressRing)instance;
             return that.Minimum;
         }
-        private void set_48_ProgressRing_Minimum(object instance, object Value)
+        private void set_91_ProgressRing_Minimum(object instance, object Value)
         {
             var that = (global::Microsoft.UI.Xaml.Controls.ProgressRing)instance;
             that.Minimum = (global::System.Double)Value;
         }
-        private object get_49_ProgressRing_TemplateSettings(object instance)
+        private object get_92_ProgressRing_TemplateSettings(object instance)
         {
             var that = (global::Microsoft.UI.Xaml.Controls.ProgressRing)instance;
             return that.TemplateSettings;
         }
-        private object get_50_ProgressRing_Value(object instance)
+        private object get_93_ProgressRing_Value(object instance)
         {
             var that = (global::Microsoft.UI.Xaml.Controls.ProgressRing)instance;
             return that.Value;
         }
-        private void set_50_ProgressRing_Value(object instance, object Value)
+        private void set_93_ProgressRing_Value(object instance, object Value)
         {
             var that = (global::Microsoft.UI.Xaml.Controls.ProgressRing)instance;
             that.Value = (global::System.Double)Value;
         }
-        private object get_51_MainPage_ViewModel(object instance)
+        private object get_94_MainPage_ViewModel(object instance)
         {
             var that = (global::st_installer_launcher.Views.MainPage)instance;
             return that.ViewModel;
         }
-        private object get_52_SettingsPage_ViewModel(object instance)
+        private object get_95_SettingsPage_ViewModel(object instance)
         {
             var that = (global::st_installer_launcher.Views.SettingsPage)instance;
             return that.ViewModel;
         }
-        private object get_53_NavigationView_IsBackButtonVisible(object instance)
+        private object get_96_NavigationView_IsBackButtonVisible(object instance)
         {
             var that = (global::Microsoft.UI.Xaml.Controls.NavigationView)instance;
             return that.IsBackButtonVisible;
         }
-        private void set_53_NavigationView_IsBackButtonVisible(object instance, object Value)
+        private void set_96_NavigationView_IsBackButtonVisible(object instance, object Value)
         {
             var that = (global::Microsoft.UI.Xaml.Controls.NavigationView)instance;
             that.IsBackButtonVisible = (global::Microsoft.UI.Xaml.Controls.NavigationViewBackButtonVisible)Value;
         }
-        private object get_54_NavigationView_IsBackEnabled(object instance)
+        private object get_97_NavigationView_IsBackEnabled(object instance)
         {
             var that = (global::Microsoft.UI.Xaml.Controls.NavigationView)instance;
             return that.IsBackEnabled;
         }
-        private void set_54_NavigationView_IsBackEnabled(object instance, object Value)
+        private void set_97_NavigationView_IsBackEnabled(object instance, object Value)
         {
             var that = (global::Microsoft.UI.Xaml.Controls.NavigationView)instance;
             that.IsBackEnabled = (global::System.Boolean)Value;
         }
-        private object get_55_NavigationView_SelectedItem(object instance)
+        private object get_98_NavigationView_SelectedItem(object instance)
         {
             var that = (global::Microsoft.UI.Xaml.Controls.NavigationView)instance;
             return that.SelectedItem;
         }
-        private void set_55_NavigationView_SelectedItem(object instance, object Value)
+        private void set_98_NavigationView_SelectedItem(object instance, object Value)
         {
             var that = (global::Microsoft.UI.Xaml.Controls.NavigationView)instance;
             that.SelectedItem = (global::System.Object)Value;
         }
-        private object get_56_NavigationView_IsSettingsVisible(object instance)
+        private object get_99_NavigationView_IsSettingsVisible(object instance)
         {
             var that = (global::Microsoft.UI.Xaml.Controls.NavigationView)instance;
             return that.IsSettingsVisible;
         }
-        private void set_56_NavigationView_IsSettingsVisible(object instance, object Value)
+        private void set_99_NavigationView_IsSettingsVisible(object instance, object Value)
         {
             var that = (global::Microsoft.UI.Xaml.Controls.NavigationView)instance;
             that.IsSettingsVisible = (global::System.Boolean)Value;
         }
-        private object get_57_NavigationView_ExpandedModeThresholdWidth(object instance)
+        private object get_100_NavigationView_ExpandedModeThresholdWidth(object instance)
         {
             var that = (global::Microsoft.UI.Xaml.Controls.NavigationView)instance;
             return that.ExpandedModeThresholdWidth;
         }
-        private void set_57_NavigationView_ExpandedModeThresholdWidth(object instance, object Value)
+        private void set_100_NavigationView_ExpandedModeThresholdWidth(object instance, object Value)
         {
             var that = (global::Microsoft.UI.Xaml.Controls.NavigationView)instance;
             that.ExpandedModeThresholdWidth = (global::System.Double)Value;
         }
-        private object get_58_NavigationView_Header(object instance)
+        private object get_101_NavigationView_Header(object instance)
         {
             var that = (global::Microsoft.UI.Xaml.Controls.NavigationView)instance;
             return that.Header;
         }
-        private void set_58_NavigationView_Header(object instance, object Value)
+        private void set_101_NavigationView_Header(object instance, object Value)
         {
             var that = (global::Microsoft.UI.Xaml.Controls.NavigationView)instance;
             that.Header = (global::System.Object)Value;
         }
-        private object get_59_NavigationView_MenuItems(object instance)
+        private object get_102_NavigationView_MenuItems(object instance)
         {
             var that = (global::Microsoft.UI.Xaml.Controls.NavigationView)instance;
             return that.MenuItems;
         }
-        private object get_60_NavigationView_HeaderTemplate(object instance)
+        private object get_103_NavigationView_HeaderTemplate(object instance)
         {
             var that = (global::Microsoft.UI.Xaml.Controls.NavigationView)instance;
             return that.HeaderTemplate;
         }
-        private void set_60_NavigationView_HeaderTemplate(object instance, object Value)
+        private void set_103_NavigationView_HeaderTemplate(object instance, object Value)
         {
             var that = (global::Microsoft.UI.Xaml.Controls.NavigationView)instance;
             that.HeaderTemplate = (global::Microsoft.UI.Xaml.DataTemplate)Value;
         }
-        private object get_61_NavigationView_AlwaysShowHeader(object instance)
+        private object get_104_NavigationView_AlwaysShowHeader(object instance)
         {
             var that = (global::Microsoft.UI.Xaml.Controls.NavigationView)instance;
             return that.AlwaysShowHeader;
         }
-        private void set_61_NavigationView_AlwaysShowHeader(object instance, object Value)
+        private void set_104_NavigationView_AlwaysShowHeader(object instance, object Value)
         {
             var that = (global::Microsoft.UI.Xaml.Controls.NavigationView)instance;
             that.AlwaysShowHeader = (global::System.Boolean)Value;
         }
-        private object get_62_NavigationView_AutoSuggestBox(object instance)
+        private object get_105_NavigationView_AutoSuggestBox(object instance)
         {
             var that = (global::Microsoft.UI.Xaml.Controls.NavigationView)instance;
             return that.AutoSuggestBox;
         }
-        private void set_62_NavigationView_AutoSuggestBox(object instance, object Value)
+        private void set_105_NavigationView_AutoSuggestBox(object instance, object Value)
         {
             var that = (global::Microsoft.UI.Xaml.Controls.NavigationView)instance;
             that.AutoSuggestBox = (global::Microsoft.UI.Xaml.Controls.AutoSuggestBox)Value;
         }
-        private object get_63_NavigationView_CompactModeThresholdWidth(object instance)
+        private object get_106_NavigationView_CompactModeThresholdWidth(object instance)
         {
             var that = (global::Microsoft.UI.Xaml.Controls.NavigationView)instance;
             return that.CompactModeThresholdWidth;
         }
-        private void set_63_NavigationView_CompactModeThresholdWidth(object instance, object Value)
+        private void set_106_NavigationView_CompactModeThresholdWidth(object instance, object Value)
         {
             var that = (global::Microsoft.UI.Xaml.Controls.NavigationView)instance;
             that.CompactModeThresholdWidth = (global::System.Double)Value;
         }
-        private object get_64_NavigationView_CompactPaneLength(object instance)
+        private object get_107_NavigationView_CompactPaneLength(object instance)
         {
             var that = (global::Microsoft.UI.Xaml.Controls.NavigationView)instance;
             return that.CompactPaneLength;
         }
-        private void set_64_NavigationView_CompactPaneLength(object instance, object Value)
+        private void set_107_NavigationView_CompactPaneLength(object instance, object Value)
         {
             var that = (global::Microsoft.UI.Xaml.Controls.NavigationView)instance;
             that.CompactPaneLength = (global::System.Double)Value;
         }
-        private object get_65_NavigationView_ContentOverlay(object instance)
+        private object get_108_NavigationView_ContentOverlay(object instance)
         {
             var that = (global::Microsoft.UI.Xaml.Controls.NavigationView)instance;
             return that.ContentOverlay;
         }
-        private void set_65_NavigationView_ContentOverlay(object instance, object Value)
+        private void set_108_NavigationView_ContentOverlay(object instance, object Value)
         {
             var that = (global::Microsoft.UI.Xaml.Controls.NavigationView)instance;
             that.ContentOverlay = (global::Microsoft.UI.Xaml.UIElement)Value;
         }
-        private object get_66_NavigationView_DisplayMode(object instance)
+        private object get_109_NavigationView_DisplayMode(object instance)
         {
             var that = (global::Microsoft.UI.Xaml.Controls.NavigationView)instance;
             return that.DisplayMode;
         }
-        private object get_67_NavigationView_FooterMenuItems(object instance)
+        private object get_110_NavigationView_FooterMenuItems(object instance)
         {
             var that = (global::Microsoft.UI.Xaml.Controls.NavigationView)instance;
             return that.FooterMenuItems;
         }
-        private object get_68_NavigationView_FooterMenuItemsSource(object instance)
+        private object get_111_NavigationView_FooterMenuItemsSource(object instance)
         {
             var that = (global::Microsoft.UI.Xaml.Controls.NavigationView)instance;
             return that.FooterMenuItemsSource;
         }
-        private void set_68_NavigationView_FooterMenuItemsSource(object instance, object Value)
+        private void set_111_NavigationView_FooterMenuItemsSource(object instance, object Value)
         {
             var that = (global::Microsoft.UI.Xaml.Controls.NavigationView)instance;
             that.FooterMenuItemsSource = (global::System.Object)Value;
         }
-        private object get_69_NavigationView_IsPaneOpen(object instance)
+        private object get_112_NavigationView_IsPaneOpen(object instance)
         {
             var that = (global::Microsoft.UI.Xaml.Controls.NavigationView)instance;
             return that.IsPaneOpen;
         }
-        private void set_69_NavigationView_IsPaneOpen(object instance, object Value)
+        private void set_112_NavigationView_IsPaneOpen(object instance, object Value)
         {
             var that = (global::Microsoft.UI.Xaml.Controls.NavigationView)instance;
             that.IsPaneOpen = (global::System.Boolean)Value;
         }
-        private object get_70_NavigationView_IsPaneToggleButtonVisible(object instance)
+        private object get_113_NavigationView_IsPaneToggleButtonVisible(object instance)
         {
             var that = (global::Microsoft.UI.Xaml.Controls.NavigationView)instance;
             return that.IsPaneToggleButtonVisible;
         }
-        private void set_70_NavigationView_IsPaneToggleButtonVisible(object instance, object Value)
+        private void set_113_NavigationView_IsPaneToggleButtonVisible(object instance, object Value)
         {
             var that = (global::Microsoft.UI.Xaml.Controls.NavigationView)instance;
             that.IsPaneToggleButtonVisible = (global::System.Boolean)Value;
         }
-        private object get_71_NavigationView_IsPaneVisible(object instance)
+        private object get_114_NavigationView_IsPaneVisible(object instance)
         {
             var that = (global::Microsoft.UI.Xaml.Controls.NavigationView)instance;
             return that.IsPaneVisible;
         }
-        private void set_71_NavigationView_IsPaneVisible(object instance, object Value)
+        private void set_114_NavigationView_IsPaneVisible(object instance, object Value)
         {
             var that = (global::Microsoft.UI.Xaml.Controls.NavigationView)instance;
             that.IsPaneVisible = (global::System.Boolean)Value;
         }
-        private object get_72_NavigationView_IsTitleBarAutoPaddingEnabled(object instance)
+        private object get_115_NavigationView_IsTitleBarAutoPaddingEnabled(object instance)
         {
             var that = (global::Microsoft.UI.Xaml.Controls.NavigationView)instance;
             return that.IsTitleBarAutoPaddingEnabled;
         }
-        private void set_72_NavigationView_IsTitleBarAutoPaddingEnabled(object instance, object Value)
+        private void set_115_NavigationView_IsTitleBarAutoPaddingEnabled(object instance, object Value)
         {
             var that = (global::Microsoft.UI.Xaml.Controls.NavigationView)instance;
             that.IsTitleBarAutoPaddingEnabled = (global::System.Boolean)Value;
         }
-        private object get_73_NavigationView_MenuItemContainerStyle(object instance)
+        private object get_116_NavigationView_MenuItemContainerStyle(object instance)
         {
             var that = (global::Microsoft.UI.Xaml.Controls.NavigationView)instance;
             return that.MenuItemContainerStyle;
         }
-        private void set_73_NavigationView_MenuItemContainerStyle(object instance, object Value)
+        private void set_116_NavigationView_MenuItemContainerStyle(object instance, object Value)
         {
             var that = (global::Microsoft.UI.Xaml.Controls.NavigationView)instance;
             that.MenuItemContainerStyle = (global::Microsoft.UI.Xaml.Style)Value;
         }
-        private object get_74_NavigationView_MenuItemContainerStyleSelector(object instance)
+        private object get_117_NavigationView_MenuItemContainerStyleSelector(object instance)
         {
             var that = (global::Microsoft.UI.Xaml.Controls.NavigationView)instance;
             return that.MenuItemContainerStyleSelector;
         }
-        private void set_74_NavigationView_MenuItemContainerStyleSelector(object instance, object Value)
+        private void set_117_NavigationView_MenuItemContainerStyleSelector(object instance, object Value)
         {
             var that = (global::Microsoft.UI.Xaml.Controls.NavigationView)instance;
             that.MenuItemContainerStyleSelector = (global::Microsoft.UI.Xaml.Controls.StyleSelector)Value;
         }
-        private object get_75_NavigationView_MenuItemTemplate(object instance)
+        private object get_118_NavigationView_MenuItemTemplate(object instance)
         {
             var that = (global::Microsoft.UI.Xaml.Controls.NavigationView)instance;
             return that.MenuItemTemplate;
         }
-        private void set_75_NavigationView_MenuItemTemplate(object instance, object Value)
+        private void set_118_NavigationView_MenuItemTemplate(object instance, object Value)
         {
             var that = (global::Microsoft.UI.Xaml.Controls.NavigationView)instance;
             that.MenuItemTemplate = (global::Microsoft.UI.Xaml.DataTemplate)Value;
         }
-        private object get_76_NavigationView_MenuItemTemplateSelector(object instance)
+        private object get_119_NavigationView_MenuItemTemplateSelector(object instance)
         {
             var that = (global::Microsoft.UI.Xaml.Controls.NavigationView)instance;
             return that.MenuItemTemplateSelector;
         }
-        private void set_76_NavigationView_MenuItemTemplateSelector(object instance, object Value)
+        private void set_119_NavigationView_MenuItemTemplateSelector(object instance, object Value)
         {
             var that = (global::Microsoft.UI.Xaml.Controls.NavigationView)instance;
             that.MenuItemTemplateSelector = (global::Microsoft.UI.Xaml.Controls.DataTemplateSelector)Value;
         }
-        private object get_77_NavigationView_MenuItemsSource(object instance)
+        private object get_120_NavigationView_MenuItemsSource(object instance)
         {
             var that = (global::Microsoft.UI.Xaml.Controls.NavigationView)instance;
             return that.MenuItemsSource;
         }
-        private void set_77_NavigationView_MenuItemsSource(object instance, object Value)
+        private void set_120_NavigationView_MenuItemsSource(object instance, object Value)
         {
             var that = (global::Microsoft.UI.Xaml.Controls.NavigationView)instance;
             that.MenuItemsSource = (global::System.Object)Value;
         }
-        private object get_78_NavigationView_OpenPaneLength(object instance)
+        private object get_121_NavigationView_OpenPaneLength(object instance)
         {
             var that = (global::Microsoft.UI.Xaml.Controls.NavigationView)instance;
             return that.OpenPaneLength;
         }
-        private void set_78_NavigationView_OpenPaneLength(object instance, object Value)
+        private void set_121_NavigationView_OpenPaneLength(object instance, object Value)
         {
             var that = (global::Microsoft.UI.Xaml.Controls.NavigationView)instance;
             that.OpenPaneLength = (global::System.Double)Value;
         }
-        private object get_79_NavigationView_OverflowLabelMode(object instance)
+        private object get_122_NavigationView_OverflowLabelMode(object instance)
         {
             var that = (global::Microsoft.UI.Xaml.Controls.NavigationView)instance;
             return that.OverflowLabelMode;
         }
-        private void set_79_NavigationView_OverflowLabelMode(object instance, object Value)
+        private void set_122_NavigationView_OverflowLabelMode(object instance, object Value)
         {
             var that = (global::Microsoft.UI.Xaml.Controls.NavigationView)instance;
             that.OverflowLabelMode = (global::Microsoft.UI.Xaml.Controls.NavigationViewOverflowLabelMode)Value;
         }
-        private object get_80_NavigationView_PaneCustomContent(object instance)
+        private object get_123_NavigationView_PaneCustomContent(object instance)
         {
             var that = (global::Microsoft.UI.Xaml.Controls.NavigationView)instance;
             return that.PaneCustomContent;
         }
-        private void set_80_NavigationView_PaneCustomContent(object instance, object Value)
+        private void set_123_NavigationView_PaneCustomContent(object instance, object Value)
         {
             var that = (global::Microsoft.UI.Xaml.Controls.NavigationView)instance;
             that.PaneCustomContent = (global::Microsoft.UI.Xaml.UIElement)Value;
         }
-        private object get_81_NavigationView_PaneDisplayMode(object instance)
+        private object get_124_NavigationView_PaneDisplayMode(object instance)
         {
             var that = (global::Microsoft.UI.Xaml.Controls.NavigationView)instance;
             return that.PaneDisplayMode;
         }
-        private void set_81_NavigationView_PaneDisplayMode(object instance, object Value)
+        private void set_124_NavigationView_PaneDisplayMode(object instance, object Value)
         {
             var that = (global::Microsoft.UI.Xaml.Controls.NavigationView)instance;
             that.PaneDisplayMode = (global::Microsoft.UI.Xaml.Controls.NavigationViewPaneDisplayMode)Value;
         }
-        private object get_82_NavigationView_PaneFooter(object instance)
+        private object get_125_NavigationView_PaneFooter(object instance)
         {
             var that = (global::Microsoft.UI.Xaml.Controls.NavigationView)instance;
             return that.PaneFooter;
         }
-        private void set_82_NavigationView_PaneFooter(object instance, object Value)
+        private void set_125_NavigationView_PaneFooter(object instance, object Value)
         {
             var that = (global::Microsoft.UI.Xaml.Controls.NavigationView)instance;
             that.PaneFooter = (global::Microsoft.UI.Xaml.UIElement)Value;
         }
-        private object get_83_NavigationView_PaneHeader(object instance)
+        private object get_126_NavigationView_PaneHeader(object instance)
         {
             var that = (global::Microsoft.UI.Xaml.Controls.NavigationView)instance;
             return that.PaneHeader;
         }
-        private void set_83_NavigationView_PaneHeader(object instance, object Value)
+        private void set_126_NavigationView_PaneHeader(object instance, object Value)
         {
             var that = (global::Microsoft.UI.Xaml.Controls.NavigationView)instance;
             that.PaneHeader = (global::Microsoft.UI.Xaml.UIElement)Value;
         }
-        private object get_84_NavigationView_PaneTitle(object instance)
+        private object get_127_NavigationView_PaneTitle(object instance)
         {
             var that = (global::Microsoft.UI.Xaml.Controls.NavigationView)instance;
             return that.PaneTitle;
         }
-        private void set_84_NavigationView_PaneTitle(object instance, object Value)
+        private void set_127_NavigationView_PaneTitle(object instance, object Value)
         {
             var that = (global::Microsoft.UI.Xaml.Controls.NavigationView)instance;
             that.PaneTitle = (global::System.String)Value;
         }
-        private object get_85_NavigationView_PaneToggleButtonStyle(object instance)
+        private object get_128_NavigationView_PaneToggleButtonStyle(object instance)
         {
             var that = (global::Microsoft.UI.Xaml.Controls.NavigationView)instance;
             return that.PaneToggleButtonStyle;
         }
-        private void set_85_NavigationView_PaneToggleButtonStyle(object instance, object Value)
+        private void set_128_NavigationView_PaneToggleButtonStyle(object instance, object Value)
         {
             var that = (global::Microsoft.UI.Xaml.Controls.NavigationView)instance;
             that.PaneToggleButtonStyle = (global::Microsoft.UI.Xaml.Style)Value;
         }
-        private object get_86_NavigationView_SelectionFollowsFocus(object instance)
+        private object get_129_NavigationView_SelectionFollowsFocus(object instance)
         {
             var that = (global::Microsoft.UI.Xaml.Controls.NavigationView)instance;
             return that.SelectionFollowsFocus;
         }
-        private void set_86_NavigationView_SelectionFollowsFocus(object instance, object Value)
+        private void set_129_NavigationView_SelectionFollowsFocus(object instance, object Value)
         {
             var that = (global::Microsoft.UI.Xaml.Controls.NavigationView)instance;
             that.SelectionFollowsFocus = (global::Microsoft.UI.Xaml.Controls.NavigationViewSelectionFollowsFocus)Value;
         }
-        private object get_87_NavigationView_SettingsItem(object instance)
+        private object get_130_NavigationView_SettingsItem(object instance)
         {
             var that = (global::Microsoft.UI.Xaml.Controls.NavigationView)instance;
             return that.SettingsItem;
         }
-        private object get_88_NavigationView_ShoulderNavigationEnabled(object instance)
+        private object get_131_NavigationView_ShoulderNavigationEnabled(object instance)
         {
             var that = (global::Microsoft.UI.Xaml.Controls.NavigationView)instance;
             return that.ShoulderNavigationEnabled;
         }
-        private void set_88_NavigationView_ShoulderNavigationEnabled(object instance, object Value)
+        private void set_131_NavigationView_ShoulderNavigationEnabled(object instance, object Value)
         {
             var that = (global::Microsoft.UI.Xaml.Controls.NavigationView)instance;
             that.ShoulderNavigationEnabled = (global::Microsoft.UI.Xaml.Controls.NavigationViewShoulderNavigationEnabled)Value;
         }
-        private object get_89_NavigationView_TemplateSettings(object instance)
+        private object get_132_NavigationView_TemplateSettings(object instance)
         {
             var that = (global::Microsoft.UI.Xaml.Controls.NavigationView)instance;
             return that.TemplateSettings;
         }
-        private object get_90_Interaction_Behaviors(object instance)
+        private object get_133_Interaction_Behaviors(object instance)
         {
             return global::Microsoft.Xaml.Interactivity.Interaction.GetBehaviors((global::Microsoft.UI.Xaml.DependencyObject)instance);
         }
-        private void set_90_Interaction_Behaviors(object instance, object Value)
+        private void set_133_Interaction_Behaviors(object instance, object Value)
         {
             global::Microsoft.Xaml.Interactivity.Interaction.SetBehaviors((global::Microsoft.UI.Xaml.DependencyObject)instance, (global::Microsoft.Xaml.Interactivity.BehaviorCollection)Value);
         }
-        private object get_91_NavigationViewItem_Icon(object instance)
+        private object get_134_NavigationViewItem_Icon(object instance)
         {
             var that = (global::Microsoft.UI.Xaml.Controls.NavigationViewItem)instance;
             return that.Icon;
         }
-        private void set_91_NavigationViewItem_Icon(object instance, object Value)
+        private void set_134_NavigationViewItem_Icon(object instance, object Value)
         {
             var that = (global::Microsoft.UI.Xaml.Controls.NavigationViewItem)instance;
             that.Icon = (global::Microsoft.UI.Xaml.Controls.IconElement)Value;
         }
-        private object get_92_NavigationViewItem_CompactPaneLength(object instance)
+        private object get_135_NavigationViewItem_CompactPaneLength(object instance)
         {
             var that = (global::Microsoft.UI.Xaml.Controls.NavigationViewItem)instance;
             return that.CompactPaneLength;
         }
-        private object get_93_NavigationViewItem_HasUnrealizedChildren(object instance)
+        private object get_136_NavigationViewItem_HasUnrealizedChildren(object instance)
         {
             var that = (global::Microsoft.UI.Xaml.Controls.NavigationViewItem)instance;
             return that.HasUnrealizedChildren;
         }
-        private void set_93_NavigationViewItem_HasUnrealizedChildren(object instance, object Value)
+        private void set_136_NavigationViewItem_HasUnrealizedChildren(object instance, object Value)
         {
             var that = (global::Microsoft.UI.Xaml.Controls.NavigationViewItem)instance;
             that.HasUnrealizedChildren = (global::System.Boolean)Value;
         }
-        private object get_94_NavigationViewItem_InfoBadge(object instance)
+        private object get_137_NavigationViewItem_InfoBadge(object instance)
         {
             var that = (global::Microsoft.UI.Xaml.Controls.NavigationViewItem)instance;
             return that.InfoBadge;
         }
-        private void set_94_NavigationViewItem_InfoBadge(object instance, object Value)
+        private void set_137_NavigationViewItem_InfoBadge(object instance, object Value)
         {
             var that = (global::Microsoft.UI.Xaml.Controls.NavigationViewItem)instance;
             that.InfoBadge = (global::Microsoft.UI.Xaml.Controls.InfoBadge)Value;
         }
-        private object get_95_NavigationViewItem_IsChildSelected(object instance)
+        private object get_138_NavigationViewItem_IsChildSelected(object instance)
         {
             var that = (global::Microsoft.UI.Xaml.Controls.NavigationViewItem)instance;
             return that.IsChildSelected;
         }
-        private void set_95_NavigationViewItem_IsChildSelected(object instance, object Value)
+        private void set_138_NavigationViewItem_IsChildSelected(object instance, object Value)
         {
             var that = (global::Microsoft.UI.Xaml.Controls.NavigationViewItem)instance;
             that.IsChildSelected = (global::System.Boolean)Value;
         }
-        private object get_96_NavigationViewItem_IsExpanded(object instance)
+        private object get_139_NavigationViewItem_IsExpanded(object instance)
         {
             var that = (global::Microsoft.UI.Xaml.Controls.NavigationViewItem)instance;
             return that.IsExpanded;
         }
-        private void set_96_NavigationViewItem_IsExpanded(object instance, object Value)
+        private void set_139_NavigationViewItem_IsExpanded(object instance, object Value)
         {
             var that = (global::Microsoft.UI.Xaml.Controls.NavigationViewItem)instance;
             that.IsExpanded = (global::System.Boolean)Value;
         }
-        private object get_97_NavigationViewItem_MenuItems(object instance)
+        private object get_140_NavigationViewItem_MenuItems(object instance)
         {
             var that = (global::Microsoft.UI.Xaml.Controls.NavigationViewItem)instance;
             return that.MenuItems;
         }
-        private object get_98_NavigationViewItem_MenuItemsSource(object instance)
+        private object get_141_NavigationViewItem_MenuItemsSource(object instance)
         {
             var that = (global::Microsoft.UI.Xaml.Controls.NavigationViewItem)instance;
             return that.MenuItemsSource;
         }
-        private void set_98_NavigationViewItem_MenuItemsSource(object instance, object Value)
+        private void set_141_NavigationViewItem_MenuItemsSource(object instance, object Value)
         {
             var that = (global::Microsoft.UI.Xaml.Controls.NavigationViewItem)instance;
             that.MenuItemsSource = (global::System.Object)Value;
         }
-        private object get_99_NavigationViewItem_SelectsOnInvoked(object instance)
+        private object get_142_NavigationViewItem_SelectsOnInvoked(object instance)
         {
             var that = (global::Microsoft.UI.Xaml.Controls.NavigationViewItem)instance;
             return that.SelectsOnInvoked;
         }
-        private void set_99_NavigationViewItem_SelectsOnInvoked(object instance, object Value)
+        private void set_142_NavigationViewItem_SelectsOnInvoked(object instance, object Value)
         {
             var that = (global::Microsoft.UI.Xaml.Controls.NavigationViewItem)instance;
             that.SelectsOnInvoked = (global::System.Boolean)Value;
         }
-        private object get_100_NavigationViewItemBase_IsSelected(object instance)
+        private object get_143_NavigationViewItemBase_IsSelected(object instance)
         {
             var that = (global::Microsoft.UI.Xaml.Controls.NavigationViewItemBase)instance;
             return that.IsSelected;
         }
-        private void set_100_NavigationViewItemBase_IsSelected(object instance, object Value)
+        private void set_143_NavigationViewItemBase_IsSelected(object instance, object Value)
         {
             var that = (global::Microsoft.UI.Xaml.Controls.NavigationViewItemBase)instance;
             that.IsSelected = (global::System.Boolean)Value;
         }
-        private object get_101_NavigationHelper_NavigateTo(object instance)
+        private object get_144_NavigationHelper_NavigateTo(object instance)
         {
             return global::st_installer_launcher.Helpers.NavigationHelper.GetNavigateTo((global::Microsoft.UI.Xaml.Controls.NavigationViewItem)instance);
         }
-        private void set_101_NavigationHelper_NavigateTo(object instance, object Value)
+        private void set_144_NavigationHelper_NavigateTo(object instance, object Value)
         {
             global::st_installer_launcher.Helpers.NavigationHelper.SetNavigateTo((global::Microsoft.UI.Xaml.Controls.NavigationViewItem)instance, (global::System.String)Value);
         }
-        private object get_102_NavigationViewHeaderBehavior_DefaultHeader(object instance)
+        private object get_145_NavigationViewHeaderBehavior_DefaultHeader(object instance)
         {
             var that = (global::st_installer_launcher.Behaviors.NavigationViewHeaderBehavior)instance;
             return that.DefaultHeader;
         }
-        private void set_102_NavigationViewHeaderBehavior_DefaultHeader(object instance, object Value)
+        private void set_145_NavigationViewHeaderBehavior_DefaultHeader(object instance, object Value)
         {
             var that = (global::st_installer_launcher.Behaviors.NavigationViewHeaderBehavior)instance;
             that.DefaultHeader = (global::System.Object)Value;
         }
-        private object get_103_NavigationViewHeaderBehavior_DefaultHeaderTemplate(object instance)
+        private object get_146_NavigationViewHeaderBehavior_DefaultHeaderTemplate(object instance)
         {
             var that = (global::st_installer_launcher.Behaviors.NavigationViewHeaderBehavior)instance;
             return that.DefaultHeaderTemplate;
         }
-        private void set_103_NavigationViewHeaderBehavior_DefaultHeaderTemplate(object instance, object Value)
+        private void set_146_NavigationViewHeaderBehavior_DefaultHeaderTemplate(object instance, object Value)
         {
             var that = (global::st_installer_launcher.Behaviors.NavigationViewHeaderBehavior)instance;
             that.DefaultHeaderTemplate = (global::Microsoft.UI.Xaml.DataTemplate)Value;
         }
-        private object get_104_Behavior_AssociatedObject(object instance)
+        private object get_147_Behavior_AssociatedObject(object instance)
         {
             var that = (global::Microsoft.Xaml.Interactivity.Behavior<global::Microsoft.UI.Xaml.Controls.NavigationView>)instance;
             return that.AssociatedObject;
         }
-        private object get_105_NavigationViewHeaderBehavior_HeaderMode(object instance)
+        private object get_148_NavigationViewHeaderBehavior_HeaderMode(object instance)
         {
             return global::st_installer_launcher.Behaviors.NavigationViewHeaderBehavior.GetHeaderMode((global::Microsoft.UI.Xaml.Controls.Page)instance);
         }
-        private void set_105_NavigationViewHeaderBehavior_HeaderMode(object instance, object Value)
+        private void set_148_NavigationViewHeaderBehavior_HeaderMode(object instance, object Value)
         {
             global::st_installer_launcher.Behaviors.NavigationViewHeaderBehavior.SetHeaderMode((global::Microsoft.UI.Xaml.Controls.Page)instance, (global::st_installer_launcher.Behaviors.NavigationViewHeaderMode)Value);
         }
-        private object get_106_NavigationViewHeaderBehavior_HeaderContext(object instance)
+        private object get_149_NavigationViewHeaderBehavior_HeaderContext(object instance)
         {
             return global::st_installer_launcher.Behaviors.NavigationViewHeaderBehavior.GetHeaderContext((global::Microsoft.UI.Xaml.Controls.Page)instance);
         }
-        private void set_106_NavigationViewHeaderBehavior_HeaderContext(object instance, object Value)
+        private void set_149_NavigationViewHeaderBehavior_HeaderContext(object instance, object Value)
         {
             global::st_installer_launcher.Behaviors.NavigationViewHeaderBehavior.SetHeaderContext((global::Microsoft.UI.Xaml.Controls.Page)instance, (global::System.Object)Value);
         }
-        private object get_107_NavigationViewHeaderBehavior_HeaderTemplate(object instance)
+        private object get_150_NavigationViewHeaderBehavior_HeaderTemplate(object instance)
         {
             return global::st_installer_launcher.Behaviors.NavigationViewHeaderBehavior.GetHeaderTemplate((global::Microsoft.UI.Xaml.Controls.Page)instance);
         }
-        private void set_107_NavigationViewHeaderBehavior_HeaderTemplate(object instance, object Value)
+        private void set_150_NavigationViewHeaderBehavior_HeaderTemplate(object instance, object Value)
         {
             global::st_installer_launcher.Behaviors.NavigationViewHeaderBehavior.SetHeaderTemplate((global::Microsoft.UI.Xaml.Controls.Page)instance, (global::Microsoft.UI.Xaml.DataTemplate)Value);
         }
-        private object get_108_ShellPage_ViewModel(object instance)
+        private object get_151_ShellPage_ViewModel(object instance)
         {
             var that = (global::st_installer_launcher.Views.ShellPage)instance;
             return that.ViewModel;
         }
-        private object get_109_TreeViewNode_Children(object instance)
+        private object get_152_TreeViewNode_Children(object instance)
         {
             var that = (global::Microsoft.UI.Xaml.Controls.TreeViewNode)instance;
             return that.Children;
         }
-        private object get_110_TreeViewNode_Content(object instance)
+        private object get_153_TreeViewNode_Content(object instance)
         {
             var that = (global::Microsoft.UI.Xaml.Controls.TreeViewNode)instance;
             return that.Content;
         }
-        private void set_110_TreeViewNode_Content(object instance, object Value)
+        private void set_153_TreeViewNode_Content(object instance, object Value)
         {
             var that = (global::Microsoft.UI.Xaml.Controls.TreeViewNode)instance;
             that.Content = (global::System.Object)Value;
         }
-        private object get_111_TreeViewNode_Depth(object instance)
+        private object get_154_TreeViewNode_Depth(object instance)
         {
             var that = (global::Microsoft.UI.Xaml.Controls.TreeViewNode)instance;
             return that.Depth;
         }
-        private object get_112_TreeViewNode_HasChildren(object instance)
+        private object get_155_TreeViewNode_HasChildren(object instance)
         {
             var that = (global::Microsoft.UI.Xaml.Controls.TreeViewNode)instance;
             return that.HasChildren;
         }
-        private object get_113_TreeViewNode_HasUnrealizedChildren(object instance)
+        private object get_156_TreeViewNode_HasUnrealizedChildren(object instance)
         {
             var that = (global::Microsoft.UI.Xaml.Controls.TreeViewNode)instance;
             return that.HasUnrealizedChildren;
         }
-        private void set_113_TreeViewNode_HasUnrealizedChildren(object instance, object Value)
+        private void set_156_TreeViewNode_HasUnrealizedChildren(object instance, object Value)
         {
             var that = (global::Microsoft.UI.Xaml.Controls.TreeViewNode)instance;
             that.HasUnrealizedChildren = (global::System.Boolean)Value;
         }
-        private object get_114_TreeViewNode_IsExpanded(object instance)
+        private object get_157_TreeViewNode_IsExpanded(object instance)
         {
             var that = (global::Microsoft.UI.Xaml.Controls.TreeViewNode)instance;
             return that.IsExpanded;
         }
-        private void set_114_TreeViewNode_IsExpanded(object instance, object Value)
+        private void set_157_TreeViewNode_IsExpanded(object instance, object Value)
         {
             var that = (global::Microsoft.UI.Xaml.Controls.TreeViewNode)instance;
             that.IsExpanded = (global::System.Boolean)Value;
         }
-        private object get_115_TreeViewNode_Parent(object instance)
+        private object get_158_TreeViewNode_Parent(object instance)
         {
             var that = (global::Microsoft.UI.Xaml.Controls.TreeViewNode)instance;
             return that.Parent;
@@ -2323,414 +2911,700 @@ namespace st_installer_launcher.st_installer_launcher_XamlTypeInfo
                 xamlMember.Getter = get_30_CornerRadius_BottomLeft;
                 xamlMember.Setter = set_30_CornerRadius_BottomLeft;
                 break;
+            case "Microsoft.UI.Xaml.Controls.ScrollView.Content":
+                userType = (global::st_installer_launcher.st_installer_launcher_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Microsoft.UI.Xaml.Controls.ScrollView");
+                xamlMember = new global::st_installer_launcher.st_installer_launcher_XamlTypeInfo.XamlMember(this, "Content", "Microsoft.UI.Xaml.UIElement");
+                xamlMember.SetIsDependencyProperty();
+                xamlMember.Getter = get_31_ScrollView_Content;
+                xamlMember.Setter = set_31_ScrollView_Content;
+                break;
+            case "Microsoft.UI.Xaml.Controls.ScrollView.ComputedHorizontalScrollBarVisibility":
+                userType = (global::st_installer_launcher.st_installer_launcher_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Microsoft.UI.Xaml.Controls.ScrollView");
+                xamlMember = new global::st_installer_launcher.st_installer_launcher_XamlTypeInfo.XamlMember(this, "ComputedHorizontalScrollBarVisibility", "Microsoft.UI.Xaml.Visibility");
+                xamlMember.SetIsDependencyProperty();
+                xamlMember.Getter = get_32_ScrollView_ComputedHorizontalScrollBarVisibility;
+                xamlMember.SetIsReadOnly();
+                break;
+            case "Microsoft.UI.Xaml.Controls.ScrollView.ComputedHorizontalScrollMode":
+                userType = (global::st_installer_launcher.st_installer_launcher_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Microsoft.UI.Xaml.Controls.ScrollView");
+                xamlMember = new global::st_installer_launcher.st_installer_launcher_XamlTypeInfo.XamlMember(this, "ComputedHorizontalScrollMode", "Microsoft.UI.Xaml.Controls.ScrollingScrollMode");
+                xamlMember.SetIsDependencyProperty();
+                xamlMember.Getter = get_33_ScrollView_ComputedHorizontalScrollMode;
+                xamlMember.SetIsReadOnly();
+                break;
+            case "Microsoft.UI.Xaml.Controls.ScrollView.ComputedVerticalScrollBarVisibility":
+                userType = (global::st_installer_launcher.st_installer_launcher_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Microsoft.UI.Xaml.Controls.ScrollView");
+                xamlMember = new global::st_installer_launcher.st_installer_launcher_XamlTypeInfo.XamlMember(this, "ComputedVerticalScrollBarVisibility", "Microsoft.UI.Xaml.Visibility");
+                xamlMember.SetIsDependencyProperty();
+                xamlMember.Getter = get_34_ScrollView_ComputedVerticalScrollBarVisibility;
+                xamlMember.SetIsReadOnly();
+                break;
+            case "Microsoft.UI.Xaml.Controls.ScrollView.ComputedVerticalScrollMode":
+                userType = (global::st_installer_launcher.st_installer_launcher_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Microsoft.UI.Xaml.Controls.ScrollView");
+                xamlMember = new global::st_installer_launcher.st_installer_launcher_XamlTypeInfo.XamlMember(this, "ComputedVerticalScrollMode", "Microsoft.UI.Xaml.Controls.ScrollingScrollMode");
+                xamlMember.SetIsDependencyProperty();
+                xamlMember.Getter = get_35_ScrollView_ComputedVerticalScrollMode;
+                xamlMember.SetIsReadOnly();
+                break;
+            case "Microsoft.UI.Xaml.Controls.ScrollView.ContentOrientation":
+                userType = (global::st_installer_launcher.st_installer_launcher_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Microsoft.UI.Xaml.Controls.ScrollView");
+                xamlMember = new global::st_installer_launcher.st_installer_launcher_XamlTypeInfo.XamlMember(this, "ContentOrientation", "Microsoft.UI.Xaml.Controls.ScrollingContentOrientation");
+                xamlMember.SetIsDependencyProperty();
+                xamlMember.Getter = get_36_ScrollView_ContentOrientation;
+                xamlMember.Setter = set_36_ScrollView_ContentOrientation;
+                break;
+            case "Microsoft.UI.Xaml.Controls.ScrollView.CurrentAnchor":
+                userType = (global::st_installer_launcher.st_installer_launcher_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Microsoft.UI.Xaml.Controls.ScrollView");
+                xamlMember = new global::st_installer_launcher.st_installer_launcher_XamlTypeInfo.XamlMember(this, "CurrentAnchor", "Microsoft.UI.Xaml.UIElement");
+                xamlMember.Getter = get_37_ScrollView_CurrentAnchor;
+                xamlMember.SetIsReadOnly();
+                break;
+            case "Microsoft.UI.Xaml.Controls.ScrollView.ExpressionAnimationSources":
+                userType = (global::st_installer_launcher.st_installer_launcher_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Microsoft.UI.Xaml.Controls.ScrollView");
+                xamlMember = new global::st_installer_launcher.st_installer_launcher_XamlTypeInfo.XamlMember(this, "ExpressionAnimationSources", "Microsoft.UI.Composition.CompositionPropertySet");
+                xamlMember.Getter = get_38_ScrollView_ExpressionAnimationSources;
+                xamlMember.SetIsReadOnly();
+                break;
+            case "Microsoft.UI.Xaml.Controls.ScrollView.ExtentHeight":
+                userType = (global::st_installer_launcher.st_installer_launcher_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Microsoft.UI.Xaml.Controls.ScrollView");
+                xamlMember = new global::st_installer_launcher.st_installer_launcher_XamlTypeInfo.XamlMember(this, "ExtentHeight", "Double");
+                xamlMember.Getter = get_39_ScrollView_ExtentHeight;
+                xamlMember.SetIsReadOnly();
+                break;
+            case "Microsoft.UI.Xaml.Controls.ScrollView.ExtentWidth":
+                userType = (global::st_installer_launcher.st_installer_launcher_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Microsoft.UI.Xaml.Controls.ScrollView");
+                xamlMember = new global::st_installer_launcher.st_installer_launcher_XamlTypeInfo.XamlMember(this, "ExtentWidth", "Double");
+                xamlMember.Getter = get_40_ScrollView_ExtentWidth;
+                xamlMember.SetIsReadOnly();
+                break;
+            case "Microsoft.UI.Xaml.Controls.ScrollView.HorizontalAnchorRatio":
+                userType = (global::st_installer_launcher.st_installer_launcher_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Microsoft.UI.Xaml.Controls.ScrollView");
+                xamlMember = new global::st_installer_launcher.st_installer_launcher_XamlTypeInfo.XamlMember(this, "HorizontalAnchorRatio", "Double");
+                xamlMember.SetIsDependencyProperty();
+                xamlMember.Getter = get_41_ScrollView_HorizontalAnchorRatio;
+                xamlMember.Setter = set_41_ScrollView_HorizontalAnchorRatio;
+                break;
+            case "Microsoft.UI.Xaml.Controls.ScrollView.HorizontalOffset":
+                userType = (global::st_installer_launcher.st_installer_launcher_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Microsoft.UI.Xaml.Controls.ScrollView");
+                xamlMember = new global::st_installer_launcher.st_installer_launcher_XamlTypeInfo.XamlMember(this, "HorizontalOffset", "Double");
+                xamlMember.Getter = get_42_ScrollView_HorizontalOffset;
+                xamlMember.SetIsReadOnly();
+                break;
+            case "Microsoft.UI.Xaml.Controls.ScrollView.HorizontalScrollBarVisibility":
+                userType = (global::st_installer_launcher.st_installer_launcher_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Microsoft.UI.Xaml.Controls.ScrollView");
+                xamlMember = new global::st_installer_launcher.st_installer_launcher_XamlTypeInfo.XamlMember(this, "HorizontalScrollBarVisibility", "Microsoft.UI.Xaml.Controls.ScrollingScrollBarVisibility");
+                xamlMember.SetIsDependencyProperty();
+                xamlMember.Getter = get_43_ScrollView_HorizontalScrollBarVisibility;
+                xamlMember.Setter = set_43_ScrollView_HorizontalScrollBarVisibility;
+                break;
+            case "Microsoft.UI.Xaml.Controls.ScrollView.HorizontalScrollChainMode":
+                userType = (global::st_installer_launcher.st_installer_launcher_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Microsoft.UI.Xaml.Controls.ScrollView");
+                xamlMember = new global::st_installer_launcher.st_installer_launcher_XamlTypeInfo.XamlMember(this, "HorizontalScrollChainMode", "Microsoft.UI.Xaml.Controls.ScrollingChainMode");
+                xamlMember.SetIsDependencyProperty();
+                xamlMember.Getter = get_44_ScrollView_HorizontalScrollChainMode;
+                xamlMember.Setter = set_44_ScrollView_HorizontalScrollChainMode;
+                break;
+            case "Microsoft.UI.Xaml.Controls.ScrollView.HorizontalScrollMode":
+                userType = (global::st_installer_launcher.st_installer_launcher_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Microsoft.UI.Xaml.Controls.ScrollView");
+                xamlMember = new global::st_installer_launcher.st_installer_launcher_XamlTypeInfo.XamlMember(this, "HorizontalScrollMode", "Microsoft.UI.Xaml.Controls.ScrollingScrollMode");
+                xamlMember.SetIsDependencyProperty();
+                xamlMember.Getter = get_45_ScrollView_HorizontalScrollMode;
+                xamlMember.Setter = set_45_ScrollView_HorizontalScrollMode;
+                break;
+            case "Microsoft.UI.Xaml.Controls.ScrollView.HorizontalScrollRailMode":
+                userType = (global::st_installer_launcher.st_installer_launcher_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Microsoft.UI.Xaml.Controls.ScrollView");
+                xamlMember = new global::st_installer_launcher.st_installer_launcher_XamlTypeInfo.XamlMember(this, "HorizontalScrollRailMode", "Microsoft.UI.Xaml.Controls.ScrollingRailMode");
+                xamlMember.SetIsDependencyProperty();
+                xamlMember.Getter = get_46_ScrollView_HorizontalScrollRailMode;
+                xamlMember.Setter = set_46_ScrollView_HorizontalScrollRailMode;
+                break;
+            case "Microsoft.UI.Xaml.Controls.ScrollView.IgnoredInputKinds":
+                userType = (global::st_installer_launcher.st_installer_launcher_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Microsoft.UI.Xaml.Controls.ScrollView");
+                xamlMember = new global::st_installer_launcher.st_installer_launcher_XamlTypeInfo.XamlMember(this, "IgnoredInputKinds", "Microsoft.UI.Xaml.Controls.ScrollingInputKinds");
+                xamlMember.SetIsDependencyProperty();
+                xamlMember.Getter = get_47_ScrollView_IgnoredInputKinds;
+                xamlMember.Setter = set_47_ScrollView_IgnoredInputKinds;
+                break;
+            case "Microsoft.UI.Xaml.Controls.ScrollView.MaxZoomFactor":
+                userType = (global::st_installer_launcher.st_installer_launcher_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Microsoft.UI.Xaml.Controls.ScrollView");
+                xamlMember = new global::st_installer_launcher.st_installer_launcher_XamlTypeInfo.XamlMember(this, "MaxZoomFactor", "Double");
+                xamlMember.SetIsDependencyProperty();
+                xamlMember.Getter = get_48_ScrollView_MaxZoomFactor;
+                xamlMember.Setter = set_48_ScrollView_MaxZoomFactor;
+                break;
+            case "Microsoft.UI.Xaml.Controls.ScrollView.MinZoomFactor":
+                userType = (global::st_installer_launcher.st_installer_launcher_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Microsoft.UI.Xaml.Controls.ScrollView");
+                xamlMember = new global::st_installer_launcher.st_installer_launcher_XamlTypeInfo.XamlMember(this, "MinZoomFactor", "Double");
+                xamlMember.SetIsDependencyProperty();
+                xamlMember.Getter = get_49_ScrollView_MinZoomFactor;
+                xamlMember.Setter = set_49_ScrollView_MinZoomFactor;
+                break;
+            case "Microsoft.UI.Xaml.Controls.ScrollView.ScrollPresenter":
+                userType = (global::st_installer_launcher.st_installer_launcher_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Microsoft.UI.Xaml.Controls.ScrollView");
+                xamlMember = new global::st_installer_launcher.st_installer_launcher_XamlTypeInfo.XamlMember(this, "ScrollPresenter", "Microsoft.UI.Xaml.Controls.Primitives.ScrollPresenter");
+                xamlMember.SetIsDependencyProperty();
+                xamlMember.Getter = get_50_ScrollView_ScrollPresenter;
+                xamlMember.SetIsReadOnly();
+                break;
+            case "Microsoft.UI.Xaml.Controls.Primitives.ScrollPresenter.Content":
+                userType = (global::st_installer_launcher.st_installer_launcher_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Microsoft.UI.Xaml.Controls.Primitives.ScrollPresenter");
+                xamlMember = new global::st_installer_launcher.st_installer_launcher_XamlTypeInfo.XamlMember(this, "Content", "Microsoft.UI.Xaml.UIElement");
+                xamlMember.SetIsDependencyProperty();
+                xamlMember.Getter = get_51_ScrollPresenter_Content;
+                xamlMember.Setter = set_51_ScrollPresenter_Content;
+                break;
+            case "Microsoft.UI.Xaml.Controls.ScrollView.ScrollableHeight":
+                userType = (global::st_installer_launcher.st_installer_launcher_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Microsoft.UI.Xaml.Controls.ScrollView");
+                xamlMember = new global::st_installer_launcher.st_installer_launcher_XamlTypeInfo.XamlMember(this, "ScrollableHeight", "Double");
+                xamlMember.Getter = get_52_ScrollView_ScrollableHeight;
+                xamlMember.SetIsReadOnly();
+                break;
+            case "Microsoft.UI.Xaml.Controls.ScrollView.ScrollableWidth":
+                userType = (global::st_installer_launcher.st_installer_launcher_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Microsoft.UI.Xaml.Controls.ScrollView");
+                xamlMember = new global::st_installer_launcher.st_installer_launcher_XamlTypeInfo.XamlMember(this, "ScrollableWidth", "Double");
+                xamlMember.Getter = get_53_ScrollView_ScrollableWidth;
+                xamlMember.SetIsReadOnly();
+                break;
+            case "Microsoft.UI.Xaml.Controls.ScrollView.State":
+                userType = (global::st_installer_launcher.st_installer_launcher_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Microsoft.UI.Xaml.Controls.ScrollView");
+                xamlMember = new global::st_installer_launcher.st_installer_launcher_XamlTypeInfo.XamlMember(this, "State", "Microsoft.UI.Xaml.Controls.ScrollingInteractionState");
+                xamlMember.Getter = get_54_ScrollView_State;
+                xamlMember.SetIsReadOnly();
+                break;
+            case "Microsoft.UI.Xaml.Controls.ScrollView.VerticalAnchorRatio":
+                userType = (global::st_installer_launcher.st_installer_launcher_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Microsoft.UI.Xaml.Controls.ScrollView");
+                xamlMember = new global::st_installer_launcher.st_installer_launcher_XamlTypeInfo.XamlMember(this, "VerticalAnchorRatio", "Double");
+                xamlMember.SetIsDependencyProperty();
+                xamlMember.Getter = get_55_ScrollView_VerticalAnchorRatio;
+                xamlMember.Setter = set_55_ScrollView_VerticalAnchorRatio;
+                break;
+            case "Microsoft.UI.Xaml.Controls.ScrollView.VerticalOffset":
+                userType = (global::st_installer_launcher.st_installer_launcher_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Microsoft.UI.Xaml.Controls.ScrollView");
+                xamlMember = new global::st_installer_launcher.st_installer_launcher_XamlTypeInfo.XamlMember(this, "VerticalOffset", "Double");
+                xamlMember.Getter = get_56_ScrollView_VerticalOffset;
+                xamlMember.SetIsReadOnly();
+                break;
+            case "Microsoft.UI.Xaml.Controls.ScrollView.VerticalScrollBarVisibility":
+                userType = (global::st_installer_launcher.st_installer_launcher_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Microsoft.UI.Xaml.Controls.ScrollView");
+                xamlMember = new global::st_installer_launcher.st_installer_launcher_XamlTypeInfo.XamlMember(this, "VerticalScrollBarVisibility", "Microsoft.UI.Xaml.Controls.ScrollingScrollBarVisibility");
+                xamlMember.SetIsDependencyProperty();
+                xamlMember.Getter = get_57_ScrollView_VerticalScrollBarVisibility;
+                xamlMember.Setter = set_57_ScrollView_VerticalScrollBarVisibility;
+                break;
+            case "Microsoft.UI.Xaml.Controls.ScrollView.VerticalScrollChainMode":
+                userType = (global::st_installer_launcher.st_installer_launcher_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Microsoft.UI.Xaml.Controls.ScrollView");
+                xamlMember = new global::st_installer_launcher.st_installer_launcher_XamlTypeInfo.XamlMember(this, "VerticalScrollChainMode", "Microsoft.UI.Xaml.Controls.ScrollingChainMode");
+                xamlMember.SetIsDependencyProperty();
+                xamlMember.Getter = get_58_ScrollView_VerticalScrollChainMode;
+                xamlMember.Setter = set_58_ScrollView_VerticalScrollChainMode;
+                break;
+            case "Microsoft.UI.Xaml.Controls.ScrollView.VerticalScrollMode":
+                userType = (global::st_installer_launcher.st_installer_launcher_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Microsoft.UI.Xaml.Controls.ScrollView");
+                xamlMember = new global::st_installer_launcher.st_installer_launcher_XamlTypeInfo.XamlMember(this, "VerticalScrollMode", "Microsoft.UI.Xaml.Controls.ScrollingScrollMode");
+                xamlMember.SetIsDependencyProperty();
+                xamlMember.Getter = get_59_ScrollView_VerticalScrollMode;
+                xamlMember.Setter = set_59_ScrollView_VerticalScrollMode;
+                break;
+            case "Microsoft.UI.Xaml.Controls.ScrollView.VerticalScrollRailMode":
+                userType = (global::st_installer_launcher.st_installer_launcher_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Microsoft.UI.Xaml.Controls.ScrollView");
+                xamlMember = new global::st_installer_launcher.st_installer_launcher_XamlTypeInfo.XamlMember(this, "VerticalScrollRailMode", "Microsoft.UI.Xaml.Controls.ScrollingRailMode");
+                xamlMember.SetIsDependencyProperty();
+                xamlMember.Getter = get_60_ScrollView_VerticalScrollRailMode;
+                xamlMember.Setter = set_60_ScrollView_VerticalScrollRailMode;
+                break;
+            case "Microsoft.UI.Xaml.Controls.ScrollView.ViewportHeight":
+                userType = (global::st_installer_launcher.st_installer_launcher_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Microsoft.UI.Xaml.Controls.ScrollView");
+                xamlMember = new global::st_installer_launcher.st_installer_launcher_XamlTypeInfo.XamlMember(this, "ViewportHeight", "Double");
+                xamlMember.Getter = get_61_ScrollView_ViewportHeight;
+                xamlMember.SetIsReadOnly();
+                break;
+            case "Microsoft.UI.Xaml.Controls.ScrollView.ViewportWidth":
+                userType = (global::st_installer_launcher.st_installer_launcher_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Microsoft.UI.Xaml.Controls.ScrollView");
+                xamlMember = new global::st_installer_launcher.st_installer_launcher_XamlTypeInfo.XamlMember(this, "ViewportWidth", "Double");
+                xamlMember.Getter = get_62_ScrollView_ViewportWidth;
+                xamlMember.SetIsReadOnly();
+                break;
+            case "Microsoft.UI.Xaml.Controls.ScrollView.ZoomChainMode":
+                userType = (global::st_installer_launcher.st_installer_launcher_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Microsoft.UI.Xaml.Controls.ScrollView");
+                xamlMember = new global::st_installer_launcher.st_installer_launcher_XamlTypeInfo.XamlMember(this, "ZoomChainMode", "Microsoft.UI.Xaml.Controls.ScrollingChainMode");
+                xamlMember.SetIsDependencyProperty();
+                xamlMember.Getter = get_63_ScrollView_ZoomChainMode;
+                xamlMember.Setter = set_63_ScrollView_ZoomChainMode;
+                break;
+            case "Microsoft.UI.Xaml.Controls.ScrollView.ZoomFactor":
+                userType = (global::st_installer_launcher.st_installer_launcher_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Microsoft.UI.Xaml.Controls.ScrollView");
+                xamlMember = new global::st_installer_launcher.st_installer_launcher_XamlTypeInfo.XamlMember(this, "ZoomFactor", "Single");
+                xamlMember.Getter = get_64_ScrollView_ZoomFactor;
+                xamlMember.SetIsReadOnly();
+                break;
+            case "Microsoft.UI.Xaml.Controls.ScrollView.ZoomMode":
+                userType = (global::st_installer_launcher.st_installer_launcher_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Microsoft.UI.Xaml.Controls.ScrollView");
+                xamlMember = new global::st_installer_launcher.st_installer_launcher_XamlTypeInfo.XamlMember(this, "ZoomMode", "Microsoft.UI.Xaml.Controls.ScrollingZoomMode");
+                xamlMember.SetIsDependencyProperty();
+                xamlMember.Getter = get_65_ScrollView_ZoomMode;
+                xamlMember.Setter = set_65_ScrollView_ZoomMode;
+                break;
+            case "Microsoft.UI.Xaml.Controls.Expander.Header":
+                userType = (global::st_installer_launcher.st_installer_launcher_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Microsoft.UI.Xaml.Controls.Expander");
+                xamlMember = new global::st_installer_launcher.st_installer_launcher_XamlTypeInfo.XamlMember(this, "Header", "Object");
+                xamlMember.SetIsDependencyProperty();
+                xamlMember.Getter = get_66_Expander_Header;
+                xamlMember.Setter = set_66_Expander_Header;
+                break;
+            case "Microsoft.UI.Xaml.Controls.Expander.ExpandDirection":
+                userType = (global::st_installer_launcher.st_installer_launcher_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Microsoft.UI.Xaml.Controls.Expander");
+                xamlMember = new global::st_installer_launcher.st_installer_launcher_XamlTypeInfo.XamlMember(this, "ExpandDirection", "Microsoft.UI.Xaml.Controls.ExpandDirection");
+                xamlMember.SetIsDependencyProperty();
+                xamlMember.Getter = get_67_Expander_ExpandDirection;
+                xamlMember.Setter = set_67_Expander_ExpandDirection;
+                break;
+            case "Microsoft.UI.Xaml.Controls.Expander.HeaderTemplate":
+                userType = (global::st_installer_launcher.st_installer_launcher_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Microsoft.UI.Xaml.Controls.Expander");
+                xamlMember = new global::st_installer_launcher.st_installer_launcher_XamlTypeInfo.XamlMember(this, "HeaderTemplate", "Microsoft.UI.Xaml.DataTemplate");
+                xamlMember.SetIsDependencyProperty();
+                xamlMember.Getter = get_68_Expander_HeaderTemplate;
+                xamlMember.Setter = set_68_Expander_HeaderTemplate;
+                break;
+            case "Microsoft.UI.Xaml.Controls.Expander.HeaderTemplateSelector":
+                userType = (global::st_installer_launcher.st_installer_launcher_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Microsoft.UI.Xaml.Controls.Expander");
+                xamlMember = new global::st_installer_launcher.st_installer_launcher_XamlTypeInfo.XamlMember(this, "HeaderTemplateSelector", "Microsoft.UI.Xaml.Controls.DataTemplateSelector");
+                xamlMember.SetIsDependencyProperty();
+                xamlMember.Getter = get_69_Expander_HeaderTemplateSelector;
+                xamlMember.Setter = set_69_Expander_HeaderTemplateSelector;
+                break;
+            case "Microsoft.UI.Xaml.Controls.Expander.IsExpanded":
+                userType = (global::st_installer_launcher.st_installer_launcher_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Microsoft.UI.Xaml.Controls.Expander");
+                xamlMember = new global::st_installer_launcher.st_installer_launcher_XamlTypeInfo.XamlMember(this, "IsExpanded", "Boolean");
+                xamlMember.SetIsDependencyProperty();
+                xamlMember.Getter = get_70_Expander_IsExpanded;
+                xamlMember.Setter = set_70_Expander_IsExpanded;
+                break;
+            case "Microsoft.UI.Xaml.Controls.Expander.TemplateSettings":
+                userType = (global::st_installer_launcher.st_installer_launcher_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Microsoft.UI.Xaml.Controls.Expander");
+                xamlMember = new global::st_installer_launcher.st_installer_launcher_XamlTypeInfo.XamlMember(this, "TemplateSettings", "Microsoft.UI.Xaml.Controls.ExpanderTemplateSettings");
+                xamlMember.Getter = get_71_Expander_TemplateSettings;
+                xamlMember.SetIsReadOnly();
+                break;
+            case "st_installer_launcher.Views.InstallOptionsPage.ViewModel":
+                userType = (global::st_installer_launcher.st_installer_launcher_XamlTypeInfo.XamlUserType)GetXamlTypeByName("st_installer_launcher.Views.InstallOptionsPage");
+                xamlMember = new global::st_installer_launcher.st_installer_launcher_XamlTypeInfo.XamlMember(this, "ViewModel", "st_installer_launcher.ViewModels.InstallOptionsViewModel");
+                xamlMember.Getter = get_72_InstallOptionsPage_ViewModel;
+                xamlMember.SetIsReadOnly();
+                break;
+            case "st_installer_launcher.Views.LauncherOptionsPage.ViewModel":
+                userType = (global::st_installer_launcher.st_installer_launcher_XamlTypeInfo.XamlUserType)GetXamlTypeByName("st_installer_launcher.Views.LauncherOptionsPage");
+                xamlMember = new global::st_installer_launcher.st_installer_launcher_XamlTypeInfo.XamlMember(this, "ViewModel", "st_installer_launcher.ViewModels.LauncherOptionsViewModel");
+                xamlMember.Getter = get_73_LauncherOptionsPage_ViewModel;
+                xamlMember.SetIsReadOnly();
+                break;
             case "Microsoft.UI.Xaml.Controls.InfoBar.Content":
                 userType = (global::st_installer_launcher.st_installer_launcher_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Microsoft.UI.Xaml.Controls.InfoBar");
                 xamlMember = new global::st_installer_launcher.st_installer_launcher_XamlTypeInfo.XamlMember(this, "Content", "Object");
                 xamlMember.SetIsDependencyProperty();
-                xamlMember.Getter = get_31_InfoBar_Content;
-                xamlMember.Setter = set_31_InfoBar_Content;
+                xamlMember.Getter = get_74_InfoBar_Content;
+                xamlMember.Setter = set_74_InfoBar_Content;
                 break;
             case "Microsoft.UI.Xaml.Controls.InfoBar.IsOpen":
                 userType = (global::st_installer_launcher.st_installer_launcher_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Microsoft.UI.Xaml.Controls.InfoBar");
                 xamlMember = new global::st_installer_launcher.st_installer_launcher_XamlTypeInfo.XamlMember(this, "IsOpen", "Boolean");
                 xamlMember.SetIsDependencyProperty();
-                xamlMember.Getter = get_32_InfoBar_IsOpen;
-                xamlMember.Setter = set_32_InfoBar_IsOpen;
+                xamlMember.Getter = get_75_InfoBar_IsOpen;
+                xamlMember.Setter = set_75_InfoBar_IsOpen;
                 break;
             case "Microsoft.UI.Xaml.Controls.InfoBar.IsClosable":
                 userType = (global::st_installer_launcher.st_installer_launcher_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Microsoft.UI.Xaml.Controls.InfoBar");
                 xamlMember = new global::st_installer_launcher.st_installer_launcher_XamlTypeInfo.XamlMember(this, "IsClosable", "Boolean");
                 xamlMember.SetIsDependencyProperty();
-                xamlMember.Getter = get_33_InfoBar_IsClosable;
-                xamlMember.Setter = set_33_InfoBar_IsClosable;
+                xamlMember.Getter = get_76_InfoBar_IsClosable;
+                xamlMember.Setter = set_76_InfoBar_IsClosable;
                 break;
             case "Microsoft.UI.Xaml.Controls.InfoBar.Severity":
                 userType = (global::st_installer_launcher.st_installer_launcher_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Microsoft.UI.Xaml.Controls.InfoBar");
                 xamlMember = new global::st_installer_launcher.st_installer_launcher_XamlTypeInfo.XamlMember(this, "Severity", "Microsoft.UI.Xaml.Controls.InfoBarSeverity");
                 xamlMember.SetIsDependencyProperty();
-                xamlMember.Getter = get_34_InfoBar_Severity;
-                xamlMember.Setter = set_34_InfoBar_Severity;
+                xamlMember.Getter = get_77_InfoBar_Severity;
+                xamlMember.Setter = set_77_InfoBar_Severity;
                 break;
             case "Microsoft.UI.Xaml.Controls.InfoBar.Title":
                 userType = (global::st_installer_launcher.st_installer_launcher_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Microsoft.UI.Xaml.Controls.InfoBar");
                 xamlMember = new global::st_installer_launcher.st_installer_launcher_XamlTypeInfo.XamlMember(this, "Title", "String");
                 xamlMember.SetIsDependencyProperty();
-                xamlMember.Getter = get_35_InfoBar_Title;
-                xamlMember.Setter = set_35_InfoBar_Title;
+                xamlMember.Getter = get_78_InfoBar_Title;
+                xamlMember.Setter = set_78_InfoBar_Title;
                 break;
             case "Microsoft.UI.Xaml.Controls.InfoBar.Message":
                 userType = (global::st_installer_launcher.st_installer_launcher_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Microsoft.UI.Xaml.Controls.InfoBar");
                 xamlMember = new global::st_installer_launcher.st_installer_launcher_XamlTypeInfo.XamlMember(this, "Message", "String");
                 xamlMember.SetIsDependencyProperty();
-                xamlMember.Getter = get_36_InfoBar_Message;
-                xamlMember.Setter = set_36_InfoBar_Message;
+                xamlMember.Getter = get_79_InfoBar_Message;
+                xamlMember.Setter = set_79_InfoBar_Message;
                 break;
             case "Microsoft.UI.Xaml.Controls.InfoBar.ActionButton":
                 userType = (global::st_installer_launcher.st_installer_launcher_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Microsoft.UI.Xaml.Controls.InfoBar");
                 xamlMember = new global::st_installer_launcher.st_installer_launcher_XamlTypeInfo.XamlMember(this, "ActionButton", "Microsoft.UI.Xaml.Controls.Primitives.ButtonBase");
                 xamlMember.SetIsDependencyProperty();
-                xamlMember.Getter = get_37_InfoBar_ActionButton;
-                xamlMember.Setter = set_37_InfoBar_ActionButton;
+                xamlMember.Getter = get_80_InfoBar_ActionButton;
+                xamlMember.Setter = set_80_InfoBar_ActionButton;
                 break;
             case "Microsoft.UI.Xaml.Controls.InfoBar.CloseButtonCommand":
                 userType = (global::st_installer_launcher.st_installer_launcher_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Microsoft.UI.Xaml.Controls.InfoBar");
                 xamlMember = new global::st_installer_launcher.st_installer_launcher_XamlTypeInfo.XamlMember(this, "CloseButtonCommand", "System.Windows.Input.ICommand");
                 xamlMember.SetIsDependencyProperty();
-                xamlMember.Getter = get_38_InfoBar_CloseButtonCommand;
-                xamlMember.Setter = set_38_InfoBar_CloseButtonCommand;
+                xamlMember.Getter = get_81_InfoBar_CloseButtonCommand;
+                xamlMember.Setter = set_81_InfoBar_CloseButtonCommand;
                 break;
             case "Microsoft.UI.Xaml.Controls.InfoBar.CloseButtonCommandParameter":
                 userType = (global::st_installer_launcher.st_installer_launcher_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Microsoft.UI.Xaml.Controls.InfoBar");
                 xamlMember = new global::st_installer_launcher.st_installer_launcher_XamlTypeInfo.XamlMember(this, "CloseButtonCommandParameter", "Object");
                 xamlMember.SetIsDependencyProperty();
-                xamlMember.Getter = get_39_InfoBar_CloseButtonCommandParameter;
-                xamlMember.Setter = set_39_InfoBar_CloseButtonCommandParameter;
+                xamlMember.Getter = get_82_InfoBar_CloseButtonCommandParameter;
+                xamlMember.Setter = set_82_InfoBar_CloseButtonCommandParameter;
                 break;
             case "Microsoft.UI.Xaml.Controls.InfoBar.CloseButtonStyle":
                 userType = (global::st_installer_launcher.st_installer_launcher_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Microsoft.UI.Xaml.Controls.InfoBar");
                 xamlMember = new global::st_installer_launcher.st_installer_launcher_XamlTypeInfo.XamlMember(this, "CloseButtonStyle", "Microsoft.UI.Xaml.Style");
                 xamlMember.SetIsDependencyProperty();
-                xamlMember.Getter = get_40_InfoBar_CloseButtonStyle;
-                xamlMember.Setter = set_40_InfoBar_CloseButtonStyle;
+                xamlMember.Getter = get_83_InfoBar_CloseButtonStyle;
+                xamlMember.Setter = set_83_InfoBar_CloseButtonStyle;
                 break;
             case "Microsoft.UI.Xaml.Controls.InfoBar.ContentTemplate":
                 userType = (global::st_installer_launcher.st_installer_launcher_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Microsoft.UI.Xaml.Controls.InfoBar");
                 xamlMember = new global::st_installer_launcher.st_installer_launcher_XamlTypeInfo.XamlMember(this, "ContentTemplate", "Microsoft.UI.Xaml.DataTemplate");
                 xamlMember.SetIsDependencyProperty();
-                xamlMember.Getter = get_41_InfoBar_ContentTemplate;
-                xamlMember.Setter = set_41_InfoBar_ContentTemplate;
+                xamlMember.Getter = get_84_InfoBar_ContentTemplate;
+                xamlMember.Setter = set_84_InfoBar_ContentTemplate;
                 break;
             case "Microsoft.UI.Xaml.Controls.InfoBar.IconSource":
                 userType = (global::st_installer_launcher.st_installer_launcher_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Microsoft.UI.Xaml.Controls.InfoBar");
                 xamlMember = new global::st_installer_launcher.st_installer_launcher_XamlTypeInfo.XamlMember(this, "IconSource", "Microsoft.UI.Xaml.Controls.IconSource");
                 xamlMember.SetIsDependencyProperty();
-                xamlMember.Getter = get_42_InfoBar_IconSource;
-                xamlMember.Setter = set_42_InfoBar_IconSource;
+                xamlMember.Getter = get_85_InfoBar_IconSource;
+                xamlMember.Setter = set_85_InfoBar_IconSource;
                 break;
             case "Microsoft.UI.Xaml.Controls.InfoBar.IsIconVisible":
                 userType = (global::st_installer_launcher.st_installer_launcher_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Microsoft.UI.Xaml.Controls.InfoBar");
                 xamlMember = new global::st_installer_launcher.st_installer_launcher_XamlTypeInfo.XamlMember(this, "IsIconVisible", "Boolean");
                 xamlMember.SetIsDependencyProperty();
-                xamlMember.Getter = get_43_InfoBar_IsIconVisible;
-                xamlMember.Setter = set_43_InfoBar_IsIconVisible;
+                xamlMember.Getter = get_86_InfoBar_IsIconVisible;
+                xamlMember.Setter = set_86_InfoBar_IsIconVisible;
                 break;
             case "Microsoft.UI.Xaml.Controls.InfoBar.TemplateSettings":
                 userType = (global::st_installer_launcher.st_installer_launcher_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Microsoft.UI.Xaml.Controls.InfoBar");
                 xamlMember = new global::st_installer_launcher.st_installer_launcher_XamlTypeInfo.XamlMember(this, "TemplateSettings", "Microsoft.UI.Xaml.Controls.InfoBarTemplateSettings");
                 xamlMember.SetIsDependencyProperty();
-                xamlMember.Getter = get_44_InfoBar_TemplateSettings;
+                xamlMember.Getter = get_87_InfoBar_TemplateSettings;
                 xamlMember.SetIsReadOnly();
                 break;
             case "Microsoft.UI.Xaml.Controls.ProgressRing.IsActive":
                 userType = (global::st_installer_launcher.st_installer_launcher_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Microsoft.UI.Xaml.Controls.ProgressRing");
                 xamlMember = new global::st_installer_launcher.st_installer_launcher_XamlTypeInfo.XamlMember(this, "IsActive", "Boolean");
                 xamlMember.SetIsDependencyProperty();
-                xamlMember.Getter = get_45_ProgressRing_IsActive;
-                xamlMember.Setter = set_45_ProgressRing_IsActive;
+                xamlMember.Getter = get_88_ProgressRing_IsActive;
+                xamlMember.Setter = set_88_ProgressRing_IsActive;
                 break;
             case "Microsoft.UI.Xaml.Controls.ProgressRing.IsIndeterminate":
                 userType = (global::st_installer_launcher.st_installer_launcher_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Microsoft.UI.Xaml.Controls.ProgressRing");
                 xamlMember = new global::st_installer_launcher.st_installer_launcher_XamlTypeInfo.XamlMember(this, "IsIndeterminate", "Boolean");
                 xamlMember.SetIsDependencyProperty();
-                xamlMember.Getter = get_46_ProgressRing_IsIndeterminate;
-                xamlMember.Setter = set_46_ProgressRing_IsIndeterminate;
+                xamlMember.Getter = get_89_ProgressRing_IsIndeterminate;
+                xamlMember.Setter = set_89_ProgressRing_IsIndeterminate;
                 break;
             case "Microsoft.UI.Xaml.Controls.ProgressRing.Maximum":
                 userType = (global::st_installer_launcher.st_installer_launcher_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Microsoft.UI.Xaml.Controls.ProgressRing");
                 xamlMember = new global::st_installer_launcher.st_installer_launcher_XamlTypeInfo.XamlMember(this, "Maximum", "Double");
                 xamlMember.SetIsDependencyProperty();
-                xamlMember.Getter = get_47_ProgressRing_Maximum;
-                xamlMember.Setter = set_47_ProgressRing_Maximum;
+                xamlMember.Getter = get_90_ProgressRing_Maximum;
+                xamlMember.Setter = set_90_ProgressRing_Maximum;
                 break;
             case "Microsoft.UI.Xaml.Controls.ProgressRing.Minimum":
                 userType = (global::st_installer_launcher.st_installer_launcher_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Microsoft.UI.Xaml.Controls.ProgressRing");
                 xamlMember = new global::st_installer_launcher.st_installer_launcher_XamlTypeInfo.XamlMember(this, "Minimum", "Double");
                 xamlMember.SetIsDependencyProperty();
-                xamlMember.Getter = get_48_ProgressRing_Minimum;
-                xamlMember.Setter = set_48_ProgressRing_Minimum;
+                xamlMember.Getter = get_91_ProgressRing_Minimum;
+                xamlMember.Setter = set_91_ProgressRing_Minimum;
                 break;
             case "Microsoft.UI.Xaml.Controls.ProgressRing.TemplateSettings":
                 userType = (global::st_installer_launcher.st_installer_launcher_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Microsoft.UI.Xaml.Controls.ProgressRing");
                 xamlMember = new global::st_installer_launcher.st_installer_launcher_XamlTypeInfo.XamlMember(this, "TemplateSettings", "Microsoft.UI.Xaml.Controls.ProgressRingTemplateSettings");
-                xamlMember.Getter = get_49_ProgressRing_TemplateSettings;
+                xamlMember.Getter = get_92_ProgressRing_TemplateSettings;
                 xamlMember.SetIsReadOnly();
                 break;
             case "Microsoft.UI.Xaml.Controls.ProgressRing.Value":
                 userType = (global::st_installer_launcher.st_installer_launcher_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Microsoft.UI.Xaml.Controls.ProgressRing");
                 xamlMember = new global::st_installer_launcher.st_installer_launcher_XamlTypeInfo.XamlMember(this, "Value", "Double");
                 xamlMember.SetIsDependencyProperty();
-                xamlMember.Getter = get_50_ProgressRing_Value;
-                xamlMember.Setter = set_50_ProgressRing_Value;
+                xamlMember.Getter = get_93_ProgressRing_Value;
+                xamlMember.Setter = set_93_ProgressRing_Value;
                 break;
             case "st_installer_launcher.Views.MainPage.ViewModel":
                 userType = (global::st_installer_launcher.st_installer_launcher_XamlTypeInfo.XamlUserType)GetXamlTypeByName("st_installer_launcher.Views.MainPage");
                 xamlMember = new global::st_installer_launcher.st_installer_launcher_XamlTypeInfo.XamlMember(this, "ViewModel", "st_installer_launcher.ViewModels.MainViewModel");
-                xamlMember.Getter = get_51_MainPage_ViewModel;
+                xamlMember.Getter = get_94_MainPage_ViewModel;
                 xamlMember.SetIsReadOnly();
                 break;
             case "st_installer_launcher.Views.SettingsPage.ViewModel":
                 userType = (global::st_installer_launcher.st_installer_launcher_XamlTypeInfo.XamlUserType)GetXamlTypeByName("st_installer_launcher.Views.SettingsPage");
                 xamlMember = new global::st_installer_launcher.st_installer_launcher_XamlTypeInfo.XamlMember(this, "ViewModel", "st_installer_launcher.ViewModels.SettingsViewModel");
-                xamlMember.Getter = get_52_SettingsPage_ViewModel;
+                xamlMember.Getter = get_95_SettingsPage_ViewModel;
                 xamlMember.SetIsReadOnly();
                 break;
             case "Microsoft.UI.Xaml.Controls.NavigationView.IsBackButtonVisible":
                 userType = (global::st_installer_launcher.st_installer_launcher_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Microsoft.UI.Xaml.Controls.NavigationView");
                 xamlMember = new global::st_installer_launcher.st_installer_launcher_XamlTypeInfo.XamlMember(this, "IsBackButtonVisible", "Microsoft.UI.Xaml.Controls.NavigationViewBackButtonVisible");
                 xamlMember.SetIsDependencyProperty();
-                xamlMember.Getter = get_53_NavigationView_IsBackButtonVisible;
-                xamlMember.Setter = set_53_NavigationView_IsBackButtonVisible;
+                xamlMember.Getter = get_96_NavigationView_IsBackButtonVisible;
+                xamlMember.Setter = set_96_NavigationView_IsBackButtonVisible;
                 break;
             case "Microsoft.UI.Xaml.Controls.NavigationView.IsBackEnabled":
                 userType = (global::st_installer_launcher.st_installer_launcher_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Microsoft.UI.Xaml.Controls.NavigationView");
                 xamlMember = new global::st_installer_launcher.st_installer_launcher_XamlTypeInfo.XamlMember(this, "IsBackEnabled", "Boolean");
                 xamlMember.SetIsDependencyProperty();
-                xamlMember.Getter = get_54_NavigationView_IsBackEnabled;
-                xamlMember.Setter = set_54_NavigationView_IsBackEnabled;
+                xamlMember.Getter = get_97_NavigationView_IsBackEnabled;
+                xamlMember.Setter = set_97_NavigationView_IsBackEnabled;
                 break;
             case "Microsoft.UI.Xaml.Controls.NavigationView.SelectedItem":
                 userType = (global::st_installer_launcher.st_installer_launcher_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Microsoft.UI.Xaml.Controls.NavigationView");
                 xamlMember = new global::st_installer_launcher.st_installer_launcher_XamlTypeInfo.XamlMember(this, "SelectedItem", "Object");
                 xamlMember.SetIsDependencyProperty();
-                xamlMember.Getter = get_55_NavigationView_SelectedItem;
-                xamlMember.Setter = set_55_NavigationView_SelectedItem;
+                xamlMember.Getter = get_98_NavigationView_SelectedItem;
+                xamlMember.Setter = set_98_NavigationView_SelectedItem;
                 break;
             case "Microsoft.UI.Xaml.Controls.NavigationView.IsSettingsVisible":
                 userType = (global::st_installer_launcher.st_installer_launcher_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Microsoft.UI.Xaml.Controls.NavigationView");
                 xamlMember = new global::st_installer_launcher.st_installer_launcher_XamlTypeInfo.XamlMember(this, "IsSettingsVisible", "Boolean");
                 xamlMember.SetIsDependencyProperty();
-                xamlMember.Getter = get_56_NavigationView_IsSettingsVisible;
-                xamlMember.Setter = set_56_NavigationView_IsSettingsVisible;
+                xamlMember.Getter = get_99_NavigationView_IsSettingsVisible;
+                xamlMember.Setter = set_99_NavigationView_IsSettingsVisible;
                 break;
             case "Microsoft.UI.Xaml.Controls.NavigationView.ExpandedModeThresholdWidth":
                 userType = (global::st_installer_launcher.st_installer_launcher_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Microsoft.UI.Xaml.Controls.NavigationView");
                 xamlMember = new global::st_installer_launcher.st_installer_launcher_XamlTypeInfo.XamlMember(this, "ExpandedModeThresholdWidth", "Double");
                 xamlMember.SetIsDependencyProperty();
-                xamlMember.Getter = get_57_NavigationView_ExpandedModeThresholdWidth;
-                xamlMember.Setter = set_57_NavigationView_ExpandedModeThresholdWidth;
+                xamlMember.Getter = get_100_NavigationView_ExpandedModeThresholdWidth;
+                xamlMember.Setter = set_100_NavigationView_ExpandedModeThresholdWidth;
                 break;
             case "Microsoft.UI.Xaml.Controls.NavigationView.Header":
                 userType = (global::st_installer_launcher.st_installer_launcher_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Microsoft.UI.Xaml.Controls.NavigationView");
                 xamlMember = new global::st_installer_launcher.st_installer_launcher_XamlTypeInfo.XamlMember(this, "Header", "Object");
                 xamlMember.SetIsDependencyProperty();
-                xamlMember.Getter = get_58_NavigationView_Header;
-                xamlMember.Setter = set_58_NavigationView_Header;
+                xamlMember.Getter = get_101_NavigationView_Header;
+                xamlMember.Setter = set_101_NavigationView_Header;
                 break;
             case "Microsoft.UI.Xaml.Controls.NavigationView.MenuItems":
                 userType = (global::st_installer_launcher.st_installer_launcher_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Microsoft.UI.Xaml.Controls.NavigationView");
                 xamlMember = new global::st_installer_launcher.st_installer_launcher_XamlTypeInfo.XamlMember(this, "MenuItems", "System.Collections.Generic.IList`1<Object>");
                 xamlMember.SetIsDependencyProperty();
-                xamlMember.Getter = get_59_NavigationView_MenuItems;
+                xamlMember.Getter = get_102_NavigationView_MenuItems;
                 xamlMember.SetIsReadOnly();
                 break;
             case "Microsoft.UI.Xaml.Controls.NavigationView.HeaderTemplate":
                 userType = (global::st_installer_launcher.st_installer_launcher_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Microsoft.UI.Xaml.Controls.NavigationView");
                 xamlMember = new global::st_installer_launcher.st_installer_launcher_XamlTypeInfo.XamlMember(this, "HeaderTemplate", "Microsoft.UI.Xaml.DataTemplate");
                 xamlMember.SetIsDependencyProperty();
-                xamlMember.Getter = get_60_NavigationView_HeaderTemplate;
-                xamlMember.Setter = set_60_NavigationView_HeaderTemplate;
+                xamlMember.Getter = get_103_NavigationView_HeaderTemplate;
+                xamlMember.Setter = set_103_NavigationView_HeaderTemplate;
                 break;
             case "Microsoft.UI.Xaml.Controls.NavigationView.AlwaysShowHeader":
                 userType = (global::st_installer_launcher.st_installer_launcher_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Microsoft.UI.Xaml.Controls.NavigationView");
                 xamlMember = new global::st_installer_launcher.st_installer_launcher_XamlTypeInfo.XamlMember(this, "AlwaysShowHeader", "Boolean");
                 xamlMember.SetIsDependencyProperty();
-                xamlMember.Getter = get_61_NavigationView_AlwaysShowHeader;
-                xamlMember.Setter = set_61_NavigationView_AlwaysShowHeader;
+                xamlMember.Getter = get_104_NavigationView_AlwaysShowHeader;
+                xamlMember.Setter = set_104_NavigationView_AlwaysShowHeader;
                 break;
             case "Microsoft.UI.Xaml.Controls.NavigationView.AutoSuggestBox":
                 userType = (global::st_installer_launcher.st_installer_launcher_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Microsoft.UI.Xaml.Controls.NavigationView");
                 xamlMember = new global::st_installer_launcher.st_installer_launcher_XamlTypeInfo.XamlMember(this, "AutoSuggestBox", "Microsoft.UI.Xaml.Controls.AutoSuggestBox");
                 xamlMember.SetIsDependencyProperty();
-                xamlMember.Getter = get_62_NavigationView_AutoSuggestBox;
-                xamlMember.Setter = set_62_NavigationView_AutoSuggestBox;
+                xamlMember.Getter = get_105_NavigationView_AutoSuggestBox;
+                xamlMember.Setter = set_105_NavigationView_AutoSuggestBox;
                 break;
             case "Microsoft.UI.Xaml.Controls.NavigationView.CompactModeThresholdWidth":
                 userType = (global::st_installer_launcher.st_installer_launcher_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Microsoft.UI.Xaml.Controls.NavigationView");
                 xamlMember = new global::st_installer_launcher.st_installer_launcher_XamlTypeInfo.XamlMember(this, "CompactModeThresholdWidth", "Double");
                 xamlMember.SetIsDependencyProperty();
-                xamlMember.Getter = get_63_NavigationView_CompactModeThresholdWidth;
-                xamlMember.Setter = set_63_NavigationView_CompactModeThresholdWidth;
+                xamlMember.Getter = get_106_NavigationView_CompactModeThresholdWidth;
+                xamlMember.Setter = set_106_NavigationView_CompactModeThresholdWidth;
                 break;
             case "Microsoft.UI.Xaml.Controls.NavigationView.CompactPaneLength":
                 userType = (global::st_installer_launcher.st_installer_launcher_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Microsoft.UI.Xaml.Controls.NavigationView");
                 xamlMember = new global::st_installer_launcher.st_installer_launcher_XamlTypeInfo.XamlMember(this, "CompactPaneLength", "Double");
                 xamlMember.SetIsDependencyProperty();
-                xamlMember.Getter = get_64_NavigationView_CompactPaneLength;
-                xamlMember.Setter = set_64_NavigationView_CompactPaneLength;
+                xamlMember.Getter = get_107_NavigationView_CompactPaneLength;
+                xamlMember.Setter = set_107_NavigationView_CompactPaneLength;
                 break;
             case "Microsoft.UI.Xaml.Controls.NavigationView.ContentOverlay":
                 userType = (global::st_installer_launcher.st_installer_launcher_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Microsoft.UI.Xaml.Controls.NavigationView");
                 xamlMember = new global::st_installer_launcher.st_installer_launcher_XamlTypeInfo.XamlMember(this, "ContentOverlay", "Microsoft.UI.Xaml.UIElement");
                 xamlMember.SetIsDependencyProperty();
-                xamlMember.Getter = get_65_NavigationView_ContentOverlay;
-                xamlMember.Setter = set_65_NavigationView_ContentOverlay;
+                xamlMember.Getter = get_108_NavigationView_ContentOverlay;
+                xamlMember.Setter = set_108_NavigationView_ContentOverlay;
                 break;
             case "Microsoft.UI.Xaml.Controls.NavigationView.DisplayMode":
                 userType = (global::st_installer_launcher.st_installer_launcher_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Microsoft.UI.Xaml.Controls.NavigationView");
                 xamlMember = new global::st_installer_launcher.st_installer_launcher_XamlTypeInfo.XamlMember(this, "DisplayMode", "Microsoft.UI.Xaml.Controls.NavigationViewDisplayMode");
                 xamlMember.SetIsDependencyProperty();
-                xamlMember.Getter = get_66_NavigationView_DisplayMode;
+                xamlMember.Getter = get_109_NavigationView_DisplayMode;
                 xamlMember.SetIsReadOnly();
                 break;
             case "Microsoft.UI.Xaml.Controls.NavigationView.FooterMenuItems":
                 userType = (global::st_installer_launcher.st_installer_launcher_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Microsoft.UI.Xaml.Controls.NavigationView");
                 xamlMember = new global::st_installer_launcher.st_installer_launcher_XamlTypeInfo.XamlMember(this, "FooterMenuItems", "System.Collections.Generic.IList`1<Object>");
                 xamlMember.SetIsDependencyProperty();
-                xamlMember.Getter = get_67_NavigationView_FooterMenuItems;
+                xamlMember.Getter = get_110_NavigationView_FooterMenuItems;
                 xamlMember.SetIsReadOnly();
                 break;
             case "Microsoft.UI.Xaml.Controls.NavigationView.FooterMenuItemsSource":
                 userType = (global::st_installer_launcher.st_installer_launcher_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Microsoft.UI.Xaml.Controls.NavigationView");
                 xamlMember = new global::st_installer_launcher.st_installer_launcher_XamlTypeInfo.XamlMember(this, "FooterMenuItemsSource", "Object");
                 xamlMember.SetIsDependencyProperty();
-                xamlMember.Getter = get_68_NavigationView_FooterMenuItemsSource;
-                xamlMember.Setter = set_68_NavigationView_FooterMenuItemsSource;
+                xamlMember.Getter = get_111_NavigationView_FooterMenuItemsSource;
+                xamlMember.Setter = set_111_NavigationView_FooterMenuItemsSource;
                 break;
             case "Microsoft.UI.Xaml.Controls.NavigationView.IsPaneOpen":
                 userType = (global::st_installer_launcher.st_installer_launcher_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Microsoft.UI.Xaml.Controls.NavigationView");
                 xamlMember = new global::st_installer_launcher.st_installer_launcher_XamlTypeInfo.XamlMember(this, "IsPaneOpen", "Boolean");
                 xamlMember.SetIsDependencyProperty();
-                xamlMember.Getter = get_69_NavigationView_IsPaneOpen;
-                xamlMember.Setter = set_69_NavigationView_IsPaneOpen;
+                xamlMember.Getter = get_112_NavigationView_IsPaneOpen;
+                xamlMember.Setter = set_112_NavigationView_IsPaneOpen;
                 break;
             case "Microsoft.UI.Xaml.Controls.NavigationView.IsPaneToggleButtonVisible":
                 userType = (global::st_installer_launcher.st_installer_launcher_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Microsoft.UI.Xaml.Controls.NavigationView");
                 xamlMember = new global::st_installer_launcher.st_installer_launcher_XamlTypeInfo.XamlMember(this, "IsPaneToggleButtonVisible", "Boolean");
                 xamlMember.SetIsDependencyProperty();
-                xamlMember.Getter = get_70_NavigationView_IsPaneToggleButtonVisible;
-                xamlMember.Setter = set_70_NavigationView_IsPaneToggleButtonVisible;
+                xamlMember.Getter = get_113_NavigationView_IsPaneToggleButtonVisible;
+                xamlMember.Setter = set_113_NavigationView_IsPaneToggleButtonVisible;
                 break;
             case "Microsoft.UI.Xaml.Controls.NavigationView.IsPaneVisible":
                 userType = (global::st_installer_launcher.st_installer_launcher_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Microsoft.UI.Xaml.Controls.NavigationView");
                 xamlMember = new global::st_installer_launcher.st_installer_launcher_XamlTypeInfo.XamlMember(this, "IsPaneVisible", "Boolean");
                 xamlMember.SetIsDependencyProperty();
-                xamlMember.Getter = get_71_NavigationView_IsPaneVisible;
-                xamlMember.Setter = set_71_NavigationView_IsPaneVisible;
+                xamlMember.Getter = get_114_NavigationView_IsPaneVisible;
+                xamlMember.Setter = set_114_NavigationView_IsPaneVisible;
                 break;
             case "Microsoft.UI.Xaml.Controls.NavigationView.IsTitleBarAutoPaddingEnabled":
                 userType = (global::st_installer_launcher.st_installer_launcher_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Microsoft.UI.Xaml.Controls.NavigationView");
                 xamlMember = new global::st_installer_launcher.st_installer_launcher_XamlTypeInfo.XamlMember(this, "IsTitleBarAutoPaddingEnabled", "Boolean");
                 xamlMember.SetIsDependencyProperty();
-                xamlMember.Getter = get_72_NavigationView_IsTitleBarAutoPaddingEnabled;
-                xamlMember.Setter = set_72_NavigationView_IsTitleBarAutoPaddingEnabled;
+                xamlMember.Getter = get_115_NavigationView_IsTitleBarAutoPaddingEnabled;
+                xamlMember.Setter = set_115_NavigationView_IsTitleBarAutoPaddingEnabled;
                 break;
             case "Microsoft.UI.Xaml.Controls.NavigationView.MenuItemContainerStyle":
                 userType = (global::st_installer_launcher.st_installer_launcher_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Microsoft.UI.Xaml.Controls.NavigationView");
                 xamlMember = new global::st_installer_launcher.st_installer_launcher_XamlTypeInfo.XamlMember(this, "MenuItemContainerStyle", "Microsoft.UI.Xaml.Style");
                 xamlMember.SetIsDependencyProperty();
-                xamlMember.Getter = get_73_NavigationView_MenuItemContainerStyle;
-                xamlMember.Setter = set_73_NavigationView_MenuItemContainerStyle;
+                xamlMember.Getter = get_116_NavigationView_MenuItemContainerStyle;
+                xamlMember.Setter = set_116_NavigationView_MenuItemContainerStyle;
                 break;
             case "Microsoft.UI.Xaml.Controls.NavigationView.MenuItemContainerStyleSelector":
                 userType = (global::st_installer_launcher.st_installer_launcher_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Microsoft.UI.Xaml.Controls.NavigationView");
                 xamlMember = new global::st_installer_launcher.st_installer_launcher_XamlTypeInfo.XamlMember(this, "MenuItemContainerStyleSelector", "Microsoft.UI.Xaml.Controls.StyleSelector");
                 xamlMember.SetIsDependencyProperty();
-                xamlMember.Getter = get_74_NavigationView_MenuItemContainerStyleSelector;
-                xamlMember.Setter = set_74_NavigationView_MenuItemContainerStyleSelector;
+                xamlMember.Getter = get_117_NavigationView_MenuItemContainerStyleSelector;
+                xamlMember.Setter = set_117_NavigationView_MenuItemContainerStyleSelector;
                 break;
             case "Microsoft.UI.Xaml.Controls.NavigationView.MenuItemTemplate":
                 userType = (global::st_installer_launcher.st_installer_launcher_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Microsoft.UI.Xaml.Controls.NavigationView");
                 xamlMember = new global::st_installer_launcher.st_installer_launcher_XamlTypeInfo.XamlMember(this, "MenuItemTemplate", "Microsoft.UI.Xaml.DataTemplate");
                 xamlMember.SetIsDependencyProperty();
-                xamlMember.Getter = get_75_NavigationView_MenuItemTemplate;
-                xamlMember.Setter = set_75_NavigationView_MenuItemTemplate;
+                xamlMember.Getter = get_118_NavigationView_MenuItemTemplate;
+                xamlMember.Setter = set_118_NavigationView_MenuItemTemplate;
                 break;
             case "Microsoft.UI.Xaml.Controls.NavigationView.MenuItemTemplateSelector":
                 userType = (global::st_installer_launcher.st_installer_launcher_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Microsoft.UI.Xaml.Controls.NavigationView");
                 xamlMember = new global::st_installer_launcher.st_installer_launcher_XamlTypeInfo.XamlMember(this, "MenuItemTemplateSelector", "Microsoft.UI.Xaml.Controls.DataTemplateSelector");
                 xamlMember.SetIsDependencyProperty();
-                xamlMember.Getter = get_76_NavigationView_MenuItemTemplateSelector;
-                xamlMember.Setter = set_76_NavigationView_MenuItemTemplateSelector;
+                xamlMember.Getter = get_119_NavigationView_MenuItemTemplateSelector;
+                xamlMember.Setter = set_119_NavigationView_MenuItemTemplateSelector;
                 break;
             case "Microsoft.UI.Xaml.Controls.NavigationView.MenuItemsSource":
                 userType = (global::st_installer_launcher.st_installer_launcher_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Microsoft.UI.Xaml.Controls.NavigationView");
                 xamlMember = new global::st_installer_launcher.st_installer_launcher_XamlTypeInfo.XamlMember(this, "MenuItemsSource", "Object");
                 xamlMember.SetIsDependencyProperty();
-                xamlMember.Getter = get_77_NavigationView_MenuItemsSource;
-                xamlMember.Setter = set_77_NavigationView_MenuItemsSource;
+                xamlMember.Getter = get_120_NavigationView_MenuItemsSource;
+                xamlMember.Setter = set_120_NavigationView_MenuItemsSource;
                 break;
             case "Microsoft.UI.Xaml.Controls.NavigationView.OpenPaneLength":
                 userType = (global::st_installer_launcher.st_installer_launcher_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Microsoft.UI.Xaml.Controls.NavigationView");
                 xamlMember = new global::st_installer_launcher.st_installer_launcher_XamlTypeInfo.XamlMember(this, "OpenPaneLength", "Double");
                 xamlMember.SetIsDependencyProperty();
-                xamlMember.Getter = get_78_NavigationView_OpenPaneLength;
-                xamlMember.Setter = set_78_NavigationView_OpenPaneLength;
+                xamlMember.Getter = get_121_NavigationView_OpenPaneLength;
+                xamlMember.Setter = set_121_NavigationView_OpenPaneLength;
                 break;
             case "Microsoft.UI.Xaml.Controls.NavigationView.OverflowLabelMode":
                 userType = (global::st_installer_launcher.st_installer_launcher_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Microsoft.UI.Xaml.Controls.NavigationView");
                 xamlMember = new global::st_installer_launcher.st_installer_launcher_XamlTypeInfo.XamlMember(this, "OverflowLabelMode", "Microsoft.UI.Xaml.Controls.NavigationViewOverflowLabelMode");
                 xamlMember.SetIsDependencyProperty();
-                xamlMember.Getter = get_79_NavigationView_OverflowLabelMode;
-                xamlMember.Setter = set_79_NavigationView_OverflowLabelMode;
+                xamlMember.Getter = get_122_NavigationView_OverflowLabelMode;
+                xamlMember.Setter = set_122_NavigationView_OverflowLabelMode;
                 break;
             case "Microsoft.UI.Xaml.Controls.NavigationView.PaneCustomContent":
                 userType = (global::st_installer_launcher.st_installer_launcher_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Microsoft.UI.Xaml.Controls.NavigationView");
                 xamlMember = new global::st_installer_launcher.st_installer_launcher_XamlTypeInfo.XamlMember(this, "PaneCustomContent", "Microsoft.UI.Xaml.UIElement");
                 xamlMember.SetIsDependencyProperty();
-                xamlMember.Getter = get_80_NavigationView_PaneCustomContent;
-                xamlMember.Setter = set_80_NavigationView_PaneCustomContent;
+                xamlMember.Getter = get_123_NavigationView_PaneCustomContent;
+                xamlMember.Setter = set_123_NavigationView_PaneCustomContent;
                 break;
             case "Microsoft.UI.Xaml.Controls.NavigationView.PaneDisplayMode":
                 userType = (global::st_installer_launcher.st_installer_launcher_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Microsoft.UI.Xaml.Controls.NavigationView");
                 xamlMember = new global::st_installer_launcher.st_installer_launcher_XamlTypeInfo.XamlMember(this, "PaneDisplayMode", "Microsoft.UI.Xaml.Controls.NavigationViewPaneDisplayMode");
                 xamlMember.SetIsDependencyProperty();
-                xamlMember.Getter = get_81_NavigationView_PaneDisplayMode;
-                xamlMember.Setter = set_81_NavigationView_PaneDisplayMode;
+                xamlMember.Getter = get_124_NavigationView_PaneDisplayMode;
+                xamlMember.Setter = set_124_NavigationView_PaneDisplayMode;
                 break;
             case "Microsoft.UI.Xaml.Controls.NavigationView.PaneFooter":
                 userType = (global::st_installer_launcher.st_installer_launcher_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Microsoft.UI.Xaml.Controls.NavigationView");
                 xamlMember = new global::st_installer_launcher.st_installer_launcher_XamlTypeInfo.XamlMember(this, "PaneFooter", "Microsoft.UI.Xaml.UIElement");
                 xamlMember.SetIsDependencyProperty();
-                xamlMember.Getter = get_82_NavigationView_PaneFooter;
-                xamlMember.Setter = set_82_NavigationView_PaneFooter;
+                xamlMember.Getter = get_125_NavigationView_PaneFooter;
+                xamlMember.Setter = set_125_NavigationView_PaneFooter;
                 break;
             case "Microsoft.UI.Xaml.Controls.NavigationView.PaneHeader":
                 userType = (global::st_installer_launcher.st_installer_launcher_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Microsoft.UI.Xaml.Controls.NavigationView");
                 xamlMember = new global::st_installer_launcher.st_installer_launcher_XamlTypeInfo.XamlMember(this, "PaneHeader", "Microsoft.UI.Xaml.UIElement");
                 xamlMember.SetIsDependencyProperty();
-                xamlMember.Getter = get_83_NavigationView_PaneHeader;
-                xamlMember.Setter = set_83_NavigationView_PaneHeader;
+                xamlMember.Getter = get_126_NavigationView_PaneHeader;
+                xamlMember.Setter = set_126_NavigationView_PaneHeader;
                 break;
             case "Microsoft.UI.Xaml.Controls.NavigationView.PaneTitle":
                 userType = (global::st_installer_launcher.st_installer_launcher_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Microsoft.UI.Xaml.Controls.NavigationView");
                 xamlMember = new global::st_installer_launcher.st_installer_launcher_XamlTypeInfo.XamlMember(this, "PaneTitle", "String");
                 xamlMember.SetIsDependencyProperty();
-                xamlMember.Getter = get_84_NavigationView_PaneTitle;
-                xamlMember.Setter = set_84_NavigationView_PaneTitle;
+                xamlMember.Getter = get_127_NavigationView_PaneTitle;
+                xamlMember.Setter = set_127_NavigationView_PaneTitle;
                 break;
             case "Microsoft.UI.Xaml.Controls.NavigationView.PaneToggleButtonStyle":
                 userType = (global::st_installer_launcher.st_installer_launcher_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Microsoft.UI.Xaml.Controls.NavigationView");
                 xamlMember = new global::st_installer_launcher.st_installer_launcher_XamlTypeInfo.XamlMember(this, "PaneToggleButtonStyle", "Microsoft.UI.Xaml.Style");
                 xamlMember.SetIsDependencyProperty();
-                xamlMember.Getter = get_85_NavigationView_PaneToggleButtonStyle;
-                xamlMember.Setter = set_85_NavigationView_PaneToggleButtonStyle;
+                xamlMember.Getter = get_128_NavigationView_PaneToggleButtonStyle;
+                xamlMember.Setter = set_128_NavigationView_PaneToggleButtonStyle;
                 break;
             case "Microsoft.UI.Xaml.Controls.NavigationView.SelectionFollowsFocus":
                 userType = (global::st_installer_launcher.st_installer_launcher_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Microsoft.UI.Xaml.Controls.NavigationView");
                 xamlMember = new global::st_installer_launcher.st_installer_launcher_XamlTypeInfo.XamlMember(this, "SelectionFollowsFocus", "Microsoft.UI.Xaml.Controls.NavigationViewSelectionFollowsFocus");
                 xamlMember.SetIsDependencyProperty();
-                xamlMember.Getter = get_86_NavigationView_SelectionFollowsFocus;
-                xamlMember.Setter = set_86_NavigationView_SelectionFollowsFocus;
+                xamlMember.Getter = get_129_NavigationView_SelectionFollowsFocus;
+                xamlMember.Setter = set_129_NavigationView_SelectionFollowsFocus;
                 break;
             case "Microsoft.UI.Xaml.Controls.NavigationView.SettingsItem":
                 userType = (global::st_installer_launcher.st_installer_launcher_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Microsoft.UI.Xaml.Controls.NavigationView");
                 xamlMember = new global::st_installer_launcher.st_installer_launcher_XamlTypeInfo.XamlMember(this, "SettingsItem", "Object");
                 xamlMember.SetIsDependencyProperty();
-                xamlMember.Getter = get_87_NavigationView_SettingsItem;
+                xamlMember.Getter = get_130_NavigationView_SettingsItem;
                 xamlMember.SetIsReadOnly();
                 break;
             case "Microsoft.UI.Xaml.Controls.NavigationView.ShoulderNavigationEnabled":
                 userType = (global::st_installer_launcher.st_installer_launcher_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Microsoft.UI.Xaml.Controls.NavigationView");
                 xamlMember = new global::st_installer_launcher.st_installer_launcher_XamlTypeInfo.XamlMember(this, "ShoulderNavigationEnabled", "Microsoft.UI.Xaml.Controls.NavigationViewShoulderNavigationEnabled");
                 xamlMember.SetIsDependencyProperty();
-                xamlMember.Getter = get_88_NavigationView_ShoulderNavigationEnabled;
-                xamlMember.Setter = set_88_NavigationView_ShoulderNavigationEnabled;
+                xamlMember.Getter = get_131_NavigationView_ShoulderNavigationEnabled;
+                xamlMember.Setter = set_131_NavigationView_ShoulderNavigationEnabled;
                 break;
             case "Microsoft.UI.Xaml.Controls.NavigationView.TemplateSettings":
                 userType = (global::st_installer_launcher.st_installer_launcher_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Microsoft.UI.Xaml.Controls.NavigationView");
                 xamlMember = new global::st_installer_launcher.st_installer_launcher_XamlTypeInfo.XamlMember(this, "TemplateSettings", "Microsoft.UI.Xaml.Controls.NavigationViewTemplateSettings");
                 xamlMember.SetIsDependencyProperty();
-                xamlMember.Getter = get_89_NavigationView_TemplateSettings;
+                xamlMember.Getter = get_132_NavigationView_TemplateSettings;
                 xamlMember.SetIsReadOnly();
                 break;
             case "Microsoft.Xaml.Interactivity.Interaction.Behaviors":
@@ -2738,104 +3612,104 @@ namespace st_installer_launcher.st_installer_launcher_XamlTypeInfo
                 xamlMember = new global::st_installer_launcher.st_installer_launcher_XamlTypeInfo.XamlMember(this, "Behaviors", "Microsoft.Xaml.Interactivity.BehaviorCollection");
                 xamlMember.SetTargetTypeName("Microsoft.UI.Xaml.DependencyObject");
                 xamlMember.SetIsAttachable();
-                xamlMember.Getter = get_90_Interaction_Behaviors;
-                xamlMember.Setter = set_90_Interaction_Behaviors;
+                xamlMember.Getter = get_133_Interaction_Behaviors;
+                xamlMember.Setter = set_133_Interaction_Behaviors;
                 break;
             case "Microsoft.UI.Xaml.Controls.NavigationViewItem.Icon":
                 userType = (global::st_installer_launcher.st_installer_launcher_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Microsoft.UI.Xaml.Controls.NavigationViewItem");
                 xamlMember = new global::st_installer_launcher.st_installer_launcher_XamlTypeInfo.XamlMember(this, "Icon", "Microsoft.UI.Xaml.Controls.IconElement");
                 xamlMember.SetIsDependencyProperty();
-                xamlMember.Getter = get_91_NavigationViewItem_Icon;
-                xamlMember.Setter = set_91_NavigationViewItem_Icon;
+                xamlMember.Getter = get_134_NavigationViewItem_Icon;
+                xamlMember.Setter = set_134_NavigationViewItem_Icon;
                 break;
             case "Microsoft.UI.Xaml.Controls.NavigationViewItem.CompactPaneLength":
                 userType = (global::st_installer_launcher.st_installer_launcher_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Microsoft.UI.Xaml.Controls.NavigationViewItem");
                 xamlMember = new global::st_installer_launcher.st_installer_launcher_XamlTypeInfo.XamlMember(this, "CompactPaneLength", "Double");
                 xamlMember.SetIsDependencyProperty();
-                xamlMember.Getter = get_92_NavigationViewItem_CompactPaneLength;
+                xamlMember.Getter = get_135_NavigationViewItem_CompactPaneLength;
                 xamlMember.SetIsReadOnly();
                 break;
             case "Microsoft.UI.Xaml.Controls.NavigationViewItem.HasUnrealizedChildren":
                 userType = (global::st_installer_launcher.st_installer_launcher_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Microsoft.UI.Xaml.Controls.NavigationViewItem");
                 xamlMember = new global::st_installer_launcher.st_installer_launcher_XamlTypeInfo.XamlMember(this, "HasUnrealizedChildren", "Boolean");
                 xamlMember.SetIsDependencyProperty();
-                xamlMember.Getter = get_93_NavigationViewItem_HasUnrealizedChildren;
-                xamlMember.Setter = set_93_NavigationViewItem_HasUnrealizedChildren;
+                xamlMember.Getter = get_136_NavigationViewItem_HasUnrealizedChildren;
+                xamlMember.Setter = set_136_NavigationViewItem_HasUnrealizedChildren;
                 break;
             case "Microsoft.UI.Xaml.Controls.NavigationViewItem.InfoBadge":
                 userType = (global::st_installer_launcher.st_installer_launcher_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Microsoft.UI.Xaml.Controls.NavigationViewItem");
                 xamlMember = new global::st_installer_launcher.st_installer_launcher_XamlTypeInfo.XamlMember(this, "InfoBadge", "Microsoft.UI.Xaml.Controls.InfoBadge");
                 xamlMember.SetIsDependencyProperty();
-                xamlMember.Getter = get_94_NavigationViewItem_InfoBadge;
-                xamlMember.Setter = set_94_NavigationViewItem_InfoBadge;
+                xamlMember.Getter = get_137_NavigationViewItem_InfoBadge;
+                xamlMember.Setter = set_137_NavigationViewItem_InfoBadge;
                 break;
             case "Microsoft.UI.Xaml.Controls.NavigationViewItem.IsChildSelected":
                 userType = (global::st_installer_launcher.st_installer_launcher_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Microsoft.UI.Xaml.Controls.NavigationViewItem");
                 xamlMember = new global::st_installer_launcher.st_installer_launcher_XamlTypeInfo.XamlMember(this, "IsChildSelected", "Boolean");
                 xamlMember.SetIsDependencyProperty();
-                xamlMember.Getter = get_95_NavigationViewItem_IsChildSelected;
-                xamlMember.Setter = set_95_NavigationViewItem_IsChildSelected;
+                xamlMember.Getter = get_138_NavigationViewItem_IsChildSelected;
+                xamlMember.Setter = set_138_NavigationViewItem_IsChildSelected;
                 break;
             case "Microsoft.UI.Xaml.Controls.NavigationViewItem.IsExpanded":
                 userType = (global::st_installer_launcher.st_installer_launcher_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Microsoft.UI.Xaml.Controls.NavigationViewItem");
                 xamlMember = new global::st_installer_launcher.st_installer_launcher_XamlTypeInfo.XamlMember(this, "IsExpanded", "Boolean");
                 xamlMember.SetIsDependencyProperty();
-                xamlMember.Getter = get_96_NavigationViewItem_IsExpanded;
-                xamlMember.Setter = set_96_NavigationViewItem_IsExpanded;
+                xamlMember.Getter = get_139_NavigationViewItem_IsExpanded;
+                xamlMember.Setter = set_139_NavigationViewItem_IsExpanded;
                 break;
             case "Microsoft.UI.Xaml.Controls.NavigationViewItem.MenuItems":
                 userType = (global::st_installer_launcher.st_installer_launcher_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Microsoft.UI.Xaml.Controls.NavigationViewItem");
                 xamlMember = new global::st_installer_launcher.st_installer_launcher_XamlTypeInfo.XamlMember(this, "MenuItems", "System.Collections.Generic.IList`1<Object>");
                 xamlMember.SetIsDependencyProperty();
-                xamlMember.Getter = get_97_NavigationViewItem_MenuItems;
+                xamlMember.Getter = get_140_NavigationViewItem_MenuItems;
                 xamlMember.SetIsReadOnly();
                 break;
             case "Microsoft.UI.Xaml.Controls.NavigationViewItem.MenuItemsSource":
                 userType = (global::st_installer_launcher.st_installer_launcher_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Microsoft.UI.Xaml.Controls.NavigationViewItem");
                 xamlMember = new global::st_installer_launcher.st_installer_launcher_XamlTypeInfo.XamlMember(this, "MenuItemsSource", "Object");
                 xamlMember.SetIsDependencyProperty();
-                xamlMember.Getter = get_98_NavigationViewItem_MenuItemsSource;
-                xamlMember.Setter = set_98_NavigationViewItem_MenuItemsSource;
+                xamlMember.Getter = get_141_NavigationViewItem_MenuItemsSource;
+                xamlMember.Setter = set_141_NavigationViewItem_MenuItemsSource;
                 break;
             case "Microsoft.UI.Xaml.Controls.NavigationViewItem.SelectsOnInvoked":
                 userType = (global::st_installer_launcher.st_installer_launcher_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Microsoft.UI.Xaml.Controls.NavigationViewItem");
                 xamlMember = new global::st_installer_launcher.st_installer_launcher_XamlTypeInfo.XamlMember(this, "SelectsOnInvoked", "Boolean");
                 xamlMember.SetIsDependencyProperty();
-                xamlMember.Getter = get_99_NavigationViewItem_SelectsOnInvoked;
-                xamlMember.Setter = set_99_NavigationViewItem_SelectsOnInvoked;
+                xamlMember.Getter = get_142_NavigationViewItem_SelectsOnInvoked;
+                xamlMember.Setter = set_142_NavigationViewItem_SelectsOnInvoked;
                 break;
             case "Microsoft.UI.Xaml.Controls.NavigationViewItemBase.IsSelected":
                 userType = (global::st_installer_launcher.st_installer_launcher_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Microsoft.UI.Xaml.Controls.NavigationViewItemBase");
                 xamlMember = new global::st_installer_launcher.st_installer_launcher_XamlTypeInfo.XamlMember(this, "IsSelected", "Boolean");
                 xamlMember.SetIsDependencyProperty();
-                xamlMember.Getter = get_100_NavigationViewItemBase_IsSelected;
-                xamlMember.Setter = set_100_NavigationViewItemBase_IsSelected;
+                xamlMember.Getter = get_143_NavigationViewItemBase_IsSelected;
+                xamlMember.Setter = set_143_NavigationViewItemBase_IsSelected;
                 break;
             case "st_installer_launcher.Helpers.NavigationHelper.NavigateTo":
                 userType = (global::st_installer_launcher.st_installer_launcher_XamlTypeInfo.XamlUserType)GetXamlTypeByName("st_installer_launcher.Helpers.NavigationHelper");
                 xamlMember = new global::st_installer_launcher.st_installer_launcher_XamlTypeInfo.XamlMember(this, "NavigateTo", "String");
                 xamlMember.SetTargetTypeName("Microsoft.UI.Xaml.Controls.NavigationViewItem");
                 xamlMember.SetIsAttachable();
-                xamlMember.Getter = get_101_NavigationHelper_NavigateTo;
-                xamlMember.Setter = set_101_NavigationHelper_NavigateTo;
+                xamlMember.Getter = get_144_NavigationHelper_NavigateTo;
+                xamlMember.Setter = set_144_NavigationHelper_NavigateTo;
                 break;
             case "st_installer_launcher.Behaviors.NavigationViewHeaderBehavior.DefaultHeader":
                 userType = (global::st_installer_launcher.st_installer_launcher_XamlTypeInfo.XamlUserType)GetXamlTypeByName("st_installer_launcher.Behaviors.NavigationViewHeaderBehavior");
                 xamlMember = new global::st_installer_launcher.st_installer_launcher_XamlTypeInfo.XamlMember(this, "DefaultHeader", "Object");
                 xamlMember.SetIsDependencyProperty();
-                xamlMember.Getter = get_102_NavigationViewHeaderBehavior_DefaultHeader;
-                xamlMember.Setter = set_102_NavigationViewHeaderBehavior_DefaultHeader;
+                xamlMember.Getter = get_145_NavigationViewHeaderBehavior_DefaultHeader;
+                xamlMember.Setter = set_145_NavigationViewHeaderBehavior_DefaultHeader;
                 break;
             case "st_installer_launcher.Behaviors.NavigationViewHeaderBehavior.DefaultHeaderTemplate":
                 userType = (global::st_installer_launcher.st_installer_launcher_XamlTypeInfo.XamlUserType)GetXamlTypeByName("st_installer_launcher.Behaviors.NavigationViewHeaderBehavior");
                 xamlMember = new global::st_installer_launcher.st_installer_launcher_XamlTypeInfo.XamlMember(this, "DefaultHeaderTemplate", "Microsoft.UI.Xaml.DataTemplate");
-                xamlMember.Getter = get_103_NavigationViewHeaderBehavior_DefaultHeaderTemplate;
-                xamlMember.Setter = set_103_NavigationViewHeaderBehavior_DefaultHeaderTemplate;
+                xamlMember.Getter = get_146_NavigationViewHeaderBehavior_DefaultHeaderTemplate;
+                xamlMember.Setter = set_146_NavigationViewHeaderBehavior_DefaultHeaderTemplate;
                 break;
             case "Microsoft.Xaml.Interactivity.Behavior`1<Microsoft.UI.Xaml.Controls.NavigationView>.AssociatedObject":
                 userType = (global::st_installer_launcher.st_installer_launcher_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Microsoft.Xaml.Interactivity.Behavior`1<Microsoft.UI.Xaml.Controls.NavigationView>");
                 xamlMember = new global::st_installer_launcher.st_installer_launcher_XamlTypeInfo.XamlMember(this, "AssociatedObject", "Microsoft.UI.Xaml.Controls.NavigationView");
-                xamlMember.Getter = get_104_Behavior_AssociatedObject;
+                xamlMember.Getter = get_147_Behavior_AssociatedObject;
                 xamlMember.SetIsReadOnly();
                 break;
             case "st_installer_launcher.Behaviors.NavigationViewHeaderBehavior.HeaderMode":
@@ -2844,8 +3718,8 @@ namespace st_installer_launcher.st_installer_launcher_XamlTypeInfo
                 xamlMember.SetTargetTypeName("Microsoft.UI.Xaml.Controls.Page");
                 xamlMember.SetIsDependencyProperty();
                 xamlMember.SetIsAttachable();
-                xamlMember.Getter = get_105_NavigationViewHeaderBehavior_HeaderMode;
-                xamlMember.Setter = set_105_NavigationViewHeaderBehavior_HeaderMode;
+                xamlMember.Getter = get_148_NavigationViewHeaderBehavior_HeaderMode;
+                xamlMember.Setter = set_148_NavigationViewHeaderBehavior_HeaderMode;
                 break;
             case "st_installer_launcher.Behaviors.NavigationViewHeaderBehavior.HeaderContext":
                 userType = (global::st_installer_launcher.st_installer_launcher_XamlTypeInfo.XamlUserType)GetXamlTypeByName("st_installer_launcher.Behaviors.NavigationViewHeaderBehavior");
@@ -2853,8 +3727,8 @@ namespace st_installer_launcher.st_installer_launcher_XamlTypeInfo
                 xamlMember.SetTargetTypeName("Microsoft.UI.Xaml.Controls.Page");
                 xamlMember.SetIsDependencyProperty();
                 xamlMember.SetIsAttachable();
-                xamlMember.Getter = get_106_NavigationViewHeaderBehavior_HeaderContext;
-                xamlMember.Setter = set_106_NavigationViewHeaderBehavior_HeaderContext;
+                xamlMember.Getter = get_149_NavigationViewHeaderBehavior_HeaderContext;
+                xamlMember.Setter = set_149_NavigationViewHeaderBehavior_HeaderContext;
                 break;
             case "st_installer_launcher.Behaviors.NavigationViewHeaderBehavior.HeaderTemplate":
                 userType = (global::st_installer_launcher.st_installer_launcher_XamlTypeInfo.XamlUserType)GetXamlTypeByName("st_installer_launcher.Behaviors.NavigationViewHeaderBehavior");
@@ -2862,59 +3736,59 @@ namespace st_installer_launcher.st_installer_launcher_XamlTypeInfo
                 xamlMember.SetTargetTypeName("Microsoft.UI.Xaml.Controls.Page");
                 xamlMember.SetIsDependencyProperty();
                 xamlMember.SetIsAttachable();
-                xamlMember.Getter = get_107_NavigationViewHeaderBehavior_HeaderTemplate;
-                xamlMember.Setter = set_107_NavigationViewHeaderBehavior_HeaderTemplate;
+                xamlMember.Getter = get_150_NavigationViewHeaderBehavior_HeaderTemplate;
+                xamlMember.Setter = set_150_NavigationViewHeaderBehavior_HeaderTemplate;
                 break;
             case "st_installer_launcher.Views.ShellPage.ViewModel":
                 userType = (global::st_installer_launcher.st_installer_launcher_XamlTypeInfo.XamlUserType)GetXamlTypeByName("st_installer_launcher.Views.ShellPage");
                 xamlMember = new global::st_installer_launcher.st_installer_launcher_XamlTypeInfo.XamlMember(this, "ViewModel", "st_installer_launcher.ViewModels.ShellViewModel");
-                xamlMember.Getter = get_108_ShellPage_ViewModel;
+                xamlMember.Getter = get_151_ShellPage_ViewModel;
                 xamlMember.SetIsReadOnly();
                 break;
             case "Microsoft.UI.Xaml.Controls.TreeViewNode.Children":
                 userType = (global::st_installer_launcher.st_installer_launcher_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Microsoft.UI.Xaml.Controls.TreeViewNode");
                 xamlMember = new global::st_installer_launcher.st_installer_launcher_XamlTypeInfo.XamlMember(this, "Children", "System.Collections.Generic.IList`1<Microsoft.UI.Xaml.Controls.TreeViewNode>");
-                xamlMember.Getter = get_109_TreeViewNode_Children;
+                xamlMember.Getter = get_152_TreeViewNode_Children;
                 xamlMember.SetIsReadOnly();
                 break;
             case "Microsoft.UI.Xaml.Controls.TreeViewNode.Content":
                 userType = (global::st_installer_launcher.st_installer_launcher_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Microsoft.UI.Xaml.Controls.TreeViewNode");
                 xamlMember = new global::st_installer_launcher.st_installer_launcher_XamlTypeInfo.XamlMember(this, "Content", "Object");
                 xamlMember.SetIsDependencyProperty();
-                xamlMember.Getter = get_110_TreeViewNode_Content;
-                xamlMember.Setter = set_110_TreeViewNode_Content;
+                xamlMember.Getter = get_153_TreeViewNode_Content;
+                xamlMember.Setter = set_153_TreeViewNode_Content;
                 break;
             case "Microsoft.UI.Xaml.Controls.TreeViewNode.Depth":
                 userType = (global::st_installer_launcher.st_installer_launcher_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Microsoft.UI.Xaml.Controls.TreeViewNode");
                 xamlMember = new global::st_installer_launcher.st_installer_launcher_XamlTypeInfo.XamlMember(this, "Depth", "Int32");
                 xamlMember.SetIsDependencyProperty();
-                xamlMember.Getter = get_111_TreeViewNode_Depth;
+                xamlMember.Getter = get_154_TreeViewNode_Depth;
                 xamlMember.SetIsReadOnly();
                 break;
             case "Microsoft.UI.Xaml.Controls.TreeViewNode.HasChildren":
                 userType = (global::st_installer_launcher.st_installer_launcher_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Microsoft.UI.Xaml.Controls.TreeViewNode");
                 xamlMember = new global::st_installer_launcher.st_installer_launcher_XamlTypeInfo.XamlMember(this, "HasChildren", "Boolean");
                 xamlMember.SetIsDependencyProperty();
-                xamlMember.Getter = get_112_TreeViewNode_HasChildren;
+                xamlMember.Getter = get_155_TreeViewNode_HasChildren;
                 xamlMember.SetIsReadOnly();
                 break;
             case "Microsoft.UI.Xaml.Controls.TreeViewNode.HasUnrealizedChildren":
                 userType = (global::st_installer_launcher.st_installer_launcher_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Microsoft.UI.Xaml.Controls.TreeViewNode");
                 xamlMember = new global::st_installer_launcher.st_installer_launcher_XamlTypeInfo.XamlMember(this, "HasUnrealizedChildren", "Boolean");
-                xamlMember.Getter = get_113_TreeViewNode_HasUnrealizedChildren;
-                xamlMember.Setter = set_113_TreeViewNode_HasUnrealizedChildren;
+                xamlMember.Getter = get_156_TreeViewNode_HasUnrealizedChildren;
+                xamlMember.Setter = set_156_TreeViewNode_HasUnrealizedChildren;
                 break;
             case "Microsoft.UI.Xaml.Controls.TreeViewNode.IsExpanded":
                 userType = (global::st_installer_launcher.st_installer_launcher_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Microsoft.UI.Xaml.Controls.TreeViewNode");
                 xamlMember = new global::st_installer_launcher.st_installer_launcher_XamlTypeInfo.XamlMember(this, "IsExpanded", "Boolean");
                 xamlMember.SetIsDependencyProperty();
-                xamlMember.Getter = get_114_TreeViewNode_IsExpanded;
-                xamlMember.Setter = set_114_TreeViewNode_IsExpanded;
+                xamlMember.Getter = get_157_TreeViewNode_IsExpanded;
+                xamlMember.Setter = set_157_TreeViewNode_IsExpanded;
                 break;
             case "Microsoft.UI.Xaml.Controls.TreeViewNode.Parent":
                 userType = (global::st_installer_launcher.st_installer_launcher_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Microsoft.UI.Xaml.Controls.TreeViewNode");
                 xamlMember = new global::st_installer_launcher.st_installer_launcher_XamlTypeInfo.XamlMember(this, "Parent", "Microsoft.UI.Xaml.Controls.TreeViewNode");
-                xamlMember.Getter = get_115_TreeViewNode_Parent;
+                xamlMember.Getter = get_158_TreeViewNode_Parent;
                 xamlMember.SetIsReadOnly();
                 break;
             }

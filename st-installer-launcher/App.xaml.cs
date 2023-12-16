@@ -69,6 +69,10 @@ public partial class App : Application
             services.AddSingleton<IFileService, FileService>();
 
             // Views and ViewModels
+            services.AddTransient<InstallOptionsViewModel>();
+            services.AddTransient<InstallOptionsPage>();
+            services.AddTransient<LauncherOptionsViewModel>();
+            services.AddTransient<LauncherOptionsPage>();
             services.AddTransient<SettingsViewModel>();
             services.AddTransient<SettingsPage>();
             services.AddTransient<MainViewModel>();

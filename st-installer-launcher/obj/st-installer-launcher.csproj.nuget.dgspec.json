@@ -115,7 +115,15 @@
           "dependencies": {
             "CommunityToolkit.Mvvm": {
               "target": "Package",
-              "version": "[8.1.0, )"
+              "version": "[8.2.2, )"
+            },
+            "CommunityToolkit.WinUI.UI.Controls": {
+              "target": "Package",
+              "version": "[7.1.2, )"
+            },
+            "CommunityToolkit.WinUI.UI.Controls.Core": {
+              "target": "Package",
+              "version": "[7.1.2, )"
             },
             "Microsoft.Extensions.Hosting": {
               "target": "Package",
@@ -128,6 +136,14 @@
             "Microsoft.Xaml.Behaviors.WinUI.Managed": {
               "target": "Package",
               "version": "[2.0.9, )"
+            },
+            "System.Net.Http": {
+              "target": "Package",
+              "version": "[4.3.4, )"
+            },
+            "System.Text.RegularExpressions": {
+              "target": "Package",
+              "version": "[4.3.1, )"
             },
             "WinUIEx": {
               "target": "Package",
